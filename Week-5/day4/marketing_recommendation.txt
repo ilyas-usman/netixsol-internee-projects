@@ -1,0 +1,13 @@
+Marketing Angle:
+Block-level freedom. Enterprise-level control.
+
+Supporting Rationale:
+1. Combines the fluid, block-based document editing fast teams expect with high-throughput calculation engines engineered for heavy data volumes.
+2. Delivers native row- and field-level permission controls alongside built-in workload capacity management directly out of the box.
+3. Eliminates the administrative setup debt and fragile workarounds that typically force 50–500 person scale-ups to fragment their software stack.
+
+Competitive Differentiation:
+While Notion prioritizes unstructured flexibility at the cost of rendering lag, missing permission guardrails, and heavy add-on fees, this platform pairs doc-style editing with native enterprise security and sub-second database performance. Teams gain standardized operational primitives and granular data visibility without needing dedicated workspace architects to maintain database integrity as headcount expands.
+
+Strategic Basis:
+Exploits Notion’s primary architectural weakness: the "performance and governance wall" teams hit during mid-market scaling (50–500 employees), where the lack of field/row-level security and database calculation slowdowns force growing operations to re-bundle onto separate enterprise point solutions.
