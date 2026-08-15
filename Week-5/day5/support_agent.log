@@ -1,1 +1,25 @@
 2026-08-15 16:43:37,140 | INFO | Support Ticket Triage Agent monitoring initialized.
+2026-08-15 16:47:25,086 | INFO | API_REQUEST | ticket_id=API001 | customer_id=C001
+2026-08-15 16:47:25,086 | INFO | AGENT_REQUEST | {"ticket_id": "API001", "customer_id": "C001", "ticket_text": "The application is crashing."}
+2026-08-15 16:47:26,009 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 16:47:28,465 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 16:47:30,168 | INFO | AGENT_SUCCESS | latency=5.081 | tokens={"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
+2026-08-15 16:47:30,168 | INFO | API_RESPONSE | ticket_id=API001 | status=human_approved
+2026-08-15 16:48:13,475 | INFO | API_REQUEST | ticket_id=MON001 | customer_id=C001
+2026-08-15 16:48:13,475 | INFO | AGENT_REQUEST | {"ticket_id": "MON001", "customer_id": "C001", "ticket_text": "The application keeps crashing."}
+2026-08-15 16:48:14,102 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 16:48:15,797 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 16:48:17,244 | INFO | AGENT_SUCCESS | latency=3.769 | tokens={"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
+2026-08-15 16:48:17,244 | INFO | API_RESPONSE | ticket_id=MON001 | status=human_approved
+2026-08-15 16:48:17,245 | INFO | API_REQUEST | ticket_id=MON002 | customer_id=C002
+2026-08-15 16:48:17,245 | INFO | AGENT_REQUEST | {"ticket_id": "MON002", "customer_id": "C002", "ticket_text": "I forgot my password."}
+2026-08-15 16:48:17,501 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 16:48:19,325 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 16:48:19,329 | INFO | AGENT_SUCCESS | latency=2.085 | tokens={"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
+2026-08-15 16:48:19,330 | INFO | API_RESPONSE | ticket_id=MON002 | status=completed
+2026-08-15 16:48:19,330 | INFO | API_REQUEST | ticket_id=MON003 | customer_id=C003
+2026-08-15 16:48:19,330 | INFO | AGENT_REQUEST | {"ticket_id": "MON003", "customer_id": "C003", "ticket_text": "I was charged twice."}
+2026-08-15 16:48:19,509 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 16:48:21,305 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-15 16:48:22,659 | INFO | AGENT_SUCCESS | latency=3.329 | tokens={"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
+2026-08-15 16:48:22,659 | INFO | API_RESPONSE | ticket_id=MON003 | status=human_approved
