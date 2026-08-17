@@ -1,0 +1,5 @@
+dataset,rows,columns,duplicate_rows,missing_cells,match_id_present,player_id_present,team_id_present,season_present,round_present
+afl_players_info_raw,2848,16,5,5078,False,False,False,False,False
+afl_players_round_by_round_stats_raw,274089,36,10,1608029,False,True,False,False,True
+afl_players_seasonal_stats_raw,25491,54,10,139253,False,True,False,False,False
+team_matches_home_away_raw (1),15808,19,0,398,False,False,False,False,True

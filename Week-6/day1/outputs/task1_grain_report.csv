@@ -1,0 +1,5 @@
+dataset,rows,inferred_grain_columns,grain_is_unique
+afl_players_info_raw,2848,no unique combo found (checked up to 4 columns),False
+afl_players_round_by_round_stats_raw,274089,no unique combo found (checked up to 4 columns),False
+afl_players_seasonal_stats_raw,25491,no unique combo found (checked up to 4 columns),False
+team_matches_home_away_raw (1),15808,['id'],True

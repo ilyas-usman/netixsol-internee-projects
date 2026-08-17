@@ -1,0 +1,3 @@
+dataset_a,dataset_b,shared_join_columns
+afl_players_round_by_round_stats_raw,afl_players_seasonal_stats_raw,['player_id']
+afl_players_round_by_round_stats_raw,team_matches_home_away_raw (1),['round']

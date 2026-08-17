@@ -1,0 +1,6 @@
+dataset,column,original_non_null,parsed_non_null,failed_to_parse
+afl_players_info_raw,born_date,2848,2848,0
+afl_players_info_raw,debut_date,2848,2848,0
+afl_players_info_raw,last_date,2848,2848,0
+afl_players_round_by_round_stats_raw,match_date,274089,274089,0
+team_matches_home_away_raw (1),match_date,15808,15808,0

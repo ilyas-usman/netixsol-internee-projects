@@ -1,0 +1,126 @@
+dataset,column,missing_count,missing_percent
+afl_players_round_by_round_stats_raw,score,274089,100.0
+afl_players_info_raw,player_common_names,2773,97.37
+afl_players_info_raw,profile_pic,2211,77.63
+afl_players_round_by_round_stats_raw,brownlow_votes,110481,40.31
+afl_players_round_by_round_stats_raw,goal_assist,103600,37.8
+afl_players_round_by_round_stats_raw,bounces,97343,35.52
+afl_players_round_by_round_stats_raw,hit_outs,96629,35.25
+afl_players_round_by_round_stats_raw,marks_inside_50,91378,33.34
+afl_players_round_by_round_stats_raw,contested_marks,90677,33.08
+afl_players_round_by_round_stats_raw,behinds,81093,29.59
+afl_players_seasonal_stats_raw,goal_assists,7092,27.82
+afl_players_seasonal_stats_raw,avg_goal_assists,7092,27.82
+afl_players_seasonal_stats_raw,brownlow_votes,6997,27.45
+afl_players_round_by_round_stats_raw,goals,74737,27.27
+afl_players_round_by_round_stats_raw,percentage_of_game_played,69682,25.42
+afl_players_seasonal_stats_raw,total_percentage_played,6246,24.5
+afl_players_seasonal_stats_raw,avg_percentage_played,6246,24.5
+afl_players_round_by_round_stats_raw,clearances,63919,23.32
+afl_players_round_by_round_stats_raw,rebound_50s,62856,22.93
+afl_players_seasonal_stats_raw,hit_outs,5706,22.38
+afl_players_seasonal_stats_raw,avg_hit_outs,5706,22.38
+afl_players_seasonal_stats_raw,bounces,5654,22.18
+afl_players_seasonal_stats_raw,avg_bounces,5654,22.18
+afl_players_round_by_round_stats_raw,one_percenters,60146,21.94
+afl_players_seasonal_stats_raw,avg_marks_inside_50,5165,20.26
+afl_players_seasonal_stats_raw,marks_inside_50,5165,20.26
+afl_players_round_by_round_stats_raw,free_kicks_for,53842,19.64
+afl_players_round_by_round_stats_raw,free_kicks_against,53275,19.44
+afl_players_seasonal_stats_raw,avg_contested_marks,4925,19.32
+afl_players_seasonal_stats_raw,contested_marks,4925,19.32
+afl_players_round_by_round_stats_raw,clangers,49965,18.23
+afl_players_round_by_round_stats_raw,inside_50s,46574,16.99
+afl_players_seasonal_stats_raw,one_percenters,3643,14.29
+afl_players_seasonal_stats_raw,avg_one_percenters,3643,14.29
+afl_players_round_by_round_stats_raw,contested_possessions,38826,14.17
+afl_players_seasonal_stats_raw,rebound_50s,3533,13.86
+afl_players_round_by_round_stats_raw,uncontested_possessions,37998,13.86
+afl_players_seasonal_stats_raw,avg_rebound_50s,3533,13.86
+afl_players_seasonal_stats_raw,avg_clearances,3435,13.48
+afl_players_seasonal_stats_raw,clearances,3435,13.48
+afl_players_seasonal_stats_raw,avg_contested_possessions,3336,13.09
+afl_players_seasonal_stats_raw,contested_possessions,3336,13.09
+afl_players_seasonal_stats_raw,avg_uncontested_possessions,3322,13.03
+afl_players_seasonal_stats_raw,uncontested_possessions,3322,13.03
+afl_players_seasonal_stats_raw,inside_50s,2971,11.66
+afl_players_seasonal_stats_raw,avg_inside_50s,2971,11.66
+afl_players_seasonal_stats_raw,clangers,2938,11.53
+afl_players_seasonal_stats_raw,avg_clangers,2938,11.53
+afl_players_seasonal_stats_raw,behinds,2689,10.55
+afl_players_seasonal_stats_raw,avg_behinds,2689,10.55
+afl_players_round_by_round_stats_raw,tackles,28682,10.46
+afl_players_seasonal_stats_raw,avg_goals,2537,9.95
+afl_players_seasonal_stats_raw,goals,2537,9.95
+afl_players_seasonal_stats_raw,free_kicks_for,1073,4.21
+afl_players_seasonal_stats_raw,avg_free_kicks_for,1073,4.21
+afl_players_seasonal_stats_raw,free_kicks_against,978,3.84
+afl_players_seasonal_stats_raw,avg_free_kicks_against,978,3.84
+afl_players_info_raw,player_teams,94,3.3
+afl_players_round_by_round_stats_raw,disposals,8453,3.08
+afl_players_round_by_round_stats_raw,marks,8051,2.94
+team_matches_home_away_raw (1),crowd,398,2.52
+afl_players_seasonal_stats_raw,avg_tackles,511,2.0
+afl_players_seasonal_stats_raw,tackles,511,2.0
+afl_players_round_by_round_stats_raw,handballs,4433,1.62
+afl_players_seasonal_stats_raw,marks,185,0.73
+afl_players_seasonal_stats_raw,avg_marks,185,0.73
+afl_players_round_by_round_stats_raw,kicks,1300,0.47
+afl_players_seasonal_stats_raw,handballs,113,0.44
+afl_players_seasonal_stats_raw,avg_handballs,113,0.44
+afl_players_seasonal_stats_raw,avg_kicks,52,0.2
+afl_players_seasonal_stats_raw,kicks,52,0.2
+afl_players_seasonal_stats_raw,disposals,24,0.09
+afl_players_seasonal_stats_raw,avg_disposals,24,0.09
+afl_players_info_raw,player_name,0,0.0
+afl_players_info_raw,player_full_name,0,0.0
+afl_players_round_by_round_stats_raw,year,0,0.0
+afl_players_info_raw,last_name,0,0.0
+afl_players_info_raw,weight,0,0.0
+afl_players_info_raw,height,0,0.0
+afl_players_info_raw,last_age,0,0.0
+afl_players_info_raw,last_date,0,0.0
+afl_players_info_raw,debut_date,0,0.0
+afl_players_info_raw,debut_age,0,0.0
+afl_players_info_raw,born_date,0,0.0
+afl_players_info_raw,player_link,0,0.0
+afl_players_round_by_round_stats_raw,opponent,0,0.0
+afl_players_round_by_round_stats_raw,jersey_num,0,0.0
+afl_players_round_by_round_stats_raw,round,0,0.0
+afl_players_round_by_round_stats_raw,team,0,0.0
+afl_players_round_by_round_stats_raw,id,0,0.0
+afl_players_round_by_round_stats_raw,result,0,0.0
+afl_players_info_raw,first_name,0,0.0
+afl_players_info_raw,id,0,0.0
+afl_players_seasonal_stats_raw,year,0,0.0
+afl_players_seasonal_stats_raw,team,0,0.0
+afl_players_seasonal_stats_raw,is_finals,0,0.0
+afl_players_seasonal_stats_raw,games_played,0,0.0
+afl_players_round_by_round_stats_raw,match_date,0,0.0
+afl_players_round_by_round_stats_raw,fantasy_points,0,0.0
+afl_players_round_by_round_stats_raw,margin,0,0.0
+afl_players_seasonal_stats_raw,player_id,0,0.0
+afl_players_round_by_round_stats_raw,player_id,0,0.0
+afl_players_round_by_round_stats_raw,career_game_count,0,0.0
+afl_players_seasonal_stats_raw,total_fantasy_points,0,0.0
+afl_players_seasonal_stats_raw,total_score,0,0.0
+afl_players_seasonal_stats_raw,avg_fantasy_points,0,0.0
+team_matches_home_away_raw (1),id,0,0.0
+team_matches_home_away_raw (1),team_name,0,0.0
+afl_players_seasonal_stats_raw,avg_score,0,0.0
+team_matches_home_away_raw (1),round,0,0.0
+team_matches_home_away_raw (1),match_date,0,0.0
+team_matches_home_away_raw (1),home_away,0,0.0
+team_matches_home_away_raw (1),year,0,0.0
+team_matches_home_away_raw (1),team_quarter_scores,0,0.0
+team_matches_home_away_raw (1),team_score,0,0.0
+team_matches_home_away_raw (1),opponent_quarter_scores,0,0.0
+team_matches_home_away_raw (1),opponent,0,0.0
+team_matches_home_away_raw (1),opponent_score,0,0.0
+team_matches_home_away_raw (1),result,0,0.0
+team_matches_home_away_raw (1),margin,0,0.0
+team_matches_home_away_raw (1),venue,0,0.0
+team_matches_home_away_raw (1),team_goals_kicked,0,0.0
+team_matches_home_away_raw (1),team_behinds,0,0.0
+team_matches_home_away_raw (1),opponent_goals_kicked,0,0.0
+team_matches_home_away_raw (1),opponent_behinds,0,0.0

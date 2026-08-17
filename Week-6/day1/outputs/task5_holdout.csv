@@ -1,0 +1,433 @@
+match_key,match_date,team_name,opponent,avg_score_last_5,avg_margin_last_5,days_rest,team_avg_player_disposals_last_5,team_avg_player_goals_last_5
+2025-03-16_Adelaide Crows_vs_st kilda saints,2025-03-16,Adelaide Crows,st kilda saints,80.4,-17.0,204.0,,
+2025-03-22_Adelaide Crows_vs_Essendon Bombers,2025-03-22,Adelaide Crows,Essendon Bombers,95.8,8.8,6.0,16.369565217391305,1.4604166666666667
+2025-03-30_Adelaide Crows_vs_North Melbourne Kangaroos,2025-03-30,Adelaide Crows,North Melbourne Kangaroos,111.0,22.0,8.0,16.569565217391304,1.6078431372549018
+2025-04-05_Adelaide Crows_vs_Gold Coast Suns,2025-04-05,Adelaide Crows,Gold Coast Suns,111.6,21.4,6.0,15.793478260869565,1.5296296296296295
+2025-04-10_Adelaide Crows_vs_geelong cats,2025-04-10,Adelaide Crows,geelong cats,118.0,25.6,5.0,,
+2025-04-19_Adelaide Crows_vs_Greater Western Sydney Giants,2025-04-19,Adelaide Crows,Greater Western Sydney Giants,120.0,28.0,9.0,15.908695652173913,1.723529411764706
+2025-04-25_Adelaide Crows_vs_Fremantle Dockers,2025-04-25,Adelaide Crows,Fremantle Dockers,103.4,19.0,6.0,16.030434782608694,1.5614583333333334
+2025-05-03_Adelaide Crows_vs_Carlton Blues,2025-05-03,Adelaide Crows,Carlton Blues,84.6,3.2,8.0,15.204347826086956,1.6416666666666668
+2025-05-10_Adelaide Crows_vs_Port Adelaide Power,2025-05-10,Adelaide Crows,Port Adelaide Power,83.8,8.0,7.0,15.326086956521738,1.7130952380952382
+2025-05-17_Adelaide Crows_vs_Collingwood Magpies,2025-05-17,Adelaide Crows,Collingwood Magpies,83.6,9.2,7.0,14.958695652173914,1.6178571428571427
+2025-05-25_Adelaide Crows_vs_West Coast Eagles,2025-05-25,Adelaide Crows,West Coast Eagles,77.2,11.0,8.0,14.139130434782608,1.5472222222222223
+2025-05-31_Adelaide Crows_vs_Sydney Swans,2025-05-31,Adelaide Crows,Sydney Swans,92.4,20.6,6.0,14.015217391304349,1.5844444444444443
+2025-06-06_Adelaide Crows_vs_Brisbane Lions,2025-06-06,Adelaide Crows,Brisbane Lions,105.2,42.2,6.0,15.006521739130434,1.5927083333333334
+2025-06-13_Adelaide Crows_vs_Hawthorn Hawks,2025-06-13,Adelaide Crows,Hawthorn Hawks,96.8,31.2,7.0,14.069565217391306,1.4875
+2025-06-29_Adelaide Crows_vs_Richmond Tigers,2025-06-29,Adelaide Crows,Richmond Tigers,87.8,29.6,16.0,14.928260869565218,1.46875
+2025-07-06_Adelaide Crows_vs_Melbourne Demons,2025-07-06,Adelaide Crows,Melbourne Demons,98.6,45.2,7.0,15.084782608695651,1.6197916666666667
+2025-07-12_Adelaide Crows_vs_Western Bulldogs,2025-07-12,Adelaide Crows,Western Bulldogs,91.0,34.6,6.0,14.799999999999999,1.5392156862745099
+2025-07-20_Adelaide Crows_vs_Gold Coast Suns,2025-07-20,Adelaide Crows,Gold Coast Suns,86.6,18.8,8.0,14.376086956521737,1.7202380952380953
+2025-07-26_Adelaide Crows_vs_Port Adelaide Power,2025-07-26,Adelaide Crows,Port Adelaide Power,94.4,30.0,6.0,14.799999999999999,1.7966666666666666
+2025-08-01_Adelaide Crows_vs_Hawthorn Hawks,2025-08-01,Adelaide Crows,Hawthorn Hawks,112.2,50.2,6.0,14.403623188405799,1.6244444444444446
+2025-08-10_Adelaide Crows_vs_West Coast Eagles,2025-08-10,Adelaide Crows,West Coast Eagles,108.0,39.4,9.0,14.094927536231884,1.5711111111111111
+2025-08-16_Adelaide Crows_vs_Collingwood Magpies,2025-08-16,Adelaide Crows,Collingwood Magpies,107.4,38.6,6.0,14.389130434782608,1.4888888888888887
+2025-08-23_Adelaide Crows_vs_North Melbourne Kangaroos,2025-08-23,Adelaide Crows,North Melbourne Kangaroos,97.4,37.0,7.0,14.880434782608695,1.3722222222222222
+2025-09-04_Adelaide Crows_vs_Collingwood Magpies,2025-09-04,Adelaide Crows,Collingwood Magpies,98.6,27.4,12.0,14.476086956521739,1.5411764705882351
+2025-09-12_Adelaide Crows_vs_Hawthorn Hawks,2025-09-12,Adelaide Crows,Hawthorn Hawks,83.0,3.0,8.0,13.908695652173913,1.5144444444444443
+2025-03-15_Brisbane Lions_vs_Sydney Swans,2025-03-15,Brisbane Lions,Sydney Swans,101.2,24.6,168.0,16.072727272727274,1.3738095238095238
+2025-03-23_Brisbane Lions_vs_West Coast Eagles,2025-03-23,Brisbane Lions,West Coast Eagles,101.0,21.4,8.0,15.336363636363636,1.425
+2025-03-29_Brisbane Lions_vs_Geelong Cats,2025-03-29,Brisbane Lions,Geelong Cats,100.0,19.6,6.0,15.552173913043477,1.4862745098039216
+2025-04-05_Brisbane Lions_vs_Richmond Tigers,2025-04-05,Brisbane Lions,Richmond Tigers,93.0,20.4,7.0,15.532608695652174,1.3990740740740741
+2025-04-12_Brisbane Lions_vs_Western Bulldogs,2025-04-12,Brisbane Lions,Western Bulldogs,97.6,24.0,7.0,15.321739130434782,1.3962962962962964
+2025-04-17_Brisbane Lions_vs_Collingwood Magpies,2025-04-17,Brisbane Lions,Collingwood Magpies,97.2,16.2,5.0,15.759848484848487,1.4222222222222223
+2025-04-26_Brisbane Lions_vs_St Kilda Saints,2025-04-26,Brisbane Lions,St Kilda Saints,90.6,5.0,9.0,15.291304347826086,1.5192982456140351
+2025-05-04_Brisbane Lions_vs_Gold Coast Suns,2025-05-04,Brisbane Lions,Gold Coast Suns,95.4,10.2,8.0,15.434057971014493,1.6235294117647059
+2025-05-11_Brisbane Lions_vs_North Melbourne Kangaroos,2025-05-11,Brisbane Lions,North Melbourne Kangaroos,94.6,11.8,7.0,16.26304347826087,1.8823529411764706
+2025-05-18_Brisbane Lions_vs_Melbourne Demons,2025-05-18,Brisbane Lions,Melbourne Demons,85.2,6.2,7.0,16.193478260869565,1.8722222222222222
+2025-05-24_Brisbane Lions_vs_Hawthorn Hawks,2025-05-24,Brisbane Lions,Hawthorn Hawks,79.2,-0.2,6.0,16.069565217391304,1.7023809523809523
+2025-05-29_Brisbane Lions_vs_Essendon Bombers,2025-05-29,Brisbane Lions,Essendon Bombers,87.2,16.8,5.0,16.58913043478261,1.6888888888888889
+2025-06-06_Adelaide Crows_vs_Brisbane Lions,2025-06-06,Brisbane Lions,Adelaide Crows,81.6,11.4,8.0,16.76590909090909,1.4611111111111112
+2025-06-14_Brisbane Lions_vs_Greater Western Sydney Giants,2025-06-14,Brisbane Lions,Greater Western Sydney Giants,81.0,7.0,8.0,16.506521739130434,1.3566666666666667
+2025-06-20_Brisbane Lions_vs_Geelong Cats,2025-06-20,Brisbane Lions,Geelong Cats,86.0,4.8,6.0,15.517391304347825,1.3055555555555556
+2025-07-05_Brisbane Lions_vs_Port Adelaide Power,2025-07-05,Brisbane Lions,Port Adelaide Power,86.8,15.2,15.0,16.08478260869565,1.3916666666666666
+2025-07-10_Brisbane Lions_vs_Carlton Blues,2025-07-10,Brisbane Lions,Carlton Blues,92.2,14.2,5.0,16.056521739130435,1.4649122807017543
+2025-07-18_Brisbane Lions_vs_western bulldogs,2025-07-18,Brisbane Lions,western bulldogs,94.8,18.0,8.0,,
+2025-07-26_Brisbane Lions_vs_Gold Coast Suns,2025-07-26,Brisbane Lions,Gold Coast Suns,99.4,21.0,8.0,15.26086956521739,1.3228070175438595
+2025-08-02_Brisbane Lions_vs_Collingwood Magpies,2025-08-02,Brisbane Lions,Collingwood Magpies,93.0,10.0,7.0,15.694202898550724,1.3578431372549018
+2025-08-09_Brisbane Lions_vs_Sydney Swans,2025-08-09,Brisbane Lions,Sydney Swans,93.0,7.2,7.0,14.460869565217392,1.476851851851852
+2025-08-15_Brisbane Lions_vs_Fremantle Dockers,2025-08-15,Brisbane Lions,Fremantle Dockers,87.0,1.2,6.0,15.761363636363637,1.5022222222222223
+2025-08-24_Brisbane Lions_vs_Hawthorn Hawks,2025-08-24,Brisbane Lions,Hawthorn Hawks,86.6,5.2,9.0,15.019565217391303,1.5733333333333335
+2025-09-05_Brisbane Lions_vs_Geelong Cats,2025-09-05,Brisbane Lions,Geelong Cats,87.2,5.2,12.0,17.16521739130435,1.496078431372549
+2025-09-13_Brisbane Lions_vs_Gold Coast Suns,2025-09-13,Brisbane Lions,Gold Coast Suns,89.2,10.8,8.0,16.47391304347826,1.4400000000000002
+2025-09-20_Brisbane Lions_vs_Collingwood Magpies,2025-09-20,Brisbane Lions,Collingwood Magpies,90.8,16.0,7.0,16.523913043478263,1.4529411764705882
+2025-09-27_Brisbane Lions_vs_Geelong Cats,2025-09-27,Brisbane Lions,Geelong Cats,92.8,22.2,7.0,16.956521739130434,1.4302083333333333
+2025-03-13_Carlton Blues_vs_Richmond Tigers,2025-03-13,Carlton Blues,Richmond Tigers,72.6,-8.4,187.0,15.825,1.3714285714285714
+2025-03-20_Carlton Blues_vs_Hawthorn Hawks,2025-03-20,Carlton Blues,Hawthorn Hawks,70.2,-10.4,7.0,16.45,1.2904761904761906
+2025-03-28_Carlton Blues_vs_western bulldogs,2025-03-28,Carlton Blues,western bulldogs,74.6,0.4,8.0,,
+2025-04-03_Carlton Blues_vs_Collingwood Magpies,2025-04-03,Carlton Blues,Collingwood Magpies,69.8,-14.2,6.0,14.611363636363636,1.3833333333333333
+2025-04-12_Carlton Blues_vs_west coast eagles,2025-04-12,Carlton Blues,west coast eagles,64.2,-17.2,9.0,,
+2025-04-18_Carlton Blues_vs_North Melbourne Kangaroos,2025-04-18,Carlton Blues,North Melbourne Kangaroos,74.2,2.6,6.0,16.13695652173913,1.4212962962962963
+2025-04-27_Carlton Blues_vs_Geelong Cats,2025-04-27,Carlton Blues,Geelong Cats,91.0,21.6,9.0,15.90144927536232,1.605263157894737
+2025-05-03_Adelaide Crows_vs_Carlton Blues,2025-05-03,Carlton Blues,Adelaide Crows,97.8,29.2,6.0,16.122463768115942,1.5842105263157895
+2025-05-09_Carlton Blues_vs_St Kilda Saints,2025-05-09,Carlton Blues,St Kilda Saints,92.8,18.8,6.0,15.391304347826088,1.5649122807017544
+2025-05-16_Carlton Blues_vs_Sydney Swans,2025-05-16,Carlton Blues,Sydney Swans,99.0,25.2,7.0,15.030434782608696,1.6489583333333333
+2025-05-24_Carlton Blues_vs_Greater Western Sydney Giants,2025-05-24,Carlton Blues,Greater Western Sydney Giants,87.2,7.8,8.0,15.363636363636363,1.5
+2025-06-08_Carlton Blues_vs_Essendon Bombers,2025-06-08,Carlton Blues,Essendon Bombers,73.0,-14.2,15.0,15.409090909090908,1.3588888888888888
+2025-06-15_Carlton Blues_vs_West Coast Eagles,2025-06-15,Carlton Blues,West Coast Eagles,69.8,-16.2,7.0,14.799999999999999,1.3666666666666667
+2025-06-21_Carlton Blues_vs_North Melbourne Kangaroos,2025-06-21,Carlton Blues,North Melbourne Kangaroos,77.0,2.6,6.0,15.395652173913044,1.3787037037037038
+2025-06-26_Carlton Blues_vs_port adelaide power,2025-06-26,Carlton Blues,port adelaide power,76.2,-2.6,5.0,,
+2025-07-04_Carlton Blues_vs_collingwood magpies,2025-07-04,Carlton Blues,collingwood magpies,75.8,-9.4,8.0,,
+2025-07-10_Brisbane Lions_vs_Carlton Blues,2025-07-10,Carlton Blues,Brisbane Lions,71.2,-15.0,6.0,13.643478260869566,1.3607142857142858
+2025-07-19_Carlton Blues_vs_Melbourne Demons,2025-07-19,Carlton Blues,Melbourne Demons,68.8,-24.0,9.0,13.429710144927537,1.1955555555555555
+2025-07-24_Carlton Blues_vs_Hawthorn Hawks,2025-07-24,Carlton Blues,Hawthorn Hawks,67.2,-29.2,5.0,14.232608695652175,1.3611111111111112
+2025-08-03_Carlton Blues_vs_Fremantle Dockers,2025-08-03,Carlton Blues,Fremantle Dockers,64.8,-31.8,10.0,12.434782608695652,1.34375
+2025-08-09_Carlton Blues_vs_Gold Coast Suns,2025-08-09,Carlton Blues,Gold Coast Suns,66.2,-27.2,6.0,12.819565217391306,1.2833333333333334
+2025-08-16_Carlton Blues_vs_port adelaide power,2025-08-16,Carlton Blues,port adelaide power,69.2,-19.8,7.0,,
+2025-08-21_Carlton Blues_vs_essendon bombers,2025-08-21,Carlton Blues,essendon bombers,79.6,-1.6,5.0,,
+2025-03-09_Collingwood Magpies_vs_Greater Western Sydney Giants,2025-03-09,Collingwood Magpies,Greater Western Sydney Giants,89.0,14.6,198.0,14.395652173913044,1.3787037037037038
+2025-03-15_Collingwood Magpies_vs_port adelaide power,2025-03-15,Collingwood Magpies,port adelaide power,80.8,-1.0,6.0,,
+2025-03-21_Collingwood Magpies_vs_Western Bulldogs,2025-03-21,Collingwood Magpies,Western Bulldogs,91.2,16.6,6.0,15.665942028985507,1.4740740740740739
+2025-04-03_Collingwood Magpies_vs_carlton blues,2025-04-03,Collingwood Magpies,carlton blues,89.2,18.4,13.0,,
+2025-04-11_Collingwood Magpies_vs_Sydney Swans,2025-04-11,Collingwood Magpies,Sydney Swans,86.0,21.6,8.0,14.820289855072463,1.4362745098039216
+2025-04-17_Brisbane Lions_vs_Collingwood Magpies,2025-04-17,Collingwood Magpies,Brisbane Lions,87.2,18.6,6.0,14.746376811594203,1.4010416666666667
+2025-04-25_Collingwood Magpies_vs_Essendon Bombers,2025-04-25,Collingwood Magpies,Essendon Bombers,97.8,39.4,8.0,15.282608695652174,1.4212962962962963
+2025-05-03_Collingwood Magpies_vs_Geelong Cats,2025-05-03,Collingwood Magpies,Geelong Cats,92.0,29.4,8.0,15.458695652173914,1.4305555555555556
+2025-05-08_Collingwood Magpies_vs_Fremantle Dockers,2025-05-08,Collingwood Magpies,Fremantle Dockers,94.2,27.6,5.0,14.702173913043477,1.2447916666666667
+2025-05-17_Adelaide Crows_vs_Collingwood Magpies,2025-05-17,Collingwood Magpies,Adelaide Crows,101.0,27.0,9.0,15.130434782608695,1.3416666666666666
+2025-05-24_Collingwood Magpies_vs_North Melbourne Kangaroos,2025-05-24,Collingwood Magpies,North Melbourne Kangaroos,94.8,22.8,7.0,13.737121212121211,1.2625
+2025-05-30_Collingwood Magpies_vs_Hawthorn Hawks,2025-05-30,Collingwood Magpies,Hawthorn Hawks,95.4,21.4,6.0,15.065217391304348,1.3875
+2025-06-09_Collingwood Magpies_vs_Melbourne Demons,2025-06-09,Collingwood Magpies,Melbourne Demons,95.4,23.4,10.0,14.152898550724638,1.4208333333333334
+2025-06-21_Collingwood Magpies_vs_St Kilda Saints,2025-06-21,Collingwood Magpies,St Kilda Saints,92.4,24.2,12.0,14.660869565217391,1.464705882352941
+2025-06-28_Collingwood Magpies_vs_west coast eagles,2025-06-28,Collingwood Magpies,west coast eagles,94.6,28.2,7.0,,
+2025-07-04_Carlton Blues_vs_Collingwood Magpies,2025-07-04,Collingwood Magpies,Carlton Blues,96.6,32.0,6.0,15.215909090909092,1.407843137254902
+2025-07-11_Collingwood Magpies_vs_Gold Coast Suns,2025-07-11,Collingwood Magpies,Gold Coast Suns,98.0,34.2,7.0,15.76086956521739,1.3647058823529412
+2025-07-20_Collingwood Magpies_vs_Fremantle Dockers,2025-07-20,Collingwood Magpies,Fremantle Dockers,89.2,22.8,9.0,14.860869565217392,1.4370370370370371
+2025-07-27_Collingwood Magpies_vs_Richmond Tigers,2025-07-27,Collingwood Magpies,Richmond Tigers,90.4,22.4,7.0,14.976086956521739,1.4611111111111112
+2025-08-02_Brisbane Lions_vs_Collingwood Magpies,2025-08-02,Collingwood Magpies,Brisbane Lions,87.4,22.8,6.0,15.35217391304348,1.5822916666666667
+2025-08-07_Collingwood Magpies_vs_Hawthorn Hawks,2025-08-07,Collingwood Magpies,Hawthorn Hawks,82.8,11.6,5.0,15.581159420289856,1.5422222222222222
+2025-08-16_Adelaide Crows_vs_Collingwood Magpies,2025-08-16,Collingwood Magpies,Adelaide Crows,69.0,-12.4,9.0,14.49927536231884,1.361904761904762
+2025-08-22_Collingwood Magpies_vs_Melbourne Demons,2025-08-22,Collingwood Magpies,Melbourne Demons,67.6,-11.8,6.0,14.932608695652174,1.2576923076923079
+2025-09-04_Adelaide Crows_vs_Collingwood Magpies,2025-09-04,Collingwood Magpies,Adelaide Crows,68.4,-10.4,13.0,14.605797101449275,1.1822916666666667
+2025-09-20_Collingwood Magpies_vs_brisbane lions,2025-09-20,Collingwood Magpies,brisbane lions,65.6,-12.8,16.0,,
+2025-03-14_Essendon Bombers_vs_Hawthorn Hawks,2025-03-14,Essendon Bombers,Hawthorn Hawks,71.4,-22.4,202.0,16.379545454545454,1.2333333333333334
+2025-03-22_Adelaide Crows_vs_Essendon Bombers,2025-03-22,Essendon Bombers,Adelaide Crows,77.4,-17.0,8.0,16.486363636363635,1.2020833333333334
+2025-03-27_Essendon Bombers_vs_Port Adelaide Power,2025-03-27,Essendon Bombers,Port Adelaide Power,79.4,-29.4,5.0,16.345454545454547,1.4533333333333334
+2025-04-12_Essendon Bombers_vs_Melbourne Demons,2025-04-12,Essendon Bombers,Melbourne Demons,76.6,-26.8,16.0,15.932608695652174,1.1622222222222223
+2025-04-18_Essendon Bombers_vs_west coast eagles,2025-04-18,Essendon Bombers,west coast eagles,84.0,-11.2,6.0,,
+2025-04-25_Collingwood Magpies_vs_Essendon Bombers,2025-04-25,Essendon Bombers,Collingwood Magpies,86.0,-6.8,7.0,16.6,1.6777777777777778
+2025-05-01_Essendon Bombers_vs_north melbourne kangaroos,2025-05-01,Essendon Bombers,north melbourne kangaroos,82.2,-9.8,6.0,,
+2025-05-10_Essendon Bombers_vs_Sydney Swans,2025-05-10,Essendon Bombers,Sydney Swans,75.2,3.0,9.0,17.734126984126984,1.514102564102564
+2025-05-17_Essendon Bombers_vs_Western Bulldogs,2025-05-17,Essendon Bombers,Western Bulldogs,75.0,2.2,7.0,17.523913043478263,1.4955555555555555
+2025-05-23_Essendon Bombers_vs_Richmond Tigers,2025-05-23,Essendon Bombers,Richmond Tigers,63.0,-23.8,6.0,17.511363636363637,1.4000000000000001
+2025-05-29_Brisbane Lions_vs_Essendon Bombers,2025-05-29,Essendon Bombers,Brisbane Lions,63.8,-19.6,6.0,18.280952380952378,1.3766666666666665
+2025-06-08_Carlton Blues_vs_Essendon Bombers,2025-06-08,Essendon Bombers,Carlton Blues,65.0,-15.0,10.0,17.738636363636363,1.3541666666666667
+2025-06-14_Essendon Bombers_vs_Geelong Cats,2025-06-14,Essendon Bombers,Geelong Cats,66.0,-17.2,6.0,17.404761904761905,1.4
+2025-06-19_Essendon Bombers_vs_Fremantle Dockers,2025-06-19,Essendon Bombers,Fremantle Dockers,63.0,-37.8,5.0,16.900000000000002,1.358974358974359
+2025-07-05_Essendon Bombers_vs_gold coast suns,2025-07-05,Essendon Bombers,gold coast suns,68.4,-27.8,16.0,,
+2025-07-12_Essendon Bombers_vs_Richmond Tigers,2025-07-12,Essendon Bombers,Richmond Tigers,67.0,-40.6,7.0,16.140151515151516,1.3071428571428572
+2025-07-17_Essendon Bombers_vs_Greater Western Sydney Giants,2025-07-17,Essendon Bombers,Greater Western Sydney Giants,60.0,-38.8,5.0,14.827272727272726,1.217948717948718
+2025-07-25_Essendon Bombers_vs_western bulldogs,2025-07-25,Essendon Bombers,western bulldogs,57.2,-46.8,8.0,,
+2025-08-02_Essendon Bombers_vs_Sydney Swans,2025-08-02,Essendon Bombers,Sydney Swans,56.0,-46.4,8.0,14.227272727272727,1.3333333333333333
+2025-08-08_Essendon Bombers_vs_Geelong Cats,2025-08-08,Essendon Bombers,Geelong Cats,54.2,-41.0,6.0,13.694202898550724,1.3154761904761905
+2025-08-15_Essendon Bombers_vs_St Kilda Saints,2025-08-15,Essendon Bombers,St Kilda Saints,52.4,-41.6,7.0,13.09772727272727,1.3333333333333333
+2025-08-21_Carlton Blues_vs_Essendon Bombers,2025-08-21,Essendon Bombers,Carlton Blues,60.0,-40.2,6.0,13.678985507246377,1.1764705882352942
+2025-08-27_Essendon Bombers_vs_Gold Coast Suns,2025-08-27,Essendon Bombers,Gold Coast Suns,60.0,-37.4,6.0,14.793478260869565,1.2708333333333333
+2025-03-15_Fremantle Dockers_vs_Geelong Cats,2025-03-15,Fremantle Dockers,Geelong Cats,84.0,-1.2,202.0,15.488636363636363,1.3256410256410258
+2025-03-23_Fremantle Dockers_vs_Sydney Swans,2025-03-23,Fremantle Dockers,Sydney Swans,75.8,-23.8,8.0,14.734782608695651,1.458888888888889
+2025-03-30_Fremantle Dockers_vs_West Coast Eagles,2025-03-30,Fremantle Dockers,West Coast Eagles,71.0,-24.2,7.0,13.884090909090908,1.5214285714285716
+2025-04-06_Fremantle Dockers_vs_Western Bulldogs,2025-04-06,Fremantle Dockers,Western Bulldogs,79.8,-14.4,7.0,14.731884057971014,1.58125
+2025-04-13_Fremantle Dockers_vs_Richmond Tigers,2025-04-13,Fremantle Dockers,Richmond Tigers,80.8,-9.4,7.0,14.565217391304348,1.4294117647058824
+2025-04-19_Fremantle Dockers_vs_Melbourne Demons,2025-04-19,Fremantle Dockers,Melbourne Demons,89.0,6.8,6.0,14.54927536231884,1.3813725490196078
+2025-04-25_Adelaide Crows_vs_Fremantle Dockers,2025-04-25,Fremantle Dockers,Adelaide Crows,94.6,20.4,6.0,13.98913043478261,1.4352941176470588
+2025-05-02_Fremantle Dockers_vs_st kilda saints,2025-05-02,Fremantle Dockers,st kilda saints,98.6,24.6,7.0,,
+2025-05-08_Collingwood Magpies_vs_Fremantle Dockers,2025-05-08,Fremantle Dockers,Collingwood Magpies,84.0,4.8,6.0,13.693478260869565,1.5320512820512822
+2025-05-17_Fremantle Dockers_vs_Greater Western Sydney Giants,2025-05-17,Fremantle Dockers,Greater Western Sydney Giants,81.2,-1.2,9.0,14.56304347826087,1.391025641025641
+2025-05-24_Fremantle Dockers_vs_Port Adelaide Power,2025-05-24,Fremantle Dockers,Port Adelaide Power,78.6,-6.6,7.0,14.42463768115942,1.2857142857142858
+2025-05-31_Fremantle Dockers_vs_gold coast suns,2025-05-31,Fremantle Dockers,gold coast suns,79.2,5.2,7.0,,
+2025-06-14_Fremantle Dockers_vs_North Melbourne Kangaroos,2025-06-14,Fremantle Dockers,North Melbourne Kangaroos,77.2,3.8,14.0,14.4,1.3622222222222222
+2025-06-19_Fremantle Dockers_vs_essendon bombers,2025-06-19,Fremantle Dockers,essendon bombers,85.2,17.2,5.0,,
+2025-06-29_Fremantle Dockers_vs_St Kilda Saints,2025-06-29,Fremantle Dockers,St Kilda Saints,89.4,28.2,10.0,15.406521739130433,1.3885416666666666
+2025-07-06_Fremantle Dockers_vs_Sydney Swans,2025-07-06,Fremantle Dockers,Sydney Swans,86.6,23.8,7.0,15.639130434782608,1.4020833333333333
+2025-07-12_Fremantle Dockers_vs_Hawthorn Hawks,2025-07-12,Fremantle Dockers,Hawthorn Hawks,83.2,11.8,6.0,15.049999999999999,1.3431372549019607
+2025-07-20_Collingwood Magpies_vs_Fremantle Dockers,2025-07-20,Fremantle Dockers,Collingwood Magpies,83.6,12.2,8.0,15.110869565217392,1.3872549019607843
+2025-07-26_Fremantle Dockers_vs_West Coast Eagles,2025-07-26,Fremantle Dockers,West Coast Eagles,84.8,11.2,6.0,14.356521739130434,1.4558823529411764
+2025-08-03_Carlton Blues_vs_Fremantle Dockers,2025-08-03,Fremantle Dockers,Carlton Blues,89.2,12.8,8.0,13.91304347826087,1.5208333333333333
+2025-08-09_Fremantle Dockers_vs_Port Adelaide Power,2025-08-09,Fremantle Dockers,Port Adelaide Power,91.8,15.8,6.0,13.689130434782607,1.488095238095238
+2025-08-15_Fremantle Dockers_vs_brisbane lions,2025-08-15,Fremantle Dockers,brisbane lions,93.6,19.2,6.0,,
+2025-08-24_Fremantle Dockers_vs_Western Bulldogs,2025-08-24,Fremantle Dockers,Western Bulldogs,87.0,5.2,9.0,14.034782608695652,1.6111111111111112
+2025-09-06_Fremantle Dockers_vs_Gold Coast Suns,2025-09-06,Fremantle Dockers,Gold Coast Suns,93.6,8.0,13.0,13.404347826086957,1.7397435897435898
+2025-03-15_Fremantle Dockers_vs_Geelong Cats,2025-03-15,Geelong Cats,Fremantle Dockers,110.6,32.0,175.0,14.42608695652174,1.5794871794871794
+2025-03-22_Geelong Cats_vs_St Kilda Saints,2025-03-22,Geelong Cats,St Kilda Saints,125.4,45.4,7.0,13.610869565217392,1.5555555555555556
+2025-03-29_Brisbane Lions_vs_Geelong Cats,2025-03-29,Geelong Cats,Brisbane Lions,125.8,47.6,7.0,13.93840579710145,1.571875
+2025-04-04_Geelong Cats_vs_Melbourne Demons,2025-04-04,Geelong Cats,Melbourne Demons,104.4,27.2,6.0,13.595652173913043,1.54375
+2025-04-10_Adelaide Crows_vs_Geelong Cats,2025-04-10,Geelong Cats,Adelaide Crows,93.8,18.2,6.0,13.819565217391306,1.4574074074074075
+2025-04-21_Geelong Cats_vs_hawthorn hawks,2025-04-21,Geelong Cats,hawthorn hawks,100.6,24.0,11.0,,
+2025-04-27_Carlton Blues_vs_Geelong Cats,2025-04-27,Geelong Cats,Carlton Blues,88.4,9.8,6.0,14.1,1.4197916666666668
+2025-05-03_Collingwood Magpies_vs_Geelong Cats,2025-05-03,Geelong Cats,Collingwood Magpies,85.4,7.6,6.0,13.417391304347827,1.338235294117647
+2025-05-11_Geelong Cats_vs_Greater Western Sydney Giants,2025-05-11,Geelong Cats,Greater Western Sydney Giants,91.2,10.0,8.0,13.673913043478262,1.4490196078431372
+2025-05-17_Geelong Cats_vs_Port Adelaide Power,2025-05-17,Geelong Cats,Port Adelaide Power,94.4,1.4,6.0,14.27608695652174,1.38125
+2025-05-22_Geelong Cats_vs_Western Bulldogs,2025-05-22,Geelong Cats,Western Bulldogs,93.6,12.8,5.0,13.67608695652174,1.3244444444444445
+2025-06-01_Geelong Cats_vs_West Coast Eagles,2025-06-01,Geelong Cats,West Coast Eagles,101.8,14.2,10.0,13.589130434782609,1.39375
+2025-06-07_Geelong Cats_vs_Gold Coast Suns,2025-06-07,Geelong Cats,Gold Coast Suns,109.8,26.4,6.0,13.191304347826087,1.5133333333333332
+2025-06-14_Essendon Bombers_vs_Geelong Cats,2025-06-14,Geelong Cats,Essendon Bombers,104.0,30.6,7.0,15.021739130434783,1.50625
+2025-06-20_Brisbane Lions_vs_Geelong Cats,2025-06-20,Geelong Cats,Brisbane Lions,114.0,50.4,6.0,15.152173913043478,1.6541666666666666
+2025-07-05_Geelong Cats_vs_Richmond Tigers,2025-07-05,Geelong Cats,Richmond Tigers,101.2,27.0,15.0,13.688636363636363,1.6166666666666667
+2025-07-12_Geelong Cats_vs_greater western sydney giants,2025-07-12,Geelong Cats,greater western sydney giants,100.6,38.6,7.0,,
+2025-07-20_Geelong Cats_vs_St Kilda Saints,2025-07-20,Geelong Cats,St Kilda Saints,94.4,24.8,8.0,15.215217391304348,1.5833333333333333
+2025-07-26_Geelong Cats_vs_North Melbourne Kangaroos,2025-07-26,Geelong Cats,North Melbourne Kangaroos,104.8,26.2,6.0,14.934782608695652,1.7023809523809523
+2025-08-03_Geelong Cats_vs_port adelaide power,2025-08-03,Geelong Cats,port adelaide power,104.6,27.4,8.0,,
+2025-08-08_Essendon Bombers_vs_Geelong Cats,2025-08-08,Geelong Cats,Essendon Bombers,125.0,53.2,5.0,15.152173913043478,1.6821428571428572
+2025-08-17_Geelong Cats_vs_Sydney Swans,2025-08-17,Geelong Cats,Sydney Swans,122.0,47.6,9.0,14.98913043478261,1.8822222222222222
+2025-08-23_Geelong Cats_vs_Richmond Tigers,2025-08-23,Geelong Cats,Richmond Tigers,127.2,61.4,6.0,14.865217391304347,1.8888888888888888
+2025-09-05_Brisbane Lions_vs_Geelong Cats,2025-09-05,Geelong Cats,Brisbane Lions,125.2,63.0,13.0,15.01304347826087,2.0
+2025-09-19_Geelong Cats_vs_Hawthorn Hawks,2025-09-19,Geelong Cats,Hawthorn Hawks,117.6,50.4,14.0,14.639130434782608,1.6705882352941175
+2025-09-27_Brisbane Lions_vs_Geelong Cats,2025-09-27,Geelong Cats,Brisbane Lions,110.0,38.8,8.0,13.956521739130435,1.56078431372549
+2025-03-16_Gold Coast Suns_vs_West Coast Eagles,2025-03-16,Gold Coast Suns,West Coast Eagles,79.2,-12.6,204.0,14.993478260869566,1.3333333333333335
+2025-03-29_Gold Coast Suns_vs_Melbourne Demons,2025-03-29,Gold Coast Suns,Melbourne Demons,93.4,10.4,13.0,15.652173913043478,1.8722222222222222
+2025-04-05_Adelaide Crows_vs_Gold Coast Suns,2025-04-05,Gold Coast Suns,Adelaide Crows,100.0,24.0,7.0,15.802173913043477,1.8302083333333334
+2025-04-12_Gold Coast Suns_vs_North Melbourne Kangaroos,2025-04-12,Gold Coast Suns,North Melbourne Kangaroos,100.8,24.0,7.0,15.5,1.7352941176470589
+2025-04-19_Gold Coast Suns_vs_Richmond Tigers,2025-04-19,Gold Coast Suns,Richmond Tigers,116.4,45.2,7.0,15.671739130434782,1.4894736842105263
+2025-04-27_Gold Coast Suns_vs_sydney swans,2025-04-27,Gold Coast Suns,sydney swans,111.4,37.4,8.0,,
+2025-05-04_Gold Coast Suns_vs_brisbane lions,2025-05-04,Gold Coast Suns,brisbane lions,107.6,27.6,7.0,,
+2025-05-10_Gold Coast Suns_vs_Western Bulldogs,2025-05-10,Gold Coast Suns,Western Bulldogs,93.4,12.6,6.0,14.915217391304349,1.4715686274509803
+2025-05-15_Gold Coast Suns_vs_Hawthorn Hawks,2025-05-15,Gold Coast Suns,Hawthorn Hawks,96.4,14.4,5.0,15.015217391304349,1.5098039215686274
+2025-05-25_Gold Coast Suns_vs_St Kilda Saints,2025-05-25,Gold Coast Suns,St Kilda Saints,89.0,5.6,10.0,14.969565217391304,1.424074074074074
+2025-05-31_Fremantle Dockers_vs_Gold Coast Suns,2025-05-31,Gold Coast Suns,Fremantle Dockers,91.2,11.6,6.0,15.775,1.4313725490196079
+2025-06-07_Geelong Cats_vs_Gold Coast Suns,2025-06-07,Gold Coast Suns,Geelong Cats,80.6,1.8,7.0,15.591304347826087,1.1733333333333333
+2025-06-22_Gold Coast Suns_vs_Greater Western Sydney Giants,2025-06-22,Gold Coast Suns,Greater Western Sydney Giants,78.2,0.4,15.0,15.273913043478261,1.2823529411764707
+2025-06-28_Gold Coast Suns_vs_Melbourne Demons,2025-06-28,Gold Coast Suns,Melbourne Demons,76.8,-3.0,6.0,15.57391304347826,1.3018518518518518
+2025-07-05_Essendon Bombers_vs_Gold Coast Suns,2025-07-05,Gold Coast Suns,Essendon Bombers,76.8,-0.8,7.0,15.304545454545455,1.43125
+2025-07-11_Collingwood Magpies_vs_Gold Coast Suns,2025-07-11,Gold Coast Suns,Collingwood Magpies,83.8,3.6,6.0,14.830434782608696,1.4333333333333333
+2025-07-20_Adelaide Crows_vs_Gold Coast Suns,2025-07-20,Gold Coast Suns,Adelaide Crows,84.8,7.0,9.0,13.843181818181819,1.3177083333333333
+2025-07-26_Brisbane Lions_vs_Gold Coast Suns,2025-07-26,Gold Coast Suns,Brisbane Lions,86.6,-0.4,6.0,14.197826086956523,1.271875
+2025-08-02_Gold Coast Suns_vs_Richmond Tigers,2025-08-02,Gold Coast Suns,Richmond Tigers,92.8,14.2,7.0,15.919565217391304,1.396875
+2025-08-09_Carlton Blues_vs_Gold Coast Suns,2025-08-09,Gold Coast Suns,Carlton Blues,93.4,27.2,7.0,15.832608695652173,1.478125
+2025-08-16_Gold Coast Suns_vs_Greater Western Sydney Giants,2025-08-16,Gold Coast Suns,Greater Western Sydney Giants,89.0,22.8,7.0,15.997826086956522,1.3645833333333333
+2025-08-22_Gold Coast Suns_vs_Port Adelaide Power,2025-08-22,Gold Coast Suns,Port Adelaide Power,90.4,14.6,6.0,16.245454545454546,1.405952380952381
+2025-08-27_Essendon Bombers_vs_Gold Coast Suns,2025-08-27,Gold Coast Suns,Essendon Bombers,94.6,26.0,5.0,16.476086956521737,1.541111111111111
+2025-09-06_Fremantle Dockers_vs_Gold Coast Suns,2025-09-06,Gold Coast Suns,Fremantle Dockers,99.2,31.8,10.0,15.815217391304348,1.6844444444444444
+2025-09-13_Brisbane Lions_vs_Gold Coast Suns,2025-09-13,Gold Coast Suns,Brisbane Lions,93.8,15.2,7.0,15.378260869565217,1.718888888888889
+2025-03-09_Collingwood Magpies_vs_Greater Western Sydney Giants,2025-03-09,Greater Western Sydney Giants,Collingwood Magpies,85.2,-4.2,176.0,13.775,1.2888888888888888
+2025-03-16_Greater Western Sydney Giants_vs_Melbourne Demons,2025-03-16,Greater Western Sydney Giants,Melbourne Demons,89.6,2.6,7.0,15.01304347826087,1.390625
+2025-03-29_Greater Western Sydney Giants_vs_hawthorn hawks,2025-03-29,Greater Western Sydney Giants,hawthorn hawks,84.8,1.4,13.0,,
+2025-04-06_Greater Western Sydney Giants_vs_West Coast Eagles,2025-04-06,Greater Western Sydney Giants,West Coast Eagles,85.4,6.4,8.0,15.73913043478261,1.6323529411764706
+2025-04-13_Greater Western Sydney Giants_vs_St Kilda Saints,2025-04-13,Greater Western Sydney Giants,St Kilda Saints,95.4,23.8,7.0,16.054347826086957,1.553921568627451
+2025-04-19_Adelaide Crows_vs_Greater Western Sydney Giants,2025-04-19,Greater Western Sydney Giants,Adelaide Crows,97.4,30.4,6.0,16.519565217391303,1.4354166666666666
+2025-04-26_Greater Western Sydney Giants_vs_Western Bulldogs,2025-04-26,Greater Western Sydney Giants,Western Bulldogs,83.4,16.4,7.0,16.51086956521739,1.667857142857143
+2025-05-04_Greater Western Sydney Giants_vs_Sydney Swans,2025-05-04,Greater Western Sydney Giants,Sydney Swans,84.2,9.4,8.0,16.42878787878788,1.7208333333333334
+2025-05-11_Greater Western Sydney Giants_vs_geelong cats,2025-05-11,Greater Western Sydney Giants,geelong cats,86.0,9.0,7.0,,
+2025-05-17_Greater Western Sydney Giants_vs_fremantle dockers,2025-05-17,Greater Western Sydney Giants,fremantle dockers,80.6,-6.4,6.0,,
+2025-05-24_Carlton Blues_vs_Greater Western Sydney Giants,2025-05-24,Greater Western Sydney Giants,Carlton Blues,70.8,-18.8,7.0,14.6,1.330769230769231
+2025-05-31_Greater Western Sydney Giants_vs_Richmond Tigers,2025-05-31,Greater Western Sydney Giants,Richmond Tigers,86.0,-9.6,7.0,15.371014492753622,1.5628205128205128
+2025-06-07_Greater Western Sydney Giants_vs_port adelaide power,2025-06-07,Greater Western Sydney Giants,port adelaide power,85.8,-2.6,7.0,,
+2025-06-14_Brisbane Lions_vs_Greater Western Sydney Giants,2025-06-14,Greater Western Sydney Giants,Brisbane Lions,81.2,-3.0,7.0,15.582608695652173,1.468181818181818
+2025-06-22_Gold Coast Suns_vs_Greater Western Sydney Giants,2025-06-22,Greater Western Sydney Giants,Gold Coast Suns,81.6,-1.6,8.0,15.57391304347826,1.5142857142857142
+2025-07-04_Greater Western Sydney Giants_vs_West Coast Eagles,2025-07-04,Greater Western Sydney Giants,West Coast Eagles,90.6,6.6,12.0,14.680434782608694,1.396875
+2025-07-12_Greater Western Sydney Giants_vs_geelong cats,2025-07-12,Greater Western Sydney Giants,geelong cats,90.8,12.8,8.0,,
+2025-07-17_Essendon Bombers_vs_Greater Western Sydney Giants,2025-07-17,Greater Western Sydney Giants,Essendon Bombers,97.0,17.4,5.0,15.226086956521739,1.62
+2025-07-25_Greater Western Sydney Giants_vs_Sydney Swans,2025-07-25,Greater Western Sydney Giants,Sydney Swans,107.8,30.2,8.0,16.065217391304348,1.7302083333333333
+2025-07-31_Greater Western Sydney Giants_vs_Western Bulldogs,2025-07-31,Greater Western Sydney Giants,Western Bulldogs,106.8,36.8,6.0,15.75,1.5802083333333332
+2025-08-10_Greater Western Sydney Giants_vs_north melbourne kangaroos,2025-08-10,Greater Western Sydney Giants,north melbourne kangaroos,94.4,17.8,10.0,,
+2025-08-16_Gold Coast Suns_vs_Greater Western Sydney Giants,2025-08-16,Greater Western Sydney Giants,Gold Coast Suns,98.8,16.8,6.0,15.184782608695652,1.4364583333333334
+2025-08-24_Greater Western Sydney Giants_vs_St Kilda Saints,2025-08-24,Greater Western Sydney Giants,St Kilda Saints,98.8,18.6,8.0,15.16304347826087,1.6215686274509804
+2025-09-06_Greater Western Sydney Giants_vs_Hawthorn Hawks,2025-09-06,Greater Western Sydney Giants,Hawthorn Hawks,98.8,11.2,13.0,15.582608695652173,1.6529411764705884
+2025-03-07_Hawthorn Hawks_vs_Sydney Swans,2025-03-07,Hawthorn Hawks,Sydney Swans,116.8,59.0,175.0,17.628985507246377,1.6145833333333333
+2025-03-14_Essendon Bombers_vs_Hawthorn Hawks,2025-03-14,Hawthorn Hawks,Essendon Bombers,113.6,48.2,7.0,16.32608695652174,1.5666666666666667
+2025-03-20_Carlton Blues_vs_Hawthorn Hawks,2025-03-20,Hawthorn Hawks,Carlton Blues,109.6,40.8,6.0,16.036956521739132,1.6018518518518519
+2025-03-29_Greater Western Sydney Giants_vs_Hawthorn Hawks,2025-03-29,Hawthorn Hawks,Greater Western Sydney Giants,91.6,20.0,9.0,15.402173913043478,1.4768518518518519
+2025-04-13_Hawthorn Hawks_vs_Port Adelaide Power,2025-04-13,Hawthorn Hawks,Port Adelaide Power,87.0,15.0,15.0,15.26086956521739,1.3759259259259258
+2025-04-21_Hawthorn Hawks_vs_geelong cats,2025-04-21,Hawthorn Hawks,geelong cats,90.8,9.6,8.0,,
+2025-04-27_Hawthorn Hawks_vs_West Coast Eagles,2025-04-27,Hawthorn Hawks,West Coast Eagles,87.4,4.2,6.0,15.23913043478261,1.3235294117647058
+2025-05-04_Hawthorn Hawks_vs_Richmond Tigers,2025-05-04,Hawthorn Hawks,Richmond Tigers,90.0,9.0,7.0,14.528260869565216,1.3372549019607844
+2025-05-10_Hawthorn Hawks_vs_melbourne demons,2025-05-10,Hawthorn Hawks,melbourne demons,95.8,18.0,6.0,,
+2025-05-15_Gold Coast Suns_vs_Hawthorn Hawks,2025-05-15,Hawthorn Hawks,Gold Coast Suns,98.8,22.6,5.0,15.895652173913044,1.2705882352941178
+2025-05-24_Brisbane Lions_vs_Hawthorn Hawks,2025-05-24,Hawthorn Hawks,Brisbane Lions,99.8,27.0,9.0,16.717391304347824,1.530392156862745
+2025-05-30_Collingwood Magpies_vs_Hawthorn Hawks,2025-05-30,Hawthorn Hawks,Collingwood Magpies,96.0,21.8,6.0,16.545652173913044,1.487037037037037
+2025-06-05_Hawthorn Hawks_vs_Western Bulldogs,2025-06-05,Hawthorn Hawks,Western Bulldogs,82.4,1.6,6.0,15.469565217391304,1.3962962962962964
+2025-06-13_Adelaide Crows_vs_Hawthorn Hawks,2025-06-13,Hawthorn Hawks,Adelaide Crows,76.8,-7.0,8.0,14.713043478260868,1.3411764705882354
+2025-06-28_Hawthorn Hawks_vs_North Melbourne Kangaroos,2025-06-28,Hawthorn Hawks,North Melbourne Kangaroos,68.0,-13.4,15.0,14.81304347826087,1.3541666666666667
+2025-07-05_Hawthorn Hawks_vs_St Kilda Saints,2025-07-05,Hawthorn Hawks,St Kilda Saints,78.8,5.2,7.0,15.56304347826087,1.7435897435897436
+2025-07-12_Hawthorn Hawks_vs_fremantle dockers,2025-07-12,Hawthorn Hawks,fremantle dockers,85.6,15.8,7.0,,
+2025-07-19_Hawthorn Hawks_vs_Port Adelaide Power,2025-07-19,Hawthorn Hawks,Port Adelaide Power,87.2,23.4,7.0,15.217391304347826,1.26
+2025-07-24_Carlton Blues_vs_Hawthorn Hawks,2025-07-24,Hawthorn Hawks,Carlton Blues,88.4,26.6,5.0,15.652173913043478,1.5797619047619047
+2025-08-01_Hawthorn Hawks_vs_adelaide crows,2025-08-01,Hawthorn Hawks,adelaide crows,96.0,30.8,8.0,,
+2025-08-07_Collingwood Magpies_vs_Hawthorn Hawks,2025-08-07,Hawthorn Hawks,Collingwood Magpies,83.4,11.0,6.0,15.371739130434783,1.5523809523809524
+2025-08-16_Hawthorn Hawks_vs_Melbourne Demons,2025-08-16,Hawthorn Hawks,Melbourne Demons,86.6,19.8,9.0,16.047826086956523,1.634375
+2025-08-24_Brisbane Lions_vs_Hawthorn Hawks,2025-08-24,Hawthorn Hawks,Brisbane Lions,92.2,29.6,8.0,16.40869565217391,1.6416666666666666
+2025-09-06_Greater Western Sydney Giants_vs_Hawthorn Hawks,2025-09-06,Hawthorn Hawks,Greater Western Sydney Giants,90.6,20.0,13.0,16.286956521739132,1.4988095238095238
+2025-09-12_Adelaide Crows_vs_Hawthorn Hawks,2025-09-12,Hawthorn Hawks,Adelaide Crows,95.0,19.0,6.0,16.358695652173914,1.5522222222222224
+2025-09-19_Geelong Cats_vs_Hawthorn Hawks,2025-09-19,Hawthorn Hawks,Geelong Cats,97.8,28.6,7.0,16.51521739130435,1.7064102564102563
+2025-03-16_Greater Western Sydney Giants_vs_Melbourne Demons,2025-03-16,Melbourne Demons,Greater Western Sydney Giants,73.4,-9.4,205.0,15.497222222222222,1.451388888888889
+2025-03-23_Melbourne Demons_vs_North Melbourne Kangaroos,2025-03-23,Melbourne Demons,North Melbourne Kangaroos,71.6,-9.6,7.0,14.452898550724639,1.3970588235294117
+2025-03-29_Gold Coast Suns_vs_Melbourne Demons,2025-03-29,Melbourne Demons,Gold Coast Suns,73.0,-11.2,6.0,16.275000000000002,1.4
+2025-04-04_Geelong Cats_vs_Melbourne Demons,2025-04-04,Melbourne Demons,Geelong Cats,75.2,-22.4,6.0,16.284057971014494,1.3833333333333333
+2025-04-12_Essendon Bombers_vs_Melbourne Demons,2025-04-12,Melbourne Demons,Essendon Bombers,61.0,-41.0,8.0,15.396376811594203,1.222222222222222
+2025-04-19_Fremantle Dockers_vs_Melbourne Demons,2025-04-19,Melbourne Demons,Fremantle Dockers,61.0,-39.6,7.0,15.536956521739132,1.228125
+2025-04-24_Melbourne Demons_vs_Richmond Tigers,2025-04-24,Melbourne Demons,Richmond Tigers,67.6,-37.0,5.0,16.069565217391304,1.3431372549019607
+2025-05-03_Melbourne Demons_vs_West Coast Eagles,2025-05-03,Melbourne Demons,West Coast Eagles,71.0,-21.2,9.0,15.546376811594202,1.3872549019607843
+2025-05-10_Hawthorn Hawks_vs_Melbourne Demons,2025-05-10,Melbourne Demons,Hawthorn Hawks,80.2,-3.2,7.0,15.297826086956523,1.3529411764705883
+2025-05-18_Brisbane Lions_vs_Melbourne Demons,2025-05-18,Melbourne Demons,Brisbane Lions,82.2,-2.4,8.0,16.13478260869565,1.4137254901960785
+2025-05-25_Melbourne Demons_vs_Sydney Swans,2025-05-25,Melbourne Demons,Sydney Swans,90.6,7.6,7.0,15.773188405797102,1.4970588235294118
+2025-06-01_Melbourne Demons_vs_St Kilda Saints,2025-06-01,Melbourne Demons,St Kilda Saints,95.4,16.2,7.0,16.023913043478263,1.6407407407407406
+2025-06-09_Collingwood Magpies_vs_Melbourne Demons,2025-06-09,Melbourne Demons,Collingwood Magpies,91.4,6.6,8.0,15.478260869565217,1.5441176470588236
+2025-06-15_Melbourne Demons_vs_Port Adelaide Power,2025-06-15,Melbourne Demons,Port Adelaide Power,84.0,0.0,6.0,15.678260869565218,1.4333333333333333
+2025-06-28_Gold Coast Suns_vs_Melbourne Demons,2025-06-28,Melbourne Demons,Gold Coast Suns,86.4,2.0,13.0,14.61304347826087,1.380392156862745
+2025-07-06_Adelaide Crows_vs_Melbourne Demons,2025-07-06,Melbourne Demons,Adelaide Crows,83.6,-4.0,8.0,14.332608695652173,1.5333333333333334
+2025-07-13_Melbourne Demons_vs_North Melbourne Kangaroos,2025-07-13,Melbourne Demons,North Melbourne Kangaroos,72.8,-17.2,7.0,14.57391304347826,1.5214285714285716
+2025-07-19_Carlton Blues_vs_Melbourne Demons,2025-07-19,Melbourne Demons,Carlton Blues,84.0,-4.4,6.0,15.008695652173913,1.5344444444444443
+2025-07-27_Melbourne Demons_vs_St Kilda Saints,2025-07-27,Melbourne Demons,St Kilda Saints,83.8,-5.8,8.0,15.789130434782608,1.5035714285714286
+2025-08-02_Melbourne Demons_vs_West Coast Eagles,2025-08-02,Melbourne Demons,West Coast Eagles,88.2,-2.0,6.0,15.217391304347826,1.4479166666666667
+2025-08-10_Melbourne Demons_vs_Western Bulldogs,2025-08-10,Melbourne Demons,Western Bulldogs,99.0,18.4,8.0,15.990909090909092,1.4744444444444444
+2025-08-16_Hawthorn Hawks_vs_Melbourne Demons,2025-08-16,Melbourne Demons,Hawthorn Hawks,103.4,19.8,6.0,15.677536231884057,1.40625
+2025-08-22_Collingwood Magpies_vs_Melbourne Demons,2025-08-22,Melbourne Demons,Collingwood Magpies,90.8,5.4,6.0,15.644202898550725,1.3431372549019607
+2025-03-15_North Melbourne Kangaroos_vs_Western Bulldogs,2025-03-15,North Melbourne Kangaroos,Western Bulldogs,68.2,-50.4,203.0,17.03333333333333,1.6354166666666667
+2025-03-23_Melbourne Demons_vs_North Melbourne Kangaroos,2025-03-23,North Melbourne Kangaroos,Melbourne Demons,74.4,-45.6,8.0,16.695652173913043,1.6666666666666667
+2025-03-30_Adelaide Crows_vs_North Melbourne Kangaroos,2025-03-30,North Melbourne Kangaroos,Adelaide Crows,81.4,-36.4,7.0,16.306521739130435,1.5294117647058822
+2025-04-05_North Melbourne Kangaroos_vs_Sydney Swans,2025-04-05,North Melbourne Kangaroos,Sydney Swans,77.6,-42.6,6.0,15.854545454545455,1.5147058823529411
+2025-04-12_Gold Coast Suns_vs_North Melbourne Kangaroos,2025-04-12,North Melbourne Kangaroos,Gold Coast Suns,79.6,-36.4,7.0,16.307246376811595,1.5422222222222222
+2025-04-18_Carlton Blues_vs_North Melbourne Kangaroos,2025-04-18,North Melbourne Kangaroos,Carlton Blues,88.2,-22.0,6.0,16.89710144927536,1.4966666666666666
+2025-04-26_North Melbourne Kangaroos_vs_Port Adelaide Power,2025-04-26,North Melbourne Kangaroos,Port Adelaide Power,83.0,-35.2,8.0,15.876086956521737,1.3988888888888888
+2025-05-01_Essendon Bombers_vs_North Melbourne Kangaroos,2025-05-01,North Melbourne Kangaroos,Essendon Bombers,75.6,-48.8,5.0,15.215909090909092,1.2355555555555555
+2025-05-11_Brisbane Lions_vs_North Melbourne Kangaroos,2025-05-11,North Melbourne Kangaroos,Brisbane Lions,72.4,-42.2,10.0,15.402173913043478,1.21875
+2025-05-18_North Melbourne Kangaroos_vs_Richmond Tigers,2025-05-18,North Melbourne Kangaroos,Richmond Tigers,76.2,-29.2,7.0,14.822463768115943,1.196078431372549
+2025-05-24_North Melbourne Kangaroos_vs_collingwood magpies,2025-05-24,North Melbourne Kangaroos,collingwood magpies,74.0,-18.0,6.0,,
+2025-06-08_North Melbourne Kangaroos_vs_West Coast Eagles,2025-06-08,North Melbourne Kangaroos,West Coast Eagles,72.4,-10.6,15.0,15.952173913043477,1.335897435897436
+2025-06-14_Fremantle Dockers_vs_North Melbourne Kangaroos,2025-06-14,North Melbourne Kangaroos,Fremantle Dockers,67.2,-6.8,6.0,15.626086956521737,1.369047619047619
+2025-06-21_Carlton Blues_vs_North Melbourne Kangaroos,2025-06-21,North Melbourne Kangaroos,Carlton Blues,68.2,-7.4,7.0,15.76086956521739,1.34375
+2025-06-28_Hawthorn Hawks_vs_North Melbourne Kangaroos,2025-06-28,North Melbourne Kangaroos,Hawthorn Hawks,70.8,-5.2,7.0,15.621739130434783,1.3645833333333333
+2025-07-03_North Melbourne Kangaroos_vs_Western Bulldogs,2025-07-03,North Melbourne Kangaroos,Western Bulldogs,68.2,-23.0,5.0,14.352898550724637,1.296875
+2025-07-13_Melbourne Demons_vs_North Melbourne Kangaroos,2025-07-13,North Melbourne Kangaroos,Melbourne Demons,72.6,-23.8,10.0,14.632608695652175,1.255952380952381
+2025-07-19_North Melbourne Kangaroos_vs_Sydney Swans,2025-07-19,North Melbourne Kangaroos,Sydney Swans,76.8,-33.0,6.0,15.134090909090908,1.2805555555555557
+2025-07-26_Geelong Cats_vs_North Melbourne Kangaroos,2025-07-26,North Melbourne Kangaroos,Geelong Cats,74.0,-38.0,7.0,14.121739130434783,1.3095238095238095
+2025-08-03_North Melbourne Kangaroos_vs_st kilda saints,2025-08-03,North Melbourne Kangaroos,st kilda saints,67.0,-60.4,8.0,,
+2025-08-10_North Melbourne Kangaroos_vs_greater western sydney giants,2025-08-10,North Melbourne Kangaroos,greater western sydney giants,67.8,-45.2,7.0,,
+2025-08-17_North Melbourne Kangaroos_vs_Richmond Tigers,2025-08-17,North Melbourne Kangaroos,Richmond Tigers,66.6,-46.2,7.0,14.68913043478261,1.4559523809523809
+2025-08-23_Adelaide Crows_vs_North Melbourne Kangaroos,2025-08-23,North Melbourne Kangaroos,Adelaide Crows,77.0,-29.4,6.0,15.710869565217392,1.46
+2025-03-15_Collingwood Magpies_vs_Port Adelaide Power,2025-03-15,Port Adelaide Power,Collingwood Magpies,71.0,-15.0,176.0,13.545454545454545,1.328125
+2025-03-22_Port Adelaide Power_vs_Richmond Tigers,2025-03-22,Port Adelaide Power,Richmond Tigers,64.0,-37.6,7.0,13.697727272727274,1.2452380952380953
+2025-03-27_Essendon Bombers_vs_Port Adelaide Power,2025-03-27,Port Adelaide Power,Essendon Bombers,74.6,-27.2,5.0,14.731818181818182,1.2622222222222221
+2025-04-06_Port Adelaide Power_vs_st kilda saints,2025-04-06,Port Adelaide Power,st kilda saints,75.8,-12.8,10.0,,
+2025-04-13_Hawthorn Hawks_vs_Port Adelaide Power,2025-04-13,Port Adelaide Power,Hawthorn Hawks,75.2,-16.8,7.0,15.292753623188407,1.4025641025641027
+2025-04-20_Port Adelaide Power_vs_Sydney Swans,2025-04-20,Port Adelaide Power,Sydney Swans,87.6,-3.6,7.0,15.93695652173913,1.4745098039215687
+2025-04-26_North Melbourne Kangaroos_vs_Port Adelaide Power,2025-04-26,Port Adelaide Power,North Melbourne Kangaroos,95.6,16.2,6.0,15.552173913043477,1.5822916666666667
+2025-05-03_Port Adelaide Power_vs_Western Bulldogs,2025-05-03,Port Adelaide Power,Western Bulldogs,87.0,3.6,7.0,14.295652173913044,1.4855555555555557
+2025-05-10_Adelaide Crows_vs_Port Adelaide Power,2025-05-10,Port Adelaide Power,Adelaide Crows,83.2,-12.0,7.0,14.347826086956522,1.4202380952380953
+2025-05-17_Geelong Cats_vs_Port Adelaide Power,2025-05-17,Port Adelaide Power,Geelong Cats,85.6,-9.6,7.0,13.97391304347826,1.4755555555555555
+2025-05-24_Fremantle Dockers_vs_Port Adelaide Power,2025-05-24,Port Adelaide Power,Fremantle Dockers,69.2,-30.8,7.0,14.468181818181819,1.3976190476190475
+2025-06-07_Port Adelaide Power_vs_greater western sydney giants,2025-06-07,Port Adelaide Power,greater western sydney giants,62.4,-42.2,14.0,,
+2025-06-15_Port Adelaide Power_vs_melbourne demons,2025-06-15,Port Adelaide Power,melbourne demons,56.2,-40.8,8.0,,
+2025-06-21_Port Adelaide Power_vs_Sydney Swans,2025-06-21,Port Adelaide Power,Sydney Swans,66.6,-17.8,6.0,14.056521739130435,1.3488095238095237
+2025-06-26_Carlton Blues_vs_Port Adelaide Power,2025-06-26,Port Adelaide Power,Carlton Blues,60.2,-20.6,5.0,13.969565217391304,1.1976190476190476
+2025-07-05_Port Adelaide Power_vs_brisbane lions,2025-07-05,Port Adelaide Power,brisbane lions,74.4,4.6,9.0,,
+2025-07-13_Port Adelaide Power_vs_West Coast Eagles,2025-07-13,Port Adelaide Power,West Coast Eagles,82.6,8.8,8.0,14.100724637681159,1.3980392156862744
+2025-07-19_Hawthorn Hawks_vs_Port Adelaide Power,2025-07-19,Port Adelaide Power,Hawthorn Hawks,86.8,10.8,6.0,13.606521739130434,1.451388888888889
+2025-07-26_Adelaide Crows_vs_Port Adelaide Power,2025-07-26,Port Adelaide Power,Adelaide Crows,78.0,-1.8,7.0,13.847826086956522,1.3461538461538463
+2025-08-03_Geelong Cats_vs_Port Adelaide Power,2025-08-03,Port Adelaide Power,Geelong Cats,74.6,-17.6,8.0,12.588636363636363,1.3409090909090908
+2025-08-09_Fremantle Dockers_vs_Port Adelaide Power,2025-08-09,Port Adelaide Power,Fremantle Dockers,65.6,-45.2,6.0,12.682608695652174,1.4884615384615385
+2025-08-16_Carlton Blues_vs_Port Adelaide Power,2025-08-16,Port Adelaide Power,Carlton Blues,64.4,-40.8,7.0,13.123913043478263,1.425
+2025-08-22_Gold Coast Suns_vs_Port Adelaide Power,2025-08-22,Port Adelaide Power,Gold Coast Suns,59.8,-56.8,6.0,12.611904761904762,1.461904761904762
+2025-03-13_Carlton Blues_vs_Richmond Tigers,2025-03-13,Richmond Tigers,Carlton Blues,65.8,-35.6,201.0,14.232499999999998,1.3409090909090908
+2025-03-22_Port Adelaide Power_vs_Richmond Tigers,2025-03-22,Richmond Tigers,Port Adelaide Power,68.8,-27.8,9.0,14.177272727272726,1.5583333333333333
+2025-03-29_Richmond Tigers_vs_St Kilda Saints,2025-03-29,Richmond Tigers,St Kilda Saints,67.0,-39.6,7.0,13.371739130434783,1.45
+2025-04-05_Brisbane Lions_vs_Richmond Tigers,2025-04-05,Richmond Tigers,Brisbane Lions,67.4,-46.4,7.0,13.692028985507248,1.4679487179487178
+2025-04-13_Fremantle Dockers_vs_Richmond Tigers,2025-04-13,Richmond Tigers,Fremantle Dockers,71.8,-39.4,8.0,14.09772727272727,1.4345238095238095
+2025-04-19_Gold Coast Suns_vs_Richmond Tigers,2025-04-19,Richmond Tigers,Gold Coast Suns,68.0,-46.0,6.0,14.597101449275362,1.4833333333333334
+2025-04-24_Melbourne Demons_vs_Richmond Tigers,2025-04-24,Richmond Tigers,Melbourne Demons,67.6,-46.4,5.0,14.881818181818181,1.291111111111111
+2025-05-04_Hawthorn Hawks_vs_Richmond Tigers,2025-05-04,Richmond Tigers,Hawthorn Hawks,66.6,-36.0,10.0,14.840579710144926,1.3
+2025-05-11_Richmond Tigers_vs_West Coast Eagles,2025-05-11,Richmond Tigers,West Coast Eagles,64.8,-32.6,7.0,14.481818181818182,1.2708333333333333
+2025-05-18_Richmond Tigers_vs_north melbourne kangaroos,2025-05-18,Richmond Tigers,north melbourne kangaroos,63.0,-26.6,7.0,,
+2025-05-23_Essendon Bombers_vs_Richmond Tigers,2025-05-23,Richmond Tigers,Essendon Bombers,68.4,-15.2,5.0,13.145454545454545,1.238095238095238
+2025-05-31_Greater Western Sydney Giants_vs_Richmond Tigers,2025-05-31,Richmond Tigers,Greater Western Sydney Giants,64.0,-22.0,8.0,13.949275362318842,1.3461538461538463
+2025-06-07_Richmond Tigers_vs_Sydney Swans,2025-06-07,Richmond Tigers,Sydney Swans,66.8,-18.6,7.0,14.832608695652173,1.363095238095238
+2025-06-22_Richmond Tigers_vs_western bulldogs,2025-06-22,Richmond Tigers,western bulldogs,65.2,-14.4,15.0,,
+2025-06-29_Adelaide Crows_vs_Richmond Tigers,2025-06-29,Richmond Tigers,Adelaide Crows,60.2,-30.6,7.0,13.75,1.3444444444444446
+2025-07-05_Geelong Cats_vs_Richmond Tigers,2025-07-05,Richmond Tigers,Geelong Cats,56.2,-43.4,6.0,13.847101449275362,1.215686274509804
+2025-07-12_Essendon Bombers_vs_Richmond Tigers,2025-07-12,Richmond Tigers,Essendon Bombers,55.0,-53.2,7.0,14.512121212121212,1.1274509803921569
+2025-07-19_Richmond Tigers_vs_West Coast Eagles,2025-07-19,Richmond Tigers,West Coast Eagles,48.8,-50.8,7.0,14.597101449275362,1.1078431372549018
+2025-07-27_Collingwood Magpies_vs_Richmond Tigers,2025-07-27,Richmond Tigers,Collingwood Magpies,62.6,-32.2,8.0,14.178985507246377,1.2058823529411764
+2025-08-02_Gold Coast Suns_vs_Richmond Tigers,2025-08-02,Richmond Tigers,Gold Coast Suns,62.8,-23.6,6.0,14.597101449275362,1.2696078431372548
+2025-08-09_Richmond Tigers_vs_St Kilda Saints,2025-08-09,Richmond Tigers,St Kilda Saints,56.6,-26.8,7.0,15.60217391304348,1.375
+2025-08-17_North Melbourne Kangaroos_vs_Richmond Tigers,2025-08-17,Richmond Tigers,North Melbourne Kangaroos,56.6,-13.2,8.0,15.307971014492752,1.3611111111111112
+2025-08-23_Geelong Cats_vs_Richmond Tigers,2025-08-23,Richmond Tigers,Geelong Cats,64.8,-24.6,6.0,14.445652173913043,1.3722222222222222
+2025-03-16_Adelaide Crows_vs_St Kilda Saints,2025-03-16,St Kilda Saints,Adelaide Crows,85.8,7.2,203.0,15.280000000000001,1.4435897435897436
+2025-03-22_Geelong Cats_vs_St Kilda Saints,2025-03-22,St Kilda Saints,Geelong Cats,78.6,-16.0,6.0,14.52727272727273,1.494047619047619
+2025-03-29_Richmond Tigers_vs_St Kilda Saints,2025-03-29,St Kilda Saints,Richmond Tigers,90.4,2.4,7.0,13.969696969696969,1.542982456140351
+2025-04-06_Port Adelaide Power_vs_St Kilda Saints,2025-04-06,St Kilda Saints,Port Adelaide Power,97.6,9.2,8.0,15.183333333333335,1.5305555555555557
+2025-04-13_Greater Western Sydney Giants_vs_St Kilda Saints,2025-04-13,St Kilda Saints,Greater Western Sydney Giants,94.0,9.0,7.0,15.278260869565216,1.4935185185185185
+2025-04-20_St Kilda Saints_vs_Western Bulldogs,2025-04-20,St Kilda Saints,Western Bulldogs,95.2,3.0,7.0,15.976086956521739,1.6208333333333333
+2025-04-26_Brisbane Lions_vs_St Kilda Saints,2025-04-26,St Kilda Saints,Brisbane Lions,92.0,1.4,6.0,15.321014492753623,1.625
+2025-05-02_Fremantle Dockers_vs_St Kilda Saints,2025-05-02,St Kilda Saints,Fremantle Dockers,87.0,-9.0,6.0,15.375757575757575,1.458974358974359
+2025-05-09_Carlton Blues_vs_St Kilda Saints,2025-05-09,St Kilda Saints,Carlton Blues,78.8,-13.2,7.0,15.318115942028985,1.3322222222222222
+2025-05-18_St Kilda Saints_vs_West Coast Eagles,2025-05-18,St Kilda Saints,West Coast Eagles,73.4,-19.6,9.0,15.350724637681159,1.3764705882352941
+2025-05-25_Gold Coast Suns_vs_St Kilda Saints,2025-05-25,St Kilda Saints,Gold Coast Suns,73.0,-19.6,7.0,15.270289855072463,1.37
+2025-06-01_Melbourne Demons_vs_St Kilda Saints,2025-06-01,St Kilda Saints,Melbourne Demons,74.0,-9.2,7.0,15.52463768115942,1.340625
+2025-06-12_St Kilda Saints_vs_Western Bulldogs,2025-06-12,St Kilda Saints,Western Bulldogs,77.6,5.4,11.0,15.98840579710145,1.4114583333333333
+2025-06-21_St Kilda Saints_vs_collingwood magpies,2025-06-21,St Kilda Saints,collingwood magpies,70.8,-21.2,9.0,,
+2025-06-29_Fremantle Dockers_vs_St Kilda Saints,2025-06-29,St Kilda Saints,Fremantle Dockers,73.2,-25.0,8.0,14.565217391304348,1.3425925925925926
+2025-07-05_Hawthorn Hawks_vs_St Kilda Saints,2025-07-05,St Kilda Saints,Hawthorn Hawks,71.0,-21.8,6.0,14.784782608695652,1.3284313725490196
+2025-07-13_St Kilda Saints_vs_Sydney Swans,2025-07-13,St Kilda Saints,Sydney Swans,73.6,-22.0,8.0,14.883333333333333,1.238095238095238
+2025-07-20_Geelong Cats_vs_St Kilda Saints,2025-07-20,St Kilda Saints,Geelong Cats,72.8,-28.6,7.0,14.556521739130435,1.2254901960784312
+2025-07-27_Melbourne Demons_vs_St Kilda Saints,2025-07-27,St Kilda Saints,Melbourne Demons,77.2,-20.4,7.0,14.967391304347826,1.3044444444444445
+2025-08-03_St Kilda Saints_vs_north melbourne kangaroos,2025-08-03,St Kilda Saints,north melbourne kangaroos,81.6,-12.4,7.0,,
+2025-08-09_Richmond Tigers_vs_St Kilda Saints,2025-08-09,St Kilda Saints,Richmond Tigers,83.4,-8.2,6.0,15.038405797101449,1.4087719298245613
+2025-08-15_Essendon Bombers_vs_St Kilda Saints,2025-08-15,St Kilda Saints,Essendon Bombers,79.8,-3.4,6.0,15.188636363636363,1.3901960784313725
+2025-08-24_Greater Western Sydney Giants_vs_St Kilda Saints,2025-08-24,St Kilda Saints,Greater Western Sydney Giants,77.8,-2.0,9.0,14.160869565217391,1.3
+2025-03-07_Hawthorn Hawks_vs_Sydney Swans,2025-03-07,Sydney Swans,Hawthorn Hawks,92.4,10.4,160.0,15.15,1.338888888888889
+2025-03-15_Brisbane Lions_vs_Sydney Swans,2025-03-15,Sydney Swans,Brisbane Lions,88.0,-1.4,8.0,13.956818181818182,1.2864583333333333
+2025-03-23_Fremantle Dockers_vs_Sydney Swans,2025-03-23,Sydney Swans,Fremantle Dockers,80.2,-8.4,8.0,14.447826086956523,1.2401960784313726
+2025-04-05_North Melbourne Kangaroos_vs_Sydney Swans,2025-04-05,Sydney Swans,North Melbourne Kangaroos,76.2,-9.0,13.0,14.105797101449275,1.211764705882353
+2025-04-11_Collingwood Magpies_vs_Sydney Swans,2025-04-11,Sydney Swans,Collingwood Magpies,80.6,-3.2,6.0,14.21231884057971,1.2210526315789474
+2025-04-20_Port Adelaide Power_vs_Sydney Swans,2025-04-20,Sydney Swans,Port Adelaide Power,84.2,2.6,9.0,15.407971014492754,1.2458333333333333
+2025-04-27_Gold Coast Suns_vs_Sydney Swans,2025-04-27,Sydney Swans,Gold Coast Suns,84.4,5.0,7.0,15.605797101449275,1.4770833333333333
+2025-05-04_Sydney Swans_vs_greater western sydney giants,2025-05-04,Sydney Swans,greater western sydney giants,83.8,-1.8,7.0,,
+2025-05-10_Essendon Bombers_vs_Sydney Swans,2025-05-10,Sydney Swans,Essendon Bombers,87.6,0.4,6.0,15.621739130434783,1.4177777777777778
+2025-05-16_Carlton Blues_vs_Sydney Swans,2025-05-16,Sydney Swans,Carlton Blues,76.8,-14.2,6.0,15.667391304347827,1.4427083333333333
+2025-05-25_Melbourne Demons_vs_Sydney Swans,2025-05-25,Sydney Swans,Melbourne Demons,76.8,-4.8,9.0,15.804347826086957,1.2955555555555556
+2025-05-31_Adelaide Crows_vs_Sydney Swans,2025-05-31,Sydney Swans,Adelaide Crows,77.0,-13.8,6.0,15.06086956521739,1.2260416666666667
+2025-06-07_Richmond Tigers_vs_Sydney Swans,2025-06-07,Sydney Swans,Richmond Tigers,69.4,-24.2,7.0,15.06086956521739,1.2697916666666667
+2025-06-21_Port Adelaide Power_vs_Sydney Swans,2025-06-21,Sydney Swans,Port Adelaide Power,68.0,-18.2,14.0,16.32608695652174,1.4766666666666666
+2025-06-27_Sydney Swans_vs_Western Bulldogs,2025-06-27,Sydney Swans,Western Bulldogs,69.6,-12.8,6.0,15.88695652173913,1.2904761904761906
+2025-07-06_Fremantle Dockers_vs_Sydney Swans,2025-07-06,Sydney Swans,Fremantle Dockers,73.2,-17.8,9.0,15.632608695652175,1.321875
+2025-07-13_St Kilda Saints_vs_Sydney Swans,2025-07-13,Sydney Swans,St Kilda Saints,76.4,-5.0,7.0,15.140579710144928,1.2395833333333333
+2025-07-19_North Melbourne Kangaroos_vs_Sydney Swans,2025-07-19,Sydney Swans,North Melbourne Kangaroos,86.6,14.0,6.0,14.98695652173913,1.3333333333333333
+2025-07-25_Greater Western Sydney Giants_vs_Sydney Swans,2025-07-25,Sydney Swans,Greater Western Sydney Giants,87.4,11.4,6.0,14.856521739130434,1.3921568627450982
+2025-08-02_Essendon Bombers_vs_Sydney Swans,2025-08-02,Sydney Swans,Essendon Bombers,84.8,-1.2,8.0,15.436363636363637,1.3125
+2025-08-09_Brisbane Lions_vs_Sydney Swans,2025-08-09,Sydney Swans,Brisbane Lions,79.2,3.4,7.0,15.459420289855073,1.3666666666666667
+2025-08-17_Geelong Cats_vs_Sydney Swans,2025-08-17,Sydney Swans,Geelong Cats,78.8,1.6,8.0,14.703623188405798,1.551111111111111
+2025-08-23_Sydney Swans_vs_West Coast Eagles,2025-08-23,Sydney Swans,West Coast Eagles,74.0,-8.0,6.0,15.793478260869565,1.3066666666666669
+2025-03-15_North Melbourne Kangaroos_vs_W. Bulldogs,2025-03-15,W. Bulldogs,North Melbourne Kangaroos,96.0,21.6,190.0,,
+2025-03-21_W. Bulldogs_vs_collingwood magpies,2025-03-21,W. Bulldogs,collingwood magpies,96.6,14.6,6.0,,
+2025-03-28_Carlton Blues_vs_W. Bulldogs,2025-03-28,W. Bulldogs,Carlton Blues,96.2,21.2,7.0,,
+2025-04-06_Fremantle Dockers_vs_W. Bulldogs,2025-04-06,W. Bulldogs,Fremantle Dockers,85.2,3.6,9.0,,
+2025-04-12_Brisbane Lions_vs_W. Bulldogs,2025-04-12,W. Bulldogs,Brisbane Lions,81.8,-7.0,6.0,,
+2025-04-20_St Kilda Saints_vs_W. Bulldogs,2025-04-20,W. Bulldogs,St Kilda Saints,88.8,-3.8,8.0,,
+2025-04-26_Greater Western Sydney Giants_vs_W. Bulldogs,2025-04-26,W. Bulldogs,Greater Western Sydney Giants,91.6,7.2,6.0,,
+2025-05-03_Port Adelaide Power_vs_W. Bulldogs,2025-05-03,W. Bulldogs,Port Adelaide Power,100.2,14.8,7.0,,
+2025-05-10_Gold Coast Suns_vs_W. Bulldogs,2025-05-10,W. Bulldogs,Gold Coast Suns,109.8,31.2,7.0,,
+2025-05-17_Essendon Bombers_vs_W. Bulldogs,2025-05-17,W. Bulldogs,Essendon Bombers,112.8,32.4,7.0,,
+2025-05-22_Geelong Cats_vs_W. Bulldogs,2025-05-22,W. Bulldogs,Geelong Cats,118.8,54.8,5.0,,
+2025-06-05_Hawthorn Hawks_vs_W. Bulldogs,2025-06-05,W. Bulldogs,Hawthorn Hawks,116.0,37.8,14.0,,
+2025-06-12_St Kilda Saints_vs_W. Bulldogs,2025-06-12,W. Bulldogs,St Kilda Saints,105.2,27.0,7.0,,
+2025-06-22_Richmond Tigers_vs_W. Bulldogs,2025-06-22,W. Bulldogs,Richmond Tigers,105.4,23.4,10.0,,
+2025-06-27_Sydney Swans_vs_W. Bulldogs,2025-06-27,W. Bulldogs,Sydney Swans,113.2,41.2,5.0,,
+2025-07-03_North Melbourne Kangaroos_vs_W. Bulldogs,2025-07-03,W. Bulldogs,North Melbourne Kangaroos,108.8,24.8,6.0,,
+2025-07-12_W. Bulldogs_vs_adelaide crows,2025-07-12,W. Bulldogs,adelaide crows,113.0,37.4,9.0,,
+2025-07-18_Brisbane Lions_vs_W. Bulldogs,2025-07-18,W. Bulldogs,Brisbane Lions,120.8,39.6,6.0,,
+2025-07-25_W. Bulldogs_vs_essendon bombers,2025-07-25,W. Bulldogs,essendon bombers,109.6,23.2,7.0,,
+2025-07-31_Greater Western Sydney Giants_vs_W. Bulldogs,2025-07-31,W. Bulldogs,Greater Western Sydney Giants,111.2,26.0,6.0,,
+2025-08-10_Melbourne Demons_vs_W. Bulldogs,2025-08-10,W. Bulldogs,Melbourne Demons,116.6,41.8,10.0,,
+2025-08-17_W. Bulldogs_vs_West Coast Eagles,2025-08-17,W. Bulldogs,West Coast Eagles,110.8,33.2,7.0,,
+2025-08-24_Fremantle Dockers_vs_W. Bulldogs,2025-08-24,W. Bulldogs,Fremantle Dockers,116.4,54.2,7.0,,
+2025-03-16_Gold Coast Suns_vs_West Coast Eagles,2025-03-16,West Coast Eagles,Gold Coast Suns,76.6,-35.6,204.0,13.904545454545454,1.2480392156862745
+2025-03-23_Brisbane Lions_vs_West Coast Eagles,2025-03-23,West Coast Eagles,Brisbane Lions,71.4,-46.0,7.0,12.660869565217391,1.3128205128205128
+2025-03-30_Fremantle Dockers_vs_West Coast Eagles,2025-03-30,West Coast Eagles,Fremantle Dockers,67.0,-51.8,7.0,13.056521739130435,1.3333333333333333
+2025-04-06_Greater Western Sydney Giants_vs_West Coast Eagles,2025-04-06,West Coast Eagles,Greater Western Sydney Giants,60.2,-60.4,7.0,12.785,1.3076923076923077
+2025-04-12_West Coast Eagles_vs_carlton blues,2025-04-12,West Coast Eagles,carlton blues,63.6,-63.6,6.0,,
+2025-04-18_Essendon Bombers_vs_West Coast Eagles,2025-04-18,West Coast Eagles,Essendon Bombers,58.6,-59.2,6.0,13.621739130434783,1.1845238095238095
+2025-04-27_Hawthorn Hawks_vs_West Coast Eagles,2025-04-27,West Coast Eagles,Hawthorn Hawks,63.8,-42.2,9.0,13.294202898550724,1.3897435897435897
+2025-05-03_Melbourne Demons_vs_West Coast Eagles,2025-05-03,West Coast Eagles,Melbourne Demons,63.6,-48.4,6.0,13.913636363636364,1.4666666666666666
+2025-05-11_Richmond Tigers_vs_West Coast Eagles,2025-05-11,West Coast Eagles,Richmond Tigers,65.2,-47.2,8.0,13.134057971014492,1.543939393939394
+2025-05-18_St Kilda Saints_vs_West Coast Eagles,2025-05-18,West Coast Eagles,St Kilda Saints,70.8,-31.4,7.0,13.390579710144928,1.5986111111111112
+2025-05-25_Adelaide Crows_vs_West Coast Eagles,2025-05-25,West Coast Eagles,Adelaide Crows,82.4,-11.6,7.0,13.552898550724638,1.4333333333333333
+2025-06-01_Geelong Cats_vs_West Coast Eagles,2025-06-01,West Coast Eagles,Geelong Cats,79.8,-24.4,7.0,13.065217391304348,1.3397435897435899
+2025-06-08_North Melbourne Kangaroos_vs_West Coast Eagles,2025-06-08,West Coast Eagles,North Melbourne Kangaroos,79.6,-23.0,7.0,13.354347826086956,1.3694444444444445
+2025-06-15_Carlton Blues_vs_West Coast Eagles,2025-06-15,West Coast Eagles,Carlton Blues,74.8,-18.6,7.0,13.404545454545454,1.3692307692307693
+2025-06-28_Collingwood Magpies_vs_West Coast Eagles,2025-06-28,West Coast Eagles,Collingwood Magpies,69.4,-25.0,13.0,14.27878787878788,1.2423076923076921
+2025-07-04_Greater Western Sydney Giants_vs_West Coast Eagles,2025-07-04,West Coast Eagles,Greater Western Sydney Giants,59.6,-36.4,6.0,14.890909090909092,1.2208333333333334
+2025-07-13_Port Adelaide Power_vs_West Coast Eagles,2025-07-13,West Coast Eagles,Port Adelaide Power,57.6,-35.0,9.0,14.031884057971014,1.1222222222222222
+2025-07-19_Richmond Tigers_vs_West Coast Eagles,2025-07-19,West Coast Eagles,Richmond Tigers,55.2,-31.6,6.0,14.008695652173913,1.0735294117647058
+2025-07-26_Fremantle Dockers_vs_West Coast Eagles,2025-07-26,West Coast Eagles,Fremantle Dockers,56.0,-39.4,7.0,14.767391304347825,1.1078431372549018
+2025-08-02_Melbourne Demons_vs_West Coast Eagles,2025-08-02,West Coast Eagles,Melbourne Demons,61.0,-42.4,7.0,13.384782608695653,1.1333333333333333
+2025-08-10_Adelaide Crows_vs_West Coast Eagles,2025-08-10,West Coast Eagles,Adelaide Crows,60.4,-53.2,8.0,13.593478260869563,1.1273809523809524
+2025-08-17_West Coast Eagles_vs_Western Bulldogs,2025-08-17,West Coast Eagles,Western Bulldogs,65.6,-43.2,7.0,13.325,1.1622222222222223
+2025-08-23_Sydney Swans_vs_West Coast Eagles,2025-08-23,West Coast Eagles,Sydney Swans,59.8,-56.8,6.0,13.143181818181818,1.1877777777777778

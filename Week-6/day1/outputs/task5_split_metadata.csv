@@ -1,0 +1,2 @@
+holdout_seasons,cutoff_date,train_rows,holdout_rows,train_date_range_start,train_date_range_end,holdout_date_range_start,holdout_date_range_end
+[np.int32(2025)],2025-03-07,15376,432,1983-03-26,2025-03-07,2025-03-07,2025-09-27

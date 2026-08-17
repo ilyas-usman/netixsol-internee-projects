@@ -1,0 +1,5 @@
+target_name,definition,formula,aggregation_level,problem_type
+match_outcome,"Match outcome from the selected team's perspective: Win, Loss, or Draw",Result = Win / Loss / Draw,match,3-class classification
+top_disposal,Player recorded the highest disposals in the match,"1 if disposals_i = max(disposals_match), else 0",player-match,binary classification
+top_goal_kicker,Player recorded the highest goals in a scoring match,"1 if goals_i = max(goals_match) and max(goals_match) > 0, else 0",player-match,binary classification
+top_fantasy_player,Player recorded the highest fantasy points in the match,"1 if fantasy_points_i = max(fantasy_points_match), else 0",player-match,binary classification

@@ -1,0 +1,5 @@
+dataset,total_rows,duplicate_rows,duplicate_percent
+afl_players_info_raw,2848,5,0.18
+afl_players_round_by_round_stats_raw,274089,10,0.0
+afl_players_seasonal_stats_raw,25491,10,0.04
+team_matches_home_away_raw (1),15808,0,0.0
