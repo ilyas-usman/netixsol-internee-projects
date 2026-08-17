@@ -23,3 +23,9 @@
 2026-08-15 16:48:21,305 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-08-15 16:48:22,659 | INFO | AGENT_SUCCESS | latency=3.329 | tokens={"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
 2026-08-15 16:48:22,659 | INFO | API_RESPONSE | ticket_id=MON003 | status=human_approved
+2026-08-17 10:19:02,777 | INFO | API_REQUEST | ticket_id=string | customer_id=string
+2026-08-17 10:19:02,778 | INFO | AGENT_REQUEST | {"ticket_id": "string", "customer_id": "string", "ticket_text": "string"}
+2026-08-17 10:19:03,707 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-17 10:19:05,130 | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-17 10:19:05,134 | INFO | AGENT_SUCCESS | latency=2.356 | tokens={"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
+2026-08-17 10:19:05,135 | INFO | API_RESPONSE | ticket_id=string | status=completed
