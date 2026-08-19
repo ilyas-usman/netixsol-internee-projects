@@ -1,0 +1,23 @@
+# AFL Domain-Scoped Chat Agent — Week 6, Day 3
+# Install with: pip install -r requirements.txt
+
+# Core agent / orchestration
+langchain>=1.0.0
+langchain-groq>=0.2.0
+langgraph>=0.2.0
+
+# Data layer (Task 2 structured retrieval tools)
+pandas>=2.0.0
+
+# Environment / secrets
+python-dotenv>=1.0.0
+
+# Groq SDK (used directly for RateLimitError handling in agent.py)
+groq>=0.11.0
+
+# --- Optional: only needed if you enable build_semantic_tool() in tools.py
+# (unused in this submission — dataset is fully structured CSVs, no
+# unstructured text to index; see README for the justification)
+# langchain-community>=0.3.0
+# langchain-openai>=0.2.0
+# chromadb>=0.5.0
