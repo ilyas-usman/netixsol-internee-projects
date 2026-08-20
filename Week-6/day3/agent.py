@@ -139,6 +139,18 @@ class ToolCallLogger(BaseCallbackHandler):
 
 NUMBER_RE = re.compile(r"\d+(?:\.\d+)?")
 
+# Finding C fix: tracks every user message per thread (not just the
+# current turn's), so verify_grounding can check a restated number
+# against anything the user said EARLIER in the same conversation, not
+# only the single message that triggered this turn. Without this, a
+# number the user themselves supplied two turns ago (e.g. "Round 5" in
+# turn 1, then just "2022" in turn 2) gets flagged as unverified when the
+# agent legitimately recalls it from thread memory in turn 2's reply —
+# nothing was hallucinated, the checker just wasn't looking far enough
+# back. Mirrors how ToolCallLogger already accumulates tool evidence
+# per-thread rather than resetting every turn, for the same reason.
+_user_input_history: dict[str, list[str]] = {}
+
 # AFL has exactly two fixed scoring constants that are true domain facts,
 # not dataset-dependent stats — a goal is always worth 6 points, a behind
 # always worth 1. These are allowed to appear in an answer without a tool
@@ -156,15 +168,18 @@ def verify_grounding(final_answer: str, tool_outputs: list[str], user_input: str
     though they're the same grounded value, producing false-positive
     warnings on every single numeric answer.
 
-    `user_input` (Finding A fix): numbers that already appeared in the
-    user's own message for this turn are excluded from the unverified
-    list. Without this, a declined answer that politely echoes back a
-    number from the question itself (e.g. "...for the 2025 season" when no
-    tool exists to look that up) gets flagged as an unverified/possibly-
-    hallucinated number, even though nothing was fabricated — the agent
-    just restated context while explaining a limitation. Only a number
-    that appears in the answer but NOT in the tool evidence AND NOT in the
-    user's own input is genuinely suspect.
+    `user_input` (Finding A fix, extended by Finding C): numbers that
+    already appeared anywhere in the user's own messages THIS THREAD are
+    excluded from the unverified list — callers should pass the full
+    accumulated conversation input, not just the current turn's message
+    (see `ask()`, which builds this from `_user_input_history`). Without
+    this, a declined answer that politely echoes back a number the user
+    supplied earlier in the thread (e.g. "Round 5" in turn 1, restated by
+    the agent in turn 3 while explaining a limitation) gets flagged as
+    unverified/possibly-hallucinated, even though nothing was fabricated
+    — the agent just recalled real thread context. Only a number that
+    appears in the answer but NOT in the tool evidence AND NOT anywhere
+    in the user's own input across the thread is genuinely suspect.
 
     DOMAIN_CONSTANTS (Pattern 8 fix): the two fixed AFL scoring constants
     (6 points/goal, 1 point/behind) are allowed through even without a
@@ -172,7 +187,7 @@ def verify_grounding(final_answer: str, tool_outputs: list[str], user_input: str
     dataset-dependent stats. Everything else numeric still requires
     grounding — an invented worked example (a made-up total, an example
     score) is still correctly flagged."""
-    if final_answer.strip().endswith("?"):
+    if "?" in final_answer:
         return {"grounded": True, "unverified_numbers": []}
     evidence_text = " ".join(tool_outputs)
     evidence_numbers = {float(n) for n in NUMBER_RE.findall(evidence_text)}
@@ -227,9 +242,16 @@ def ask(agent, thread_id: str, user_input: str, logger: ToolCallLogger, max_retr
 
     answer = result["messages"][-1].content
 
-    # Finding A fix: pass user_input through so numbers echoed from the
-    # question itself aren't flagged as unverified.
-    check = verify_grounding(answer, logger.calls, user_input)
+    # Finding C fix: accumulate this turn's user_input into the thread's
+    # history, then pass the FULL accumulated history (not just this
+    # turn's message) to verify_grounding — see _user_input_history's
+    # comment above for why. Finding A's original fix only checked the
+    # current turn's input, which still false-positived on a number the
+    # user supplied in an earlier turn.
+    _user_input_history.setdefault(thread_id, []).append(user_input)
+    accumulated_user_input = " ".join(_user_input_history[thread_id])
+
+    check = verify_grounding(answer, logger.calls, accumulated_user_input)
     if not check["grounded"]:
         print(
             f"[GROUNDING WARNING] Unverified numbers in answer: "

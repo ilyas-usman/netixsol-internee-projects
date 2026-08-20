@@ -261,6 +261,90 @@ def get_player_season_average(player_name: str, season: int, stat: str = "dispos
 
 
 @tool
+def get_round_leader(season: int, round_number: str, stat: str = "disposals") -> str:
+    """Find the player(s) with the HIGHEST value of a given stat (default:
+    'disposals'; also supports kicks, handballs, marks, tackles, goals,
+    behinds) in one specific round of one specific season — a league-wide
+    leaderboard for that single round, not a lookup for a named player.
+    Use this for 'who had the most X in round Y' style questions.
+    round_number is a string: regular rounds are plain numbers as text
+    ('1', '2', '21'), finals use codes ('EF', 'QF', 'SF', 'PF', 'GF'). If
+    multiple players are tied for the highest value, all tied players are
+    reported rather than picking one arbitrarily. Returns 'NOT_FOUND' with
+    no invented player name if no rows exist for that round/season."""
+    try:
+        df = _player_df
+        stat = stat.lower().strip()
+        if stat not in _TRACKED_STATS:
+            return f"NOT_FOUND: '{stat}' is not a tracked stat column."
+        round_str = str(round_number).strip()
+        subset = df[
+            (df["season"] == season) & (df["round"].astype(str).str.strip() == round_str)
+        ].dropna(subset=[stat])
+        if subset.empty:
+            return f"NOT_FOUND: no rows in the dataset for season {season}, round {round_number}."
+        max_val = subset[stat].max()
+        leaders = subset[subset[stat] == max_val]
+        names = sorted({_player_display_name(row) for _, row in leaders.iterrows()})
+        tie_note = " (tied)" if len(names) > 1 else ""
+        val_str = str(int(max_val)) if float(max_val).is_integer() else str(max_val)
+        return (
+            f"Highest {stat} in {season} Round {round_number}{tie_note}: "
+            f"{', '.join(names)} with {val_str} {stat}."
+        )
+    except Exception as e:
+        return (
+            f"ERROR: could not compute round leader for season {season}, "
+            f"round {round_number} ({type(e).__name__}: {e})."
+        )
+
+
+@tool
+def get_season_leader(season: int, stat: str = "goals") -> str:
+    """Find the player(s) with the HIGHEST season TOTAL of a given stat
+    (default: 'goals'; also supports disposals, kicks, handballs, marks,
+    tackles, behinds), summed across every round on record for that
+    season — a league-wide leaderboard for the whole season, not a lookup
+    for a named player. Use this for 'who scored the most X in <year>' or
+    'who led the competition in X this season' style questions. If
+    multiple players are tied for the highest total, all tied players are
+    reported. Totals only cover rounds present in the dataset for that
+    season — see the note in the result if coverage may be partial.
+    Returns 'NOT_FOUND' with no invented player name if no rows exist for
+    that season."""
+    try:
+        df = _player_df
+        stat = stat.lower().strip()
+        if stat not in _TRACKED_STATS:
+            return f"NOT_FOUND: '{stat}' is not a tracked stat column."
+        subset = df[df["season"] == season].dropna(subset=[stat])
+        if subset.empty:
+            return f"NOT_FOUND: no rows in the dataset for season {season}."
+        # Group by whichever stable player identifier is available — the
+        # real dataset's numeric player_id (a name string can vary in
+        # casing/whitespace across rows); the small sample CSV falls back
+        # to its 'player' name column, which has no separate id.
+        group_col = "player_id" if "player_id" in subset.columns else "player"
+        if group_col not in subset.columns:
+            return "NOT_FOUND: no player identifier column available to build a leaderboard from."
+        totals = subset.groupby(group_col)[stat].sum()
+        max_val = totals.max()
+        leader_ids = totals[totals == max_val].index.tolist()
+        names = sorted({
+            _player_display_name(subset[subset[group_col] == lid].iloc[0])
+            for lid in leader_ids
+        })
+        tie_note = " (tied)" if len(names) > 1 else ""
+        return (
+            f"{season} season {stat} leader{tie_note}: {', '.join(names)} "
+            f"with {int(max_val)} total {stat} across the rounds on record "
+            f"for that season."
+        )
+    except Exception as e:
+        return f"ERROR: could not compute {season} season leader for {stat} ({type(e).__name__}: {e})."
+
+
+@tool
 def get_player_season_total(player_name: str, season: int, stat: str = "disposals") -> str:
     """Compute an AFL player's SEASON TOTAL (summed across every round on
     record) for a given stat (default: 'disposals'; also supports kicks,
@@ -382,6 +466,8 @@ STRUCTURED_TOOLS = [
     get_player_round_stats,
     get_player_season_average,
     get_player_season_total,
+    get_round_leader,
+    get_season_leader,
     get_team_head_to_head,
     get_match_result,
 ]
