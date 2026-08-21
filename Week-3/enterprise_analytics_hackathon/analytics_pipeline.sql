@@ -1,19 +1,24 @@
 ------------------------------------------------------------------------------
 -- ANALYTICS PIPELINE — AdventureWorks
--- Enterprise Analytics Hackathon — Final Submission
+-- Enterprise Analytics Hackathon 
 --
---
--- STAGE 1  Base Analytics       (raw tables read here, once each)
+-- STAGE 1  Base Analytics       (raw tables read here, once each, 9 domains)
 -- STAGE 2  Business Metrics     (revenue trends, product & salesperson performance)
 -- STAGE 3  Customer Segmentation
 -- STAGE 4  Regional Analysis
 -- STAGE 5  Inventory & Purchasing
 -- STAGE 6  Executive KPI Summary
 -- STAGE 7  Advanced SQL Showcase (proof of CTEs, window fns, ranking, etc.)
--- STAGE 8  Dashboard Extractions (named datasets for the notebook/reports)
+-- STAGE 8  Dashboard Extractions (named datasets for the notebook/reports —
+--           one table per bullet point in the hackathon brief's Task 3 list)
+--
+-- Every table in Stages 2-8 is built exclusively from analytics.* tables
+-- created earlier in the pipeline. Raw operational tables (sales.*,
+-- production.*, purchasing.*) are read exactly once each, in Stage 1 only.
 ------------------------------------------------------------------------------
 
 CREATE SCHEMA IF NOT EXISTS analytics;
+
 -- Drops a table/view/materialized view regardless of what it currently is.
 -- Makes every CREATE TABLE below safe to re-run at any time.
 CREATE OR REPLACE FUNCTION analytics.drop_any(p_schema text, p_name text)
@@ -33,11 +38,13 @@ BEGIN
     END IF;
 END;
 $fn$ LANGUAGE plpgsql;
+
 ------------------------------------------------------------------------------
 -- STAGE 1 — BASE ANALYTICS
 -- 9 domains: Sales, Customer, Product, Employee, Territory, Vendor,
 -- Inventory, Purchasing, Date. Raw tables touched exactly once each.
 ------------------------------------------------------------------------------
+
 -- 1.1 Sales Analytics — the core fact table, one row per order line.
 SELECT analytics.drop_any('analytics', 'sales_analytics');
 CREATE TABLE analytics.sales_analytics AS
@@ -63,6 +70,7 @@ CREATE INDEX idx_sales_productid     ON analytics.sales_analytics (productid);
 CREATE INDEX idx_sales_salespersonid ON analytics.sales_analytics (salespersonid);
 CREATE INDEX idx_sales_territoryid   ON analytics.sales_analytics (territoryid);
 CREATE INDEX idx_sales_orderdate     ON analytics.sales_analytics (orderdate);
+
 -- 1.2 Customer Analytics — one row per customer, order/revenue summary.
 SELECT analytics.drop_any('analytics', 'customer_analytics');
 CREATE TABLE analytics.customer_analytics AS
@@ -230,7 +238,6 @@ SELECT
 FROM analytics.date_analytics
 ORDER BY sales_month;
 
-
 -- 2.2 Quarterly Revenue — built from monthly_revenue.
 SELECT analytics.drop_any('analytics', 'quarterly_revenue');
 CREATE TABLE analytics.quarterly_revenue AS
@@ -248,7 +255,6 @@ SELECT
         ELSE NULL END, 2) AS qoq_growth_pct
 FROM quarterly
 ORDER BY sales_quarter;
-
 
 -- 2.3 Sales Growth (yearly) — built from quarterly_revenue.
 SELECT analytics.drop_any('analytics', 'yearly_sales_growth');
@@ -268,33 +274,33 @@ SELECT
 FROM yearly
 ORDER BY sales_year;
 
-
 -- 2.4 Product Performance — revenue, profit, margin and ranking in one table.
 SELECT analytics.drop_any('analytics', 'product_performance');
 CREATE TABLE analytics.product_performance AS
+WITH ranked AS (
+    SELECT
+        productid, product_name, category_name, subcategory_name, units_sold, revenue,
+        ROUND(standardcost * units_sold, 2)             AS estimated_cost,
+        ROUND(revenue - (standardcost * units_sold), 2)  AS estimated_profit,
+        ROUND(CASE WHEN revenue > 0
+            THEN ((revenue - standardcost * units_sold) / revenue) * 100
+            ELSE NULL END, 2) AS profit_margin_pct,
+        RANK() OVER (ORDER BY revenue DESC) AS revenue_rank,
+        RANK() OVER (ORDER BY revenue ASC)  AS revenue_rank_asc,
+        RANK() OVER (ORDER BY (revenue - standardcost * units_sold) DESC) AS profit_rank
+    FROM analytics.product_analytics
+)
 SELECT
-    productid,
-    product_name,
-    category_name,
-    subcategory_name,
-    units_sold,
-    revenue,
-    ROUND(standardcost * units_sold, 2)            AS estimated_cost,
-    ROUND(revenue - (standardcost * units_sold), 2) AS estimated_profit,
-    ROUND(CASE WHEN revenue > 0
-        THEN ((revenue - standardcost * units_sold) / revenue) * 100
-        ELSE NULL END, 2) AS profit_margin_pct,
-    RANK() OVER (ORDER BY revenue DESC) AS revenue_rank,
-    RANK() OVER (ORDER BY (revenue - standardcost * units_sold) DESC) AS profit_rank,
+    productid, product_name, category_name, subcategory_name, units_sold, revenue,
+    estimated_cost, estimated_profit, profit_margin_pct, revenue_rank, profit_rank,
     CASE
-        WHEN RANK() OVER (ORDER BY revenue DESC) <= 10 THEN 'Top 10 Seller'
-        WHEN RANK() OVER (ORDER BY revenue ASC)  <= 10 THEN 'Bottom 10 Seller'
+        WHEN revenue_rank <= 10     THEN 'Top 10 Seller'
+        WHEN revenue_rank_asc <= 10 THEN 'Bottom 10 Seller'
         ELSE 'Mid Range'
     END AS performance_tier
-FROM analytics.product_analytics;
+FROM ranked;
 
 CREATE INDEX idx_product_performance_id ON analytics.product_performance (productid);
-
 
 -- 2.5 Salesperson Performance — ranking, revenue share, vs. team average.
 SELECT analytics.drop_any('analytics', 'salesperson_performance');
@@ -321,11 +327,13 @@ FROM analytics.employee_analytics e
 CROSS JOIN team t
 WHERE e.salespersonid IS NOT NULL;
 
+CREATE INDEX idx_salesperson_performance_id ON analytics.salesperson_performance (salespersonid);
 
 ------------------------------------------------------------------------------
 -- STAGE 3 — CUSTOMER SEGMENTATION
 -- Built only on customer_analytics.
 ------------------------------------------------------------------------------
+
 -- 3.1 Customer Segments — quartile-based classification.
 SELECT analytics.drop_any('analytics', 'customer_segments');
 CREATE TABLE analytics.customer_segments AS
@@ -348,7 +356,6 @@ FROM scored;
 
 CREATE INDEX idx_customer_segments_id ON analytics.customer_segments (customerid);
 
-
 -- 3.2 Customer Lifetime Value.
 SELECT analytics.drop_any('analytics', 'customer_ltv');
 CREATE TABLE analytics.customer_ltv AS
@@ -361,6 +368,7 @@ SELECT
     RANK() OVER (ORDER BY total_revenue DESC NULLS LAST) AS ltv_rank
 FROM analytics.customer_segments;
 
+CREATE INDEX idx_customer_ltv_id ON analytics.customer_ltv (customerid);
 
 -- 3.3 Customer Retention — repeat-purchase rate by segment.
 SELECT analytics.drop_any('analytics', 'customer_retention');
@@ -374,7 +382,6 @@ SELECT
 FROM analytics.customer_segments
 GROUP BY customer_segment;
 
-
 -- 3.4 Repeat Customers — customer-level list (orders > 1).
 SELECT analytics.drop_any('analytics', 'repeat_customers');
 CREATE TABLE analytics.repeat_customers AS
@@ -383,30 +390,31 @@ FROM analytics.customer_segments
 WHERE total_orders > 1
 ORDER BY total_orders DESC, total_revenue DESC;
 
-
 ------------------------------------------------------------------------------
 -- STAGE 4 — REGIONAL ANALYSIS
 -- Built only on territory_analytics and sales_analytics.
 ------------------------------------------------------------------------------
+
 -- 4.1 Regional Performance — revenue, rank, tier per territory.
 SELECT analytics.drop_any('analytics', 'regional_performance');
 CREATE TABLE analytics.regional_performance AS
+WITH ranked AS (
+    SELECT
+        territoryid, name AS territory_name, countryregioncode, revenue, customers,
+        RANK() OVER (ORDER BY revenue DESC NULLS LAST) AS revenue_rank,
+        RANK() OVER (ORDER BY revenue ASC NULLS LAST)  AS revenue_rank_asc
+    FROM analytics.territory_analytics
+)
 SELECT
-    territoryid,
-    name AS territory_name,
-    countryregioncode,
-    revenue,
-    customers,
-    RANK() OVER (ORDER BY revenue DESC NULLS LAST) AS revenue_rank,
+    territoryid, territory_name, countryregioncode, revenue, customers, revenue_rank,
     CASE
-        WHEN RANK() OVER (ORDER BY revenue DESC NULLS LAST) <= 3 THEN 'Top Territory'
-        WHEN RANK() OVER (ORDER BY revenue ASC NULLS LAST)  <= 3 THEN 'Lowest Territory'
+        WHEN revenue_rank <= 3     THEN 'Top Territory'
+        WHEN revenue_rank_asc <= 3 THEN 'Lowest Territory'
         ELSE 'Mid Range'
     END AS territory_tier
-FROM analytics.territory_analytics;
+FROM ranked;
 
 CREATE INDEX idx_regional_performance_id ON analytics.regional_performance (territoryid);
-
 
 -- 4.2 Regional Monthly Trend — feeds regional_growth.
 SELECT analytics.drop_any('analytics', 'regional_monthly_trend');
@@ -416,7 +424,6 @@ FROM analytics.sales_analytics
 GROUP BY territoryid, DATE_TRUNC('month', orderdate);
 
 CREATE INDEX idx_regional_trend_territoryid ON analytics.regional_monthly_trend (territoryid);
-
 
 -- 4.3 Regional Growth — YoY per territory.
 SELECT analytics.drop_any('analytics', 'regional_growth');
@@ -453,7 +460,6 @@ FROM analytics.inventory_analytics
 WHERE stock_status IN ('Low Stock', 'Out of Stock')
 ORDER BY stock ASC;
 
-
 -- 5.2 Supplier Performance — spend and quality per vendor.
 SELECT analytics.drop_any('analytics', 'supplier_performance');
 CREATE TABLE analytics.supplier_performance AS
@@ -468,7 +474,6 @@ SELECT
     RANK() OVER (ORDER BY SUM(linetotal) DESC) AS spend_rank
 FROM analytics.purchasing_analytics
 GROUP BY vendorid, vendor_name;
-
 
 -- 5.3 Purchasing Trends — monthly spend with MoM growth.
 SELECT analytics.drop_any('analytics', 'purchasing_trends');
@@ -558,9 +563,12 @@ ORDER BY r.territoryid, r.rank_within_territory;
 
 ------------------------------------------------------------------------------
 -- STAGE 8 — DASHBOARD EXTRACTIONS
--- Named datasets matching the brief exactly. Thin filters/rollups of Stage
--- 2/4 tables — no metric is ever recalculated.
+-- One table per named dataset in the hackathon brief's Task 3 checklist.
+-- Every table here is a thin filter/rollup of a Stage 2-5 table — no metric
+-- is ever recalculated from a raw table.
 ------------------------------------------------------------------------------
+
+-- ===== Sales =====
 
 SELECT analytics.drop_any('analytics', 'best_selling_products');
 CREATE TABLE analytics.best_selling_products AS
@@ -575,6 +583,17 @@ SELECT productid, product_name, category_name, units_sold, revenue, revenue_rank
 FROM analytics.product_performance
 WHERE performance_tier = 'Bottom 10 Seller'
 ORDER BY revenue ASC;
+
+-- ===== Products =====
+
+-- 8.1 Product Profitability — cost, profit and margin per product.
+SELECT analytics.drop_any('analytics', 'product_profitability');
+CREATE TABLE analytics.product_profitability AS
+SELECT
+    productid, product_name, category_name, revenue,
+    estimated_cost, estimated_profit, profit_margin_pct, profit_rank
+FROM analytics.product_performance
+ORDER BY profit_rank;
 
 SELECT analytics.drop_any('analytics', 'category_performance');
 CREATE TABLE analytics.category_performance AS
@@ -594,6 +613,33 @@ SELECT productid, product_name, category_name, units_sold, revenue, estimated_pr
 FROM analytics.product_performance
 ORDER BY revenue_rank;
 
+-- ===== Employees =====
+
+-- 8.2 Salesperson Rankings.
+SELECT analytics.drop_any('analytics', 'salesperson_rankings');
+CREATE TABLE analytics.salesperson_rankings AS
+SELECT salespersonid, orders_completed, revenue, avg_sale, revenue_rank, performance_category
+FROM analytics.salesperson_performance
+ORDER BY revenue_rank;
+
+-- 8.3 Revenue Contribution — each salesperson's share of total revenue.
+SELECT analytics.drop_any('analytics', 'revenue_contribution');
+CREATE TABLE analytics.revenue_contribution AS
+SELECT salespersonid, revenue, pct_of_total_revenue
+FROM analytics.salesperson_performance
+ORDER BY pct_of_total_revenue DESC;
+
+-- 8.4 Performance Comparison — individual vs. team-average revenue.
+SELECT analytics.drop_any('analytics', 'performance_comparison');
+CREATE TABLE analytics.performance_comparison AS
+SELECT salespersonid, revenue, team_avg_revenue,
+       ROUND(revenue - team_avg_revenue, 2) AS revenue_vs_team_avg,
+       performance_category
+FROM analytics.salesperson_performance
+ORDER BY revenue DESC;
+
+-- ===== Territories =====
+
 SELECT analytics.drop_any('analytics', 'top_territories');
 CREATE TABLE analytics.top_territories AS
 SELECT territoryid, territory_name, revenue, customers, revenue_rank, territory_tier
@@ -607,6 +653,20 @@ SELECT territoryid, territory_name, revenue, customers, revenue_rank, territory_
 FROM analytics.regional_performance
 WHERE territory_tier = 'Lowest Territory'
 ORDER BY revenue_rank DESC;
+
+-- ===== Inventory / Purchasing =====
+
+-- 8.5 Inventory Health — stock-status breakdown across the catalog.
+SELECT analytics.drop_any('analytics', 'inventory_health');
+CREATE TABLE analytics.inventory_health AS
+SELECT
+    stock_status,
+    COUNT(*) AS product_count,
+    SUM(stock) AS total_stock_units,
+    ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (), 2) AS pct_of_products
+FROM analytics.inventory_analytics
+GROUP BY stock_status
+ORDER BY product_count DESC;
 
 ------------------------------------------------------------------------------
 -- VERIFICATION — confirms every table exists and is populated.
@@ -639,13 +699,18 @@ UNION ALL SELECT 'Stage 6','executive_kpi_dashboard', COUNT(*) FROM analytics.ex
 UNION ALL SELECT 'Stage 7','advanced_sql_showcase',   COUNT(*) FROM analytics.advanced_sql_showcase
 UNION ALL SELECT 'Stage 8','best_selling_products',            COUNT(*) FROM analytics.best_selling_products
 UNION ALL SELECT 'Stage 8','lowest_performing_products',       COUNT(*) FROM analytics.lowest_performing_products
+UNION ALL SELECT 'Stage 8','product_profitability',            COUNT(*) FROM analytics.product_profitability
 UNION ALL SELECT 'Stage 8','category_performance',             COUNT(*) FROM analytics.category_performance
 UNION ALL SELECT 'Stage 8','product_rankings',                 COUNT(*) FROM analytics.product_rankings
+UNION ALL SELECT 'Stage 8','salesperson_rankings',             COUNT(*) FROM analytics.salesperson_rankings
+UNION ALL SELECT 'Stage 8','revenue_contribution',             COUNT(*) FROM analytics.revenue_contribution
+UNION ALL SELECT 'Stage 8','performance_comparison',           COUNT(*) FROM analytics.performance_comparison
 UNION ALL SELECT 'Stage 8','top_territories',                  COUNT(*) FROM analytics.top_territories
 UNION ALL SELECT 'Stage 8','lowest_performing_territories',    COUNT(*) FROM analytics.lowest_performing_territories
+UNION ALL SELECT 'Stage 8','inventory_health',                 COUNT(*) FROM analytics.inventory_health
 ORDER BY stage, table_name;
 
---Schema--
+-- Final schema listing (should show 37 analytical objects).
 SELECT table_name
 FROM information_schema.tables
 WHERE table_schema = 'analytics'
