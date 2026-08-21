@@ -277,28 +277,26 @@ ORDER BY sales_year;
 -- 2.4 Product Performance — revenue, profit, margin and ranking in one table.
 SELECT analytics.drop_any('analytics', 'product_performance');
 CREATE TABLE analytics.product_performance AS
-WITH ranked AS (
-    SELECT
-        productid, product_name, category_name, subcategory_name, units_sold, revenue,
-        ROUND(standardcost * units_sold, 2)             AS estimated_cost,
-        ROUND(revenue - (standardcost * units_sold), 2)  AS estimated_profit,
-        ROUND(CASE WHEN revenue > 0
-            THEN ((revenue - standardcost * units_sold) / revenue) * 100
-            ELSE NULL END, 2) AS profit_margin_pct,
-        RANK() OVER (ORDER BY revenue DESC) AS revenue_rank,
-        RANK() OVER (ORDER BY revenue ASC)  AS revenue_rank_asc,
-        RANK() OVER (ORDER BY (revenue - standardcost * units_sold) DESC) AS profit_rank
-    FROM analytics.product_analytics
-)
 SELECT
-    productid, product_name, category_name, subcategory_name, units_sold, revenue,
-    estimated_cost, estimated_profit, profit_margin_pct, revenue_rank, profit_rank,
+    productid,
+    product_name,
+    category_name,
+    subcategory_name,
+    units_sold,
+    revenue,
+    ROUND(standardcost * units_sold, 2)            AS estimated_cost,
+    ROUND(revenue - (standardcost * units_sold), 2) AS estimated_profit,
+    ROUND(CASE WHEN revenue > 0
+        THEN ((revenue - standardcost * units_sold) / revenue) * 100
+        ELSE NULL END, 2) AS profit_margin_pct,
+    RANK() OVER (ORDER BY revenue DESC) AS revenue_rank,
+    RANK() OVER (ORDER BY (revenue - standardcost * units_sold) DESC) AS profit_rank,
     CASE
-        WHEN revenue_rank <= 10     THEN 'Top 10 Seller'
-        WHEN revenue_rank_asc <= 10 THEN 'Bottom 10 Seller'
+        WHEN RANK() OVER (ORDER BY revenue DESC) <= 10 THEN 'Top 10 Seller'
+        WHEN RANK() OVER (ORDER BY revenue ASC)  <= 10 THEN 'Bottom 10 Seller'
         ELSE 'Mid Range'
     END AS performance_tier
-FROM ranked;
+FROM analytics.product_analytics;
 
 CREATE INDEX idx_product_performance_id ON analytics.product_performance (productid);
 
@@ -326,8 +324,6 @@ SELECT
 FROM analytics.employee_analytics e
 CROSS JOIN team t
 WHERE e.salespersonid IS NOT NULL;
-
-CREATE INDEX idx_salesperson_performance_id ON analytics.salesperson_performance (salespersonid);
 
 ------------------------------------------------------------------------------
 -- STAGE 3 — CUSTOMER SEGMENTATION
@@ -368,8 +364,6 @@ SELECT
     RANK() OVER (ORDER BY total_revenue DESC NULLS LAST) AS ltv_rank
 FROM analytics.customer_segments;
 
-CREATE INDEX idx_customer_ltv_id ON analytics.customer_ltv (customerid);
-
 -- 3.3 Customer Retention — repeat-purchase rate by segment.
 SELECT analytics.drop_any('analytics', 'customer_retention');
 CREATE TABLE analytics.customer_retention AS
@@ -398,21 +392,19 @@ ORDER BY total_orders DESC, total_revenue DESC;
 -- 4.1 Regional Performance — revenue, rank, tier per territory.
 SELECT analytics.drop_any('analytics', 'regional_performance');
 CREATE TABLE analytics.regional_performance AS
-WITH ranked AS (
-    SELECT
-        territoryid, name AS territory_name, countryregioncode, revenue, customers,
-        RANK() OVER (ORDER BY revenue DESC NULLS LAST) AS revenue_rank,
-        RANK() OVER (ORDER BY revenue ASC NULLS LAST)  AS revenue_rank_asc
-    FROM analytics.territory_analytics
-)
 SELECT
-    territoryid, territory_name, countryregioncode, revenue, customers, revenue_rank,
+    territoryid,
+    name AS territory_name,
+    countryregioncode,
+    revenue,
+    customers,
+    RANK() OVER (ORDER BY revenue DESC NULLS LAST) AS revenue_rank,
     CASE
-        WHEN revenue_rank <= 3     THEN 'Top Territory'
-        WHEN revenue_rank_asc <= 3 THEN 'Lowest Territory'
+        WHEN RANK() OVER (ORDER BY revenue DESC NULLS LAST) <= 3 THEN 'Top Territory'
+        WHEN RANK() OVER (ORDER BY revenue ASC NULLS LAST)  <= 3 THEN 'Lowest Territory'
         ELSE 'Mid Range'
     END AS territory_tier
-FROM ranked;
+FROM analytics.territory_analytics;
 
 CREATE INDEX idx_regional_performance_id ON analytics.regional_performance (territoryid);
 
