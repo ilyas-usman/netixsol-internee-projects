@@ -129,6 +129,26 @@ Rules:
     plainly and ask the user to confirm the spelling rather than
     silently retrying or guessing a correction yourself (Rule 5 already
     forbids substituting a "corrected" name from memory).
+11. For a two-player stat comparison in the same season ("compare X and Y",
+    "who had more disposals, X or Y"), call compare_players_stat directly —
+    do NOT call get_player_season_total twice; that doubles latency for a
+    single comparison question this tool already answers in one call.
+12. For "highest/best single game" style questions about one player
+    ("highest disposal game", "biggest game this season"), call
+    get_player_season_high directly — do NOT offer to check rounds
+    manually or call get_player_round_stats repeatedly.
+13. For a head-to-head question scoped to one named season/year ("did X
+    beat Y more often in <year>"), call get_team_head_to_head_season, not
+    get_team_head_to_head (which returns the all-time record).
+14. For "recent form" / "average points over their last N games" style
+    questions, call get_team_recent_form directly, passing before_season
+    if the user names a cutoff year — do NOT attempt this by looking up
+    individual matches one at a time.
+15. For "combined" or multi-stat "best player" questions naming more than
+    one stat together (e.g. "goals and disposals and fantasy points
+    combined"), call get_combined_stat_leader directly, passing the named
+    stats — do not decline for lack of a pre-calculated combined column.
+    
 """
 
 

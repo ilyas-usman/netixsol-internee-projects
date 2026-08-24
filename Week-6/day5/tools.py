@@ -42,6 +42,28 @@ You can override the dataset location without touching this file at all
 by setting an AFL_DATA_DIR environment variable (e.g. in your .env file):
   AFL_DATA_DIR=D:/Netixsol_Intern_Projects/Week-6/day3/dataset
   (forward slashes work fine on Windows and avoid escape-sequence issues)
+
+CHANGE LOG (this revision):
+- Added get_player_season_high: single-call "best game of the season for
+  stat X" lookup — previously the agent declined this or offered to check
+  rounds one at a time.
+- Added compare_players_stat: single-call two-player comparison —
+  previously the agent made two separate get_player_season_total calls
+  sequentially for a comparison question, which timed out in testing.
+- Added get_team_head_to_head_season: season-scoped head-to-head —
+  previously get_team_head_to_head (all-time only) was the only option,
+  so a season-specific question ("did X beat Y more often in 2023") had
+  no correct tool to call and was declined or answered with the wrong
+  (all-time) scope.
+- Added get_team_recent_form: trailing-N-games average/win-rate with an
+  optional season cutoff — previously "last 10 games before <year>" had
+  no tool, leading to a multi-turn clarification loop and timeouts.
+- Added get_combined_stat_leader: multi-stat combined leaderboard in one
+  call — previously "goals + disposals + fantasy points combined" was
+  declined outright since no single-stat tool covers a combined ranking.
+- All five follow the same conventions as the existing tools: pandas-only
+  computation (no memory-recalled numbers), NOT_FOUND for missing data,
+  ERROR-wrapped try/except so a bad input can't crash the agent turn.
 """
 
 import os
@@ -277,6 +299,124 @@ def get_player_season_average(player_name: str, season: int, stat: str = "dispos
 
 
 @tool
+def get_player_season_total(player_name: str, season: int, stat: str = "disposals") -> str:
+    """Compute an AFL player's SEASON TOTAL (summed across every round on
+    record) for a given stat (default: 'disposals'; also supports kicks,
+    handballs, marks, tackles, goals, behinds). Use this whenever the user
+    asks for a 'total', 'how many X in total this season', or a plain
+    'how many X did he get in <year>' without specifying a single round —
+    that phrasing means a season total, NOT an average. Never estimate a
+    total by multiplying an average by a guessed number of games; this
+    tool sums the actual rows on record and also reports how many rounds
+    that total covers, so an incomplete season is visible in the answer
+    rather than presented as a full-season figure."""
+    try:
+        df = _player_df
+        stat = stat.lower().strip()
+        if stat not in _TRACKED_STATS:
+            return f"NOT_FOUND: '{stat}' is not a tracked stat column."
+        subset = df[_match_player(df, player_name) & (df["season"] == season)]
+        if subset.empty:
+            return f"NOT_FOUND: no rows for {player_name} in season {season}."
+        total = subset[stat].sum()
+        n = len(subset)
+        return (
+            f"{player_name} recorded a total of {int(total)} {stat} across "
+            f"{n} rounds on record in {season}. (This reflects only the "
+            f"{n} rounds present in the dataset for that season — if the "
+            f"real season had more rounds than that, this total may be "
+            f"partial rather than the full-season figure.)"
+        )
+    except Exception as e:
+        return f"ERROR: could not compute {player_name}'s season total ({type(e).__name__}: {e})."
+
+
+@tool
+def get_player_season_high(player_name: str, season: int, stat: str = "disposals") -> str:
+    """Find an AFL player's SINGLE HIGHEST value of a given stat (default:
+    'disposals'; also supports kicks, handballs, marks, tackles, goals,
+    behinds) across every round on record for that season — i.e. their
+    best/biggest game of the year for that stat. Use this for 'highest
+    disposal game', 'best game this season', 'biggest total' style
+    questions about ONE player. Do not attempt to compute this by manually
+    checking get_player_round_stats round-by-round — this tool scans every
+    round on record in a single call. If multiple rounds are tied for the
+    player's highest value, all tied rounds are reported. Returns
+    'NOT_FOUND' with no invented number if no rows exist."""
+    try:
+        df = _player_df
+        stat = stat.lower().strip()
+        if stat not in _TRACKED_STATS:
+            return f"NOT_FOUND: '{stat}' is not a tracked stat column."
+        subset = df[_match_player(df, player_name) & (df["season"] == season)].dropna(subset=[stat])
+        if subset.empty:
+            return f"NOT_FOUND: no rows for {player_name} in season {season}."
+        max_val = subset[stat].max()
+        top_rows = subset[subset[stat] == max_val]
+        val_str = str(int(max_val)) if float(max_val).is_integer() else str(max_val)
+        lines = [
+            f"Round {row['round']} vs {row['opponent']}: {val_str} {stat}"
+            for _, row in top_rows.iterrows()
+        ]
+        tie_note = " (tied across multiple rounds)" if len(lines) > 1 else ""
+        return (
+            f"{player_name}'s highest {stat} game in {season}{tie_note}: "
+            f"{val_str} {stat} — " + "; ".join(lines) + "."
+        )
+    except Exception as e:
+        return f"ERROR: could not compute {player_name}'s season high for {stat} ({type(e).__name__}: {e})."
+
+
+@tool
+def compare_players_stat(player_a: str, player_b: str, season: int, stat: str = "disposals") -> str:
+    """Compare two AFL players' stat totals AND averages for the same stat
+    (default: 'disposals'; also supports kicks, handballs, marks, tackles,
+    goals, behinds) in the same season, in a single call. Use this
+    whenever the user asks to 'compare X and Y' for a season — do NOT
+    make two separate get_player_season_total calls for this, since that
+    doubles round-trip latency for a single comparison question this tool
+    already answers in one call. Returns 'NOT_FOUND' (per player) with no
+    invented numbers if a player has no rows for that season."""
+    try:
+        df = _player_df
+        stat = stat.lower().strip()
+        if stat not in _TRACKED_STATS:
+            return f"NOT_FOUND: '{stat}' is not a tracked stat column."
+
+        def _summarize(name):
+            subset = df[_match_player(df, name) & (df["season"] == season)].dropna(subset=[stat])
+            if subset.empty:
+                return None
+            return int(subset[stat].sum()), subset[stat].mean(), len(subset)
+
+        a_stats, b_stats = _summarize(player_a), _summarize(player_b)
+
+        if a_stats is None and b_stats is None:
+            return f"NOT_FOUND: no rows for either {player_a} or {player_b} in season {season}."
+        if a_stats is None:
+            return f"NOT_FOUND: no rows for {player_a} in season {season} (only {player_b} found)."
+        if b_stats is None:
+            return f"NOT_FOUND: no rows for {player_b} in season {season} (only {player_a} found)."
+
+        a_total, a_avg, a_n = a_stats
+        b_total, b_avg, b_n = b_stats
+        if a_total > b_total:
+            lead_note = f"{player_a} leads on total {stat}."
+        elif b_total > a_total:
+            lead_note = f"{player_b} leads on total {stat}."
+        else:
+            lead_note = f"Both players are tied on total {stat}."
+
+        return (
+            f"{season} {stat} comparison — "
+            f"{player_a}: {a_total} total ({a_avg:.1f} avg over {a_n} rounds); "
+            f"{player_b}: {b_total} total ({b_avg:.1f} avg over {b_n} rounds). {lead_note}"
+        )
+    except Exception as e:
+        return f"ERROR: could not compare {player_a} and {player_b} for {stat} in {season} ({type(e).__name__}: {e})."
+
+
+@tool
 def get_round_leader(season: int, round_number: str, stat: str = "disposals") -> str:
     """Find the player(s) with the HIGHEST value of a given stat (default:
     'disposals'; also supports kicks, handballs, marks, tackles, goals,
@@ -361,44 +501,66 @@ def get_season_leader(season: int, stat: str = "goals") -> str:
 
 
 @tool
-def get_player_season_total(player_name: str, season: int, stat: str = "disposals") -> str:
-    """Compute an AFL player's SEASON TOTAL (summed across every round on
-    record) for a given stat (default: 'disposals'; also supports kicks,
-    handballs, marks, tackles, goals, behinds). Use this whenever the user
-    asks for a 'total', 'how many X in total this season', or a plain
-    'how many X did he get in <year>' without specifying a single round —
-    that phrasing means a season total, NOT an average. Never estimate a
-    total by multiplying an average by a guessed number of games; this
-    tool sums the actual rows on record and also reports how many rounds
-    that total covers, so an incomplete season is visible in the answer
-    rather than presented as a full-season figure."""
+def get_combined_stat_leader(season: int, stats: str = "disposals,goals,fantasy_points") -> str:
+    """Find the player with the HIGHEST combined season total across
+    MULTIPLE stats at once (default: disposals + goals + fantasy_points),
+    summed together as a simple combined score — use this for 'best
+    player with respect to X, Y, and Z combined' style questions, instead
+    of trying to reason about several separate single-stat leaderboards
+    yourself. stats is a comma-separated list, e.g. 'disposals,goals'.
+    Any requested stat not present as a column in the loaded dataset
+    (e.g. 'fantasy_points' if that column isn't in this dataset build) is
+    silently skipped, and the response states which stats were actually
+    combined so nothing is presented as included when it wasn't. Returns
+    'NOT_FOUND' if none of the requested stats are available or there are
+    no rows for that season."""
     try:
         df = _player_df
-        stat = stat.lower().strip()
-        if stat not in _TRACKED_STATS:
-            return f"NOT_FOUND: '{stat}' is not a tracked stat column."
-        subset = df[_match_player(df, player_name) & (df["season"] == season)]
+        requested = [s.strip().lower() for s in stats.split(",") if s.strip()]
+        usable = [s for s in requested if s in df.columns]
+        skipped = [s for s in requested if s not in usable]
+
+        if not usable:
+            return f"NOT_FOUND: none of the requested stats ({', '.join(requested)}) are available as columns in the dataset."
+
+        subset = df[df["season"] == season].dropna(subset=usable, how="all")
         if subset.empty:
-            return f"NOT_FOUND: no rows for {player_name} in season {season}."
-        total = subset[stat].sum()
-        n = len(subset)
+            return f"NOT_FOUND: no rows in the dataset for season {season}."
+
+        group_col = "player_id" if "player_id" in subset.columns else "player"
+        if group_col not in subset.columns:
+            return "NOT_FOUND: no player identifier column available to build a leaderboard from."
+
+        totals = subset.groupby(group_col)[usable].sum(min_count=1).fillna(0)
+        totals["_combined"] = totals[usable].sum(axis=1)
+        max_val = totals["_combined"].max()
+        leader_ids = totals[totals["_combined"] == max_val].index.tolist()
+        names = sorted({
+            _player_display_name(subset[subset[group_col] == lid].iloc[0])
+            for lid in leader_ids
+        })
+        tie_note = " (tied)" if len(names) > 1 else ""
+        skip_note = f" (note: {', '.join(skipped)} not available in this dataset and excluded)" if skipped else ""
+        breakdown = ", ".join(f"{s}={int(totals.loc[leader_ids[0], s])}" for s in usable)
+
         return (
-            f"{player_name} recorded a total of {int(total)} {stat} across "
-            f"{n} rounds on record in {season}. (This reflects only the "
-            f"{n} rounds present in the dataset for that season — if the "
-            f"real season had more rounds than that, this total may be "
-            f"partial rather than the full-season figure.)"
+            f"{season} combined leader across {', '.join(usable)}{tie_note}: "
+            f"{', '.join(names)} with a combined total of {int(max_val)} ({breakdown}).{skip_note}"
         )
     except Exception as e:
-        return f"ERROR: could not compute {player_name}'s season total ({type(e).__name__}: {e})."
+        return f"ERROR: could not compute combined stat leader for season {season} ({type(e).__name__}: {e})."
 
 
 @tool
 def get_team_head_to_head(team_a: str, team_b: str) -> str:
-    """Get the exact head-to-head win/loss record between two AFL teams,
-    computed from every match row on record where these two teams played
-    each other. Use this for 'record vs' or 'who usually wins' style
-    questions. Never estimate this from memory."""
+    """Get the exact ALL-TIME head-to-head win/loss record between two AFL
+    teams, computed from every match row on record where these two teams
+    played each other (across every season). Use this for 'record vs' or
+    'who usually wins' style questions when no specific season is named.
+    If the user names a specific season/year ('in 2023', 'did X beat Y
+    more often last year'), use get_team_head_to_head_season instead —
+    this tool always returns the all-time record, not a season-scoped
+    one. Never estimate this from memory."""
     try:
         df = _matches_df
         a, b = _normalize_team(team_a), _normalize_team(team_b)
@@ -463,6 +625,103 @@ def get_team_head_to_head(team_a: str, team_b: str) -> str:
 
 
 @tool
+def get_team_head_to_head_season(team_a: str, team_b: str, season: int) -> str:
+    """Get the head-to-head win/loss record between two AFL teams WITHIN
+    ONE SPECIFIC SEASON only (not all-time). Use this for 'did X beat Y
+    more often in <year>' or 'record in <year>' style questions — do NOT
+    use get_team_head_to_head for a season-scoped question, since that
+    tool returns the all-time record across every season on record, not
+    just the one the user asked about. Returns 'NOT_FOUND' with no
+    invented record if these two teams have no recorded meeting in that
+    season."""
+    try:
+        df = _matches_df
+        a, b = _normalize_team(team_a), _normalize_team(team_b)
+        if a == b:
+            return f"NOT_FOUND: '{team_a}' and '{team_b}' resolve to the same team — no head-to-head against itself."
+
+        games = df[
+            (df["season"] == season)
+            & (df["team_name"].str.lower() == a)
+            & (df["opponent"].str.lower() == b)
+        ]
+        if games.empty:
+            return f"NOT_FOUND: no recorded {season} matches between {team_a} and {team_b}."
+
+        a_wins = int((games["team_score"] > games["opponent_score"]).sum())
+        b_wins = int((games["team_score"] < games["opponent_score"]).sum())
+        draws = int((games["team_score"] == games["opponent_score"]).sum())
+
+        games_sorted = games.sort_values("round")
+        lines = [
+            f"R{g['round']}: {g['team_name']} {g['team_score']} - {g['opponent_score']} {g['opponent']}"
+            for _, g in games_sorted.iterrows()
+        ]
+
+        summary = (
+            f"{season} head-to-head, {len(games)} game(s) — "
+            f"{team_a} {a_wins} wins, {team_b} {b_wins} wins"
+            + (f", {draws} draws" if draws else "") + ".\n"
+        )
+        return summary + "\n".join(lines)
+    except Exception as e:
+        return f"ERROR: could not compute {season} head-to-head for {team_a} vs {team_b} ({type(e).__name__}: {e})."
+
+
+@tool
+def get_team_recent_form(team: str, num_games: int = 10, before_season: int = None) -> str:
+    """Get an AFL team's average score, average margin, and win rate over
+    their last N games (default 10) on record, optionally restricted to
+    games played BEFORE a given season (use before_season to answer
+    'their last N games before <year>' style questions — this correctly
+    excludes that season and everything after it, rather than just taking
+    the most recent N rows in the whole dataset). Games are ordered by
+    season then round to determine 'last N'. Use this for 'recent form',
+    'average points per game recently', or 'form before <year>' style
+    questions — do not attempt to compute this by looking up individual
+    matches one at a time. Returns 'NOT_FOUND' with no invented average if
+    there are no recorded games for that team (within the season cutoff,
+    if given)."""
+    try:
+        df = _matches_df
+        t = _normalize_team(team)
+        subset = df[df["team_name"].str.lower() == t]
+        if before_season is not None:
+            subset = subset[subset["season"] < before_season]
+        if subset.empty:
+            scope = f" before {before_season}" if before_season is not None else ""
+            return f"NOT_FOUND: no recorded games for {team}{scope}."
+
+        subset = subset.sort_values(["season", "round"])
+        last_n = subset.tail(num_games)
+        n = len(last_n)
+
+        avg_score = last_n["team_score"].mean()
+        avg_conceded = last_n["opponent_score"].mean()
+        avg_margin = (last_n["team_score"] - last_n["opponent_score"]).mean()
+        wins = int((last_n["team_score"] > last_n["opponent_score"]).sum())
+        losses = int((last_n["team_score"] < last_n["opponent_score"]).sum())
+        draws = n - wins - losses
+
+        first_row, last_row = last_n.iloc[0], last_n.iloc[-1]
+        span = f"{first_row['season']} R{first_row['round']} to {last_row['season']} R{last_row['round']}"
+        partial_note = (
+            f" (only {n} games on record"
+            f"{' before ' + str(before_season) if before_season else ''}, fewer than the {num_games} requested)"
+            if n < num_games else ""
+        )
+
+        return (
+            f"{team}'s last {n} recorded games{partial_note} ({span}): "
+            f"averaged {avg_score:.1f} points scored, {avg_conceded:.1f} points conceded "
+            f"(avg margin {avg_margin:+.1f}). Record: {wins}W-{losses}L"
+            + (f"-{draws}D" if draws else "") + "."
+        )
+    except Exception as e:
+        return f"ERROR: could not compute recent form for {team} ({type(e).__name__}: {e})."
+
+
+@tool
 def get_match_result(season: int, round_number: int, team: str) -> str:
     """Look up the exact final score of a specific AFL team's match in a
     given season and round. Use this for 'what happened in round X' type
@@ -491,9 +750,14 @@ STRUCTURED_TOOLS = [
     get_player_round_stats,
     get_player_season_average,
     get_player_season_total,
+    get_player_season_high,
+    compare_players_stat,
     get_round_leader,
     get_season_leader,
+    get_combined_stat_leader,
     get_team_head_to_head,
+    get_team_head_to_head_season,
+    get_team_recent_form,
     get_match_result,
 ]
 
