@@ -236,12 +236,8 @@ python test_day6.py
 
 
 
-https://www.loom.com/share/1f4ca199ea77415180d1683153478a65
 
 
-VAPI DEMI VOICE KY BEGAR
-https://www.loom.com/share/12f9ef57c962408d99c51859f4b4ba2f
 
 
-VAPI DEMO FINAL
-https://www.loom.com/share/b4d6c097a1ce46b187ae26189de03707
+
