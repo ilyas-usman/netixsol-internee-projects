@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-15e37c1a-0246-4766-8d30-5ea42a6f36c8",
+  "timestamp": "20260828T050559253461Z",
+  "transcript": "kya kr rhe hu aj kal?",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 761.2373000010848,
+    "retrieve_ms": 0.011200085282325745,
+    "llm_ms": 0.024700071662664413,
+    "total_ms": 761.2732001580298,
+    "api_total_ms": 774.3112000171095
+  },
+  "under_2s": true
+}

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T160900351101Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T160900351101Z",
+  "transcript": "haan",
+  "response": "Ji, appointment confirm ho gayi hai (ID: cac8fa1512). 2026-09-14 ko 14:00 baje Ayesha Raza aapse House Karachi ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 5971.9430999830365,
+    "total_ms": 5971.9430999830365,
+    "api_total_ms": 6028.253399999812
+  },
+  "under_2s": false
+}

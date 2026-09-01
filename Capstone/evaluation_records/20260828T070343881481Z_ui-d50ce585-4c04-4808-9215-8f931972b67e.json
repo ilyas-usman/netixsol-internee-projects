@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070343881481Z",
+  "transcript": "In faisalabad any area nearby hospital",
+  "response": "Ji bilkul, verified options ye hain: Madina Town, Faisalabad (House, 12.4 Marla, PKR 100,000).",
+  "timings": {
+    "router_ms": 0.11889985762536526,
+    "retrieve_ms": 15.581500018015504,
+    "llm_ms": 0.06480002775788307,
+    "total_ms": 15.765199903398752,
+    "api_total_ms": 41.99090017937124
+  },
+  "under_2s": true
+}

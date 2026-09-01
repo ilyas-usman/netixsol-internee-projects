@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-039c16ad-c18b-45c6-aec8-3ad7bcf1e6c4",
+  "timestamp": "20260828T055636921342Z",
+  "transcript": "i want a shop in lahore dha for rent",
+  "response": "Ji bilkul, verified options ye hain: Office DHA Phase 5, Lahore (250 sqft, PKR 8,347,500); Shop DHA Phase 5, Lahore (2500 sqft, PKR 60,270,000); Warehouse DHA Phase 5, Lahore (4000 sqft, PKR 25,112,000); Shop DHA Phase 5, Lahore (250 sqft, PKR 10,195,250); Plaza Floor DHA Phase 5, Lahore (1200 sqft, PKR 31,362,000).",
+  "timings": {
+    "router_ms": 0.05760020576417446,
+    "retrieve_ms": 2.5516999885439873,
+    "llm_ms": 0.04440010525286198,
+    "total_ms": 2.6537002995610237,
+    "api_total_ms": 15.78599982894957
+  },
+  "under_2s": true
+}

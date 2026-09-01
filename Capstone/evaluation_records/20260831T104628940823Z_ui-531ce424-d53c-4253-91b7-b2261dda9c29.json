@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T104628940823Z_ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "session_id": "ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "timestamp": "20260831T104628940823Z",
+  "transcript": "haan",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 30bf7811cf). 2026-09-29 ko 18:00 baje Ayesha Raza aapse Flat, Shaheed Millat Road, Karachi ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 5948.758699931204,
+    "total_ms": 5948.758699931204,
+    "api_total_ms": 5983.975799987093
+  },
+  "under_2s": false
+}

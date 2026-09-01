@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T073930891590Z_ui-cf7d7e3a-2c93-44ff-b9b4-622327558e68",
+  "session_id": "ui-cf7d7e3a-2c93-44ff-b9b4-622327558e68",
+  "timestamp": "20260831T073930891590Z",
+  "transcript": "cancel krdo appointment",
+  "response": "Ji, aapki appointment 2026-09-12 18:00 par (Flat, Samanabad, Lahore) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 1219.4175999611616,
+    "total_ms": 1219.4175999611616,
+    "api_total_ms": 5067.003000061959
+  },
+  "under_2s": true
+}

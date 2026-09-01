@@ -1,0 +1,154 @@
+commercial_id,unit_type,city,location,area_sqft,price_pkr,floor_number,frontage_ft,footfall_rating,suitable_for,monthly_maintenance_pkr,purpose,agency,date_added
+1,Shop,Islamabad,Blue Area,1200,27628800,1,15.0,High,Salon,35000,For Rent,Bay Realtors,2026-01-10
+2,Office,Lahore,DHA Phase 5,250,8347500,1,,High,"Salon, Warehouse, Office",8000,For Sale,Capital Commercial Co,2026-01-15
+3,Plaza Floor,Islamabad,Bahria Town,1200,24112800,1,20.0,Low,Office,5000,For Sale,Capital Commercial Co,2026-05-11
+4,Shop,Islamabad,Bahria Town,2500,43955000,4,20.0,High,"Pharmacy, Clinic, Warehouse",8000,For Sale,Zameen Prime Realty,2026-04-19
+5,Shop,Lahore,DHA Phase 5,2500,60270000,3,20.0,Low,"Clinic, F&B",12000,For Sale,Zameen Prime Realty,2026-03-27
+6,Office,Islamabad,F-7 Markaz,4000,109732000,2,,High,"Warehouse, F&B, Clinic",5000,For Rent,Zameen Prime Realty,2026-06-22
+7,Office,Karachi,Clifton,1800,39540600,3,,Medium,"Office, F&B, Clinic",8000,For Rent,Capital Commercial Co,2026-07-28
+8,Office,Karachi,Gulshan-e-Iqbal,600,19017600,3,,Low,Pharmacy,5000,For Rent,Metro Estates,2026-07-12
+9,Warehouse,Karachi,Saddar,1200,10238400,0,,Low,"Salon, Retail, Warehouse",12000,For Sale,Capital Commercial Co,2026-02-19
+10,Warehouse,Karachi,DHA Phase 6,250,1539250,0,,High,Warehouse,5000,For Sale,Capital Commercial Co,2026-04-14
+11,Shop,Karachi,DHA Phase 6,1800,55818000,0,12.0,Medium,"F&B, Retail",8000,For Sale,Zameen Prime Realty,2026-02-25
+130,Shop,Faisalabad,D Ground,450,6500000,1,18.0,High,"Retail, Pharmacy, Salon",6000,For Rent,City Commercial Hub,2026-08-01
+131,Office,Faisalabad,People's Colony,900,12500000,2,,Medium,"Office, Clinic, Studio",7000,For Sale,City Commercial Hub,2026-08-05
+132,Shop,Faisalabad,Madina Town,700,9800000,0,16.0,High,"Retail, F&B",6500,For Sale,Metro Estates,2026-08-10
+12,Office,Lahore,Bahria Town,600,21970800,3,,High,Clinic,35000,For Sale,Bay Realtors,2026-04-27
+13,Plaza Floor,Islamabad,F-7 Markaz,2500,92522500,2,25.0,High,"Retail, F&B",8000,For Rent,Zameen Prime Realty,2026-04-28
+14,Shop,Lahore,Gulberg,250,5625250,0,12.0,Medium,Warehouse,8000,For Rent,Bay Realtors,2026-04-27
+15,Warehouse,Lahore,Bahria Town,900,7086600,0,,Medium,Retail,5000,For Sale,Capital Commercial Co,2026-07-23
+16,Shop,Karachi,Clifton,250,7048250,2,12.0,Low,F&B,35000,For Sale,Bay Realtors,2026-03-18
+17,Shop,Karachi,DHA Phase 6,4000,165908000,4,12.0,Low,"Warehouse, Retail, Salon",8000,For Rent,Bay Realtors,2026-08-16
+18,Office,Karachi,Clifton,2500,37675000,3,,Medium,"Clinic, Office",35000,For Sale,Bay Realtors,2026-03-16
+19,Shop,Karachi,DHA Phase 6,250,9877250,2,12.0,Low,"Office, Warehouse, Salon",8000,For Rent,Zameen Prime Realty,2026-03-12
+20,Office,Islamabad,Blue Area,2500,47320000,4,,Low,"Warehouse, Retail, Pharmacy",5000,For Sale,Capital Commercial Co,2026-05-16
+21,Office,Islamabad,G-9 Markaz,1200,33562800,1,,High,"Clinic, Office, Pharmacy",5000,For Rent,Zameen Prime Realty,2026-02-27
+22,Plaza Floor,Lahore,Bahria Town,600,15861600,0,15.0,Medium,"F&B, Office",35000,For Sale,Zameen Prime Realty,2026-05-13
+23,Shop,Lahore,Johar Town,400,15730800,4,15.0,Medium,"Warehouse, F&B",12000,For Rent,Capital Commercial Co,2026-08-18
+24,Warehouse,Lahore,Gulberg,1200,5233200,0,,Low,"Pharmacy, F&B",12000,For Rent,Bay Realtors,2026-07-27
+25,Shop,Lahore,Gulberg,600,19726200,0,20.0,High,"F&B, Office, Pharmacy",5000,For Sale,Zameen Prime Realty,2026-06-16
+26,Shop,Islamabad,F-7 Markaz,1800,73011600,4,25.0,High,"F&B, Pharmacy, Salon",8000,For Sale,Zameen Prime Realty,2026-03-20
+27,Plaza Floor,Karachi,DHA Phase 6,600,24480000,0,25.0,Low,"F&B, Pharmacy",20000,For Sale,Metro Estates,2026-04-10
+28,Warehouse,Islamabad,F-7 Markaz,1800,11307600,0,,Low,"Clinic, Salon",35000,For Sale,Capital Commercial Co,2026-01-13
+29,Plaza Floor,Karachi,DHA Phase 6,250,4638000,4,25.0,Medium,"Pharmacy, Clinic, Office",35000,For Sale,Zameen Prime Realty,2026-07-28
+30,Shop,Lahore,Johar Town,2500,37637500,4,30.0,High,"Salon, Pharmacy, F&B",12000,For Sale,Capital Commercial Co,2026-06-13
+31,Plaza Floor,Islamabad,G-9 Markaz,2500,64220000,3,20.0,High,F&B,20000,For Sale,Bay Realtors,2026-03-28
+32,Shop,Karachi,Saddar,1200,29281200,1,25.0,High,"Salon, Clinic, Office",20000,For Sale,Metro Estates,2026-08-15
+33,Plaza Floor,Islamabad,Blue Area,1800,32508000,1,20.0,Low,F&B,5000,For Rent,Bay Realtors,2026-02-24
+34,Office,Karachi,Bahadurabad,2500,77997500,3,,Low,Salon,5000,For Sale,Zameen Prime Realty,2026-07-17
+35,Warehouse,Lahore,Bahria Town,250,2141500,0,,Low,Office,8000,For Sale,Capital Commercial Co,2026-08-26
+36,Warehouse,Karachi,Bahadurabad,600,4732800,0,,Medium,"Pharmacy, F&B",12000,For Sale,Bay Realtors,2026-04-18
+37,Plaza Floor,Karachi,Clifton,900,21512700,2,20.0,High,F&B,8000,For Rent,Metro Estates,2026-04-12
+38,Plaza Floor,Karachi,Saddar,4000,114496000,0,15.0,Medium,"Pharmacy, Warehouse",5000,For Sale,Bay Realtors,2026-08-10
+39,Warehouse,Karachi,Gulshan-e-Iqbal,2500,21022500,0,,High,"Warehouse, Pharmacy, F&B",20000,For Rent,Bay Realtors,2026-08-10
+40,Warehouse,Karachi,Gulshan-e-Iqbal,600,4696800,0,,Low,"Warehouse, Retail, Office",35000,For Sale,Zameen Prime Realty,2026-02-23
+41,Office,Lahore,Model Town,250,5881000,3,,Medium,Office,12000,For Sale,Bay Realtors,2026-05-23
+42,Warehouse,Karachi,Clifton,250,2104500,0,,Low,"F&B, Salon",5000,For Sale,Zameen Prime Realty,2026-01-17
+43,Office,Lahore,Gulberg,900,17222400,3,,High,Warehouse,8000,For Sale,Capital Commercial Co,2026-06-15
+44,Shop,Islamabad,I-8 Markaz,600,15115200,0,30.0,Low,"Warehouse, Salon",20000,For Sale,Metro Estates,2026-02-28
+45,Shop,Islamabad,F-7 Markaz,1200,51434400,4,12.0,High,Clinic,35000,For Sale,Capital Commercial Co,2026-02-26
+46,Shop,Islamabad,G-9 Markaz,2500,104865000,3,12.0,Medium,"Salon, Office",8000,For Sale,Capital Commercial Co,2026-08-24
+47,Plaza Floor,Karachi,Bahadurabad,1800,77234400,1,12.0,Medium,"F&B, Office",35000,For Sale,Bay Realtors,2026-06-10
+48,Office,Karachi,Gulshan-e-Iqbal,4000,87800000,2,,Medium,"Clinic, Warehouse",12000,For Sale,Metro Estates,2026-02-17
+49,Warehouse,Islamabad,Bahria Town,900,7110000,0,,High,"Office, Pharmacy, Retail",5000,For Rent,Bay Realtors,2026-04-19
+50,Plaza Floor,Islamabad,I-8 Markaz,4000,132544000,4,20.0,Medium,"Warehouse, Clinic, Salon",20000,For Rent,Capital Commercial Co,2026-04-13
+51,Plaza Floor,Islamabad,F-7 Markaz,400,15736800,4,15.0,Low,Salon,20000,For Rent,Capital Commercial Co,2026-02-16
+52,Plaza Floor,Karachi,DHA Phase 6,600,14942400,0,30.0,Low,"Retail, Pharmacy",35000,For Rent,Metro Estates,2026-08-13
+53,Plaza Floor,Lahore,Bahria Town,4000,122744000,3,20.0,Low,Clinic,20000,For Rent,Zameen Prime Realty,2026-07-25
+54,Shop,Lahore,Bahria Town,600,11932800,4,20.0,Low,Retail,35000,For Sale,Metro Estates,2026-07-24
+55,Warehouse,Karachi,Gulshan-e-Iqbal,1200,10389600,0,,High,Warehouse,5000,For Sale,Metro Estates,2026-04-18
+56,Office,Islamabad,Blue Area,900,18625500,4,,Low,Retail,20000,For Sale,Bay Realtors,2026-05-11
+57,Plaza Floor,Lahore,Johar Town,4000,69328000,1,20.0,High,"Salon, F&B, Office",5000,For Sale,Metro Estates,2026-05-14
+58,Office,Lahore,Gulberg,1200,41397600,4,,Medium,"Retail, Office",12000,For Sale,Capital Commercial Co,2026-08-24
+59,Shop,Lahore,Bahria Town,2500,97672500,2,30.0,Medium,Retail,8000,For Sale,Zameen Prime Realty,2026-05-28
+60,Warehouse,Lahore,DHA Phase 5,4000,25112000,0,,Low,"Office, Salon, Pharmacy",5000,For Sale,Bay Realtors,2026-06-20
+61,Office,Islamabad,Blue Area,1800,51278400,3,,Medium,"Office, Warehouse, Retail",20000,For Rent,Capital Commercial Co,2026-06-13
+62,Shop,Karachi,Bahadurabad,4000,114164000,0,15.0,High,"Warehouse, Office",20000,For Sale,Metro Estates,2026-05-27
+63,Warehouse,Lahore,Johar Town,4000,19976000,0,,Low,"Warehouse, F&B, Salon",12000,For Sale,Bay Realtors,2026-02-17
+64,Shop,Lahore,Model Town,600,18798000,2,30.0,High,"Office, Pharmacy",20000,For Rent,Metro Estates,2026-07-16
+65,Office,Islamabad,I-8 Markaz,400,9620800,3,,Medium,"Clinic, Retail, Pharmacy",12000,For Sale,Bay Realtors,2026-03-24
+66,Plaza Floor,Islamabad,Bahria Town,1800,59553000,4,25.0,Medium,"Pharmacy, F&B",8000,For Sale,Metro Estates,2026-07-11
+67,Warehouse,Karachi,Saddar,2500,13115000,0,,Medium,F&B,35000,For Sale,Capital Commercial Co,2026-02-24
+68,Warehouse,Lahore,Bahria Town,250,1295000,0,,Medium,"F&B, Retail, Office",12000,For Sale,Bay Realtors,2026-02-20
+69,Warehouse,Islamabad,I-8 Markaz,1800,14394600,0,,High,Warehouse,5000,For Rent,Capital Commercial Co,2026-04-12
+70,Shop,Karachi,Clifton,4000,81804000,2,12.0,Low,"Pharmacy, Retail",12000,For Sale,Bay Realtors,2026-03-17
+71,Office,Islamabad,Bahria Town,600,12441600,0,,High,"Warehouse, Salon",8000,For Sale,Metro Estates,2026-04-24
+72,Warehouse,Islamabad,G-9 Markaz,1200,4891200,0,,Medium,"Salon, Warehouse",8000,For Rent,Capital Commercial Co,2026-05-23
+73,Warehouse,Islamabad,G-9 Markaz,1200,6757200,0,,Medium,"Retail, F&B",20000,For Sale,Capital Commercial Co,2026-05-10
+74,Plaza Floor,Islamabad,Bahria Town,250,8386000,0,30.0,High,"Pharmacy, Clinic",8000,For Sale,Capital Commercial Co,2026-04-16
+75,Office,Islamabad,G-9 Markaz,400,17840800,0,,Medium,"Retail, Warehouse",12000,For Sale,Zameen Prime Realty,2026-05-20
+76,Office,Islamabad,Bahria Town,900,17397000,4,,Medium,"Warehouse, Clinic, F&B",12000,For Sale,Bay Realtors,2026-05-20
+77,Shop,Lahore,Model Town,600,23827200,1,25.0,High,"Retail, Office",5000,For Rent,Zameen Prime Realty,2026-08-21
+78,Warehouse,Islamabad,G-9 Markaz,1800,8796600,0,,High,Office,5000,For Sale,Capital Commercial Co,2026-04-12
+79,Plaza Floor,Islamabad,Bahria Town,2500,47057500,1,12.0,Low,"Office, Retail",5000,For Rent,Metro Estates,2026-07-24
+80,Warehouse,Karachi,Bahadurabad,600,4438800,0,,High,Pharmacy,20000,For Sale,Capital Commercial Co,2026-01-21
+81,Warehouse,Lahore,Model Town,900,6273900,0,,Low,"Clinic, Warehouse, Pharmacy",5000,For Sale,Metro Estates,2026-02-24
+82,Shop,Lahore,DHA Phase 5,250,10195250,2,15.0,Low,"F&B, Retail, Warehouse",8000,For Sale,Metro Estates,2026-06-14
+83,Plaza Floor,Islamabad,Blue Area,600,11555400,4,20.0,Low,Salon,5000,For Rent,Capital Commercial Co,2026-04-28
+84,Office,Karachi,Clifton,1200,20060400,1,,High,"Warehouse, Retail",5000,For Sale,Capital Commercial Co,2026-02-24
+85,Shop,Islamabad,F-7 Markaz,1200,36010800,0,12.0,Medium,"Office, Salon",5000,For Sale,Bay Realtors,2026-02-12
+86,Office,Karachi,Bahadurabad,400,7654000,2,,High,"Warehouse, Pharmacy, Clinic",20000,For Sale,Capital Commercial Co,2026-08-26
+87,Shop,Islamabad,Bahria Town,400,17177600,4,15.0,Medium,"F&B, Office",12000,For Sale,Bay Realtors,2026-07-13
+88,Plaza Floor,Karachi,Saddar,1200,32718000,1,25.0,Low,Pharmacy,5000,For Rent,Zameen Prime Realty,2026-06-14
+89,Plaza Floor,Islamabad,Blue Area,400,11384400,2,25.0,High,Clinic,35000,For Sale,Zameen Prime Realty,2026-04-14
+90,Office,Islamabad,Bahria Town,400,10588800,4,,Medium,Pharmacy,12000,For Sale,Bay Realtors,2026-01-18
+91,Plaza Floor,Lahore,DHA Phase 5,1200,31362000,2,12.0,Low,Warehouse,20000,For Rent,Zameen Prime Realty,2026-02-26
+92,Warehouse,Lahore,Model Town,4000,27168000,0,,Low,"Clinic, Salon",12000,For Sale,Zameen Prime Realty,2026-01-14
+93,Shop,Lahore,Bahria Town,400,9566400,3,25.0,Medium,"Office, Pharmacy, Clinic",8000,For Sale,Zameen Prime Realty,2026-06-23
+94,Warehouse,Lahore,Johar Town,1200,5246400,0,,Low,"Warehouse, Retail",5000,For Rent,Metro Estates,2026-03-18
+95,Shop,Karachi,Gulshan-e-Iqbal,250,7824500,3,15.0,Low,"Warehouse, Salon",8000,For Sale,Capital Commercial Co,2026-02-22
+96,Warehouse,Islamabad,Blue Area,250,1941500,0,,Low,"Warehouse, Office",35000,For Sale,Bay Realtors,2026-05-13
+97,Plaza Floor,Karachi,Clifton,600,24754200,4,25.0,High,"Retail, Office",5000,For Rent,Bay Realtors,2026-02-22
+98,Office,Karachi,Gulshan-e-Iqbal,1800,72954000,1,,Low,"Salon, Retail, Warehouse",35000,For Rent,Capital Commercial Co,2026-06-14
+99,Office,Lahore,Gulberg,1200,25756800,1,,High,Pharmacy,5000,For Rent,Bay Realtors,2026-08-28
+100,Plaza Floor,Islamabad,Bahria Town,1800,35902800,3,12.0,Medium,"Salon, Clinic",12000,For Sale,Capital Commercial Co,2026-02-19
+101,Shop,Karachi,Saddar,250,6770500,2,12.0,High,Warehouse,35000,For Sale,Bay Realtors,2026-01-24
+102,Plaza Floor,Islamabad,F-7 Markaz,4000,125712000,1,12.0,Medium,Pharmacy,12000,For Sale,Zameen Prime Realty,2026-03-11
+103,Warehouse,Lahore,Model Town,600,4188600,0,,Medium,"Office, Pharmacy",12000,For Sale,Zameen Prime Realty,2026-06-12
+104,Warehouse,Karachi,Clifton,1200,7276800,0,,High,"Warehouse, F&B, Clinic",5000,For Sale,Metro Estates,2026-06-19
+105,Office,Islamabad,Bahria Town,400,10057600,4,,Medium,"Pharmacy, Clinic, F&B",35000,For Rent,Bay Realtors,2026-06-10
+106,Office,Karachi,Gulshan-e-Iqbal,900,23577300,3,,Low,F&B,8000,For Rent,Zameen Prime Realty,2026-01-20
+107,Warehouse,Islamabad,F-7 Markaz,600,3197400,0,,Low,"Pharmacy, Warehouse, F&B",20000,For Rent,Capital Commercial Co,2026-04-24
+108,Warehouse,Islamabad,G-9 Markaz,900,7536600,0,,Low,"Pharmacy, Office",8000,For Sale,Bay Realtors,2026-08-19
+109,Warehouse,Karachi,Bahadurabad,600,3381000,0,,High,Pharmacy,12000,For Rent,Bay Realtors,2026-06-27
+110,Shop,Lahore,Bahria Town,1200,21297600,1,20.0,Medium,"F&B, Office, Retail",8000,For Sale,Capital Commercial Co,2026-01-23
+111,Plaza Floor,Lahore,Model Town,900,24887700,0,20.0,Low,Clinic,5000,For Sale,Capital Commercial Co,2026-03-14
+112,Warehouse,Lahore,Johar Town,600,4705200,0,,Medium,"Retail, Pharmacy, Salon",12000,For Rent,Metro Estates,2026-07-13
+113,Plaza Floor,Karachi,DHA Phase 6,400,6625600,1,25.0,High,"Office, Retail, Salon",20000,For Sale,Zameen Prime Realty,2026-04-14
+114,Shop,Karachi,Saddar,1800,41187600,4,25.0,Low,"Salon, Retail, Warehouse",12000,For Rent,Zameen Prime Realty,2026-07-25
+115,Plaza Floor,Lahore,Model Town,1200,47385600,0,20.0,Low,"F&B, Salon",5000,For Sale,Capital Commercial Co,2026-03-11
+116,Plaza Floor,Karachi,Bahadurabad,600,25326000,3,25.0,High,Pharmacy,8000,For Rent,Bay Realtors,2026-01-19
+117,Office,Lahore,Gulberg,250,6335250,2,,High,"Pharmacy, Warehouse",20000,For Rent,Metro Estates,2026-05-21
+118,Plaza Floor,Lahore,Johar Town,400,16476800,2,25.0,Medium,"Office, Pharmacy, Clinic",8000,For Sale,Bay Realtors,2026-06-26
+119,Warehouse,Karachi,Clifton,400,3010800,0,,High,Warehouse,12000,For Sale,Zameen Prime Realty,2026-06-19
+120,Warehouse,Karachi,Saddar,600,4581600,0,,Medium,"Retail, Salon",12000,For Sale,Bay Realtors,2026-05-11
+121,Plaza Floor,Lahore,Model Town,600,9612000,1,30.0,High,"Retail, F&B",5000,For Rent,Capital Commercial Co,2026-06-22
+122,Office,Islamabad,Blue Area,4000,108620000,2,,Medium,Warehouse,8000,For Sale,Bay Realtors,2026-06-18
+123,Shop,Lahore,Gulberg,600,18811200,4,25.0,High,Clinic,12000,For Sale,Metro Estates,2026-05-25
+124,Office,Lahore,Gulberg,400,11924800,1,,High,"Retail, Salon",12000,For Sale,Zameen Prime Realty,2026-05-19
+125,Plaza Floor,Lahore,DHA Phase 5,900,17078400,1,15.0,Low,"Retail, Clinic",35000,For Sale,Bay Realtors,2026-03-12
+126,Warehouse,Lahore,Johar Town,4000,33224000,0,,Medium,"Pharmacy, Warehouse",5000,For Rent,Capital Commercial Co,2026-02-24
+127,Plaza Floor,Karachi,Bahadurabad,600,26260800,4,30.0,Low,Office,35000,For Sale,Zameen Prime Realty,2026-02-26
+128,Office,Lahore,Johar Town,600,15343200,1,,Medium,"Clinic, Retail, Pharmacy",8000,For Sale,Capital Commercial Co,2026-03-19
+129,Shop,Islamabad,I-8 Markaz,600,20635200,4,15.0,Low,"Warehouse, Salon, Pharmacy",12000,For Sale,Zameen Prime Realty,2026-01-12
+130,Plaza Floor,Lahore,Bahria Town,900,36117900,4,25.0,High,"Retail, Office, Warehouse",12000,For Sale,Capital Commercial Co,2026-08-17
+131,Plaza Floor,Islamabad,Bahria Town,4000,69564000,0,15.0,Medium,"Office, Pharmacy",8000,For Sale,Metro Estates,2026-06-20
+132,Warehouse,Islamabad,G-9 Markaz,600,4221000,0,,High,"Retail, Clinic, F&B",20000,For Rent,Bay Realtors,2026-04-14
+133,Plaza Floor,Lahore,Gulberg,2500,108290000,4,25.0,Low,Pharmacy,12000,For Sale,Capital Commercial Co,2026-04-15
+134,Warehouse,Karachi,Bahadurabad,4000,26108000,0,,Medium,Retail,20000,For Sale,Metro Estates,2026-04-28
+135,Shop,Karachi,Clifton,1200,37459200,4,25.0,Medium,"Retail, Pharmacy, Office",8000,For Sale,Capital Commercial Co,2026-07-21
+136,Shop,Lahore,Model Town,900,24191100,4,20.0,Low,"Warehouse, Office",35000,For Rent,Zameen Prime Realty,2026-03-13
+137,Plaza Floor,Karachi,Gulshan-e-Iqbal,1800,71528400,1,15.0,High,"Office, Warehouse, Retail",5000,For Rent,Capital Commercial Co,2026-08-26
+138,Office,Karachi,DHA Phase 6,1800,63160200,2,,Low,"Warehouse, Salon",12000,For Sale,Bay Realtors,2026-05-25
+139,Plaza Floor,Lahore,Johar Town,400,11459600,4,20.0,High,"Salon, Retail, Warehouse",20000,For Rent,Metro Estates,2026-01-28
+140,Warehouse,Karachi,DHA Phase 6,600,3590400,0,,Low,"Salon, Retail, F&B",5000,For Sale,Bay Realtors,2026-03-23
+141,Warehouse,Islamabad,F-7 Markaz,4000,18040000,0,,High,Warehouse,8000,For Sale,Bay Realtors,2026-07-20
+142,Plaza Floor,Lahore,Model Town,1800,66862800,2,30.0,Medium,F&B,12000,For Sale,Metro Estates,2026-05-19
+143,Warehouse,Islamabad,F-7 Markaz,1800,14274000,0,,Medium,"Pharmacy, Salon, Clinic",12000,For Rent,Bay Realtors,2026-07-21
+144,Shop,Lahore,Johar Town,1200,46080000,0,20.0,Medium,"Clinic, Salon, Office",8000,For Rent,Capital Commercial Co,2026-05-14
+145,Office,Lahore,Bahria Town,900,14996700,4,,Low,"F&B, Retail, Salon",20000,For Sale,Bay Realtors,2026-02-14
+146,Office,Lahore,Bahria Town,2500,90982500,3,,Medium,"F&B, Clinic, Salon",12000,For Sale,Zameen Prime Realty,2026-04-27
+147,Office,Islamabad,Blue Area,2500,109772500,1,,Low,"Pharmacy, Office",8000,For Sale,Capital Commercial Co,2026-01-10
+148,Shop,Karachi,Bahadurabad,1800,43783200,3,30.0,High,"F&B, Warehouse",20000,For Rent,Zameen Prime Realty,2026-06-15
+149,Plaza Floor,Islamabad,Bahria Town,600,9276600,2,20.0,High,"Pharmacy, F&B, Salon",35000,For Sale,Bay Realtors,2026-07-26
+150,Warehouse,Karachi,Clifton,400,2205200,0,,Low,"Clinic, F&B",5000,For Rent,Metro Estates,2026-08-18

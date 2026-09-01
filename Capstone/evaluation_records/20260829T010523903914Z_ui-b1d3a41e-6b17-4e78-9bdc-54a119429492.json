@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-b1d3a41e-6b17-4e78-9bdc-54a119429492",
+  "timestamp": "20260829T010523903914Z",
+  "transcript": "kya kr rhe hu",
+  "response": "Main yahan aapki madad ke liye hoon. Aapki property requirements ya budget ke baare mein batayein.",
+  "timings": {
+    "router_ms": 0.20330003462731838,
+    "retrieve_ms": 0.05979998968541622,
+    "llm_ms": 0.10950001887977123,
+    "total_ms": 0.37260004319250584,
+    "api_total_ms": 24.109099991619587
+  },
+  "under_2s": true
+}

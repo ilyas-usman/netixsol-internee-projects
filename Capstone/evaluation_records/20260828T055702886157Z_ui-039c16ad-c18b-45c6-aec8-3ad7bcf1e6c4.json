@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-039c16ad-c18b-45c6-aec8-3ad7bcf1e6c4",
+  "timestamp": "20260828T055702886157Z",
+  "transcript": "dha lahore kay ilawa koi option shops rent kay",
+  "response": "Ji bilkul, verified options ye hain: Office DHA Phase 5, Lahore (250 sqft, PKR 8,347,500); Shop DHA Phase 5, Lahore (2500 sqft, PKR 60,270,000); Office Bahria Town, Lahore (600 sqft, PKR 21,970,800); Shop Gulberg, Lahore (250 sqft, PKR 5,625,250); Warehouse Bahria Town, Lahore (900 sqft, PKR 7,086,600).",
+  "timings": {
+    "router_ms": 0.09660003706812859,
+    "retrieve_ms": 2.359099918976426,
+    "llm_ms": 0.0779998954385519,
+    "total_ms": 2.5336998514831066,
+    "api_total_ms": 20.08589985780418
+  },
+  "under_2s": true
+}

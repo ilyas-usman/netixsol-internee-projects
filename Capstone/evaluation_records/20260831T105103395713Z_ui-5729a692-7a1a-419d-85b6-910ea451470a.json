@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T105103395713Z_ui-5729a692-7a1a-419d-85b6-910ea451470a",
+  "session_id": "ui-5729a692-7a1a-419d-85b6-910ea451470a",
+  "timestamp": "20260831T105103395713Z",
+  "transcript": "i want house in faisalabad under 50LAC",
+  "response": "Ji bilkul, verified options ye hain: Nemat Colony No 2, Faisalabad (House, 2.5 Marla, PKR 30 lakh); Shalimar Park, Faisalabad (House, 2.5 Marla, PKR 35 lakh); Haji Abad, Faisalabad (House, 3 Marla, PKR 32 lakh 50 thousand); Millat Town, Faisalabad (House, 2 bed, 4.8 Marla, PKR 44 lakh); Chak 279/RB Kalan, Faisalabad (House, 2 bed, 3 Marla, PKR 35 lakh).",
+  "timings": {
+    "router_ms": 1.9320999272167683,
+    "retrieve_ms": 185.58869999833405,
+    "llm_ms": 0.062300125136971474,
+    "total_ms": 187.5831000506878,
+    "api_total_ms": 233.55730017647147
+  },
+  "under_2s": true
+}

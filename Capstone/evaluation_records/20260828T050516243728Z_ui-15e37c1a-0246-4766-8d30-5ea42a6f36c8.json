@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-15e37c1a-0246-4766-8d30-5ea42a6f36c8",
+  "timestamp": "20260828T050516243728Z",
+  "transcript": "hi , Motherfucker",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 2394.7751000523567,
+    "retrieve_ms": 0.016999896615743637,
+    "llm_ms": 0.02459995448589325,
+    "total_ms": 2394.8166999034584,
+    "api_total_ms": 2422.4759000353515
+  },
+  "under_2s": false
+}

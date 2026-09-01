@@ -1,0 +1,13 @@
+{
+  "call_id": "20260901T063600805850Z_ui-ba21b8f2-7d97-4434-bdd7-3a06f240a08b",
+  "session_id": "ui-ba21b8f2-7d97-4434-bdd7-3a06f240a08b",
+  "timestamp": "20260901T063600805850Z",
+  "transcript": "9 september sham 5 baje",
+  "response": "Ji, 2026-09-09 ko 17:00 baje move karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 8.607999887317419,
+    "total_ms": 8.607999887317419,
+    "api_total_ms": 38.94450003281236
+  },
+  "under_2s": true
+}

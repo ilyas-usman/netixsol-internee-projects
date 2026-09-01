@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T161014159459Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T161014159459Z",
+  "transcript": "appointment cancel krdo",
+  "response": "Ji, aapki appointment 2026-09-12 12:00 par (House Karachi) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 14.149099821224809,
+    "total_ms": 14.149099821224809,
+    "api_total_ms": 85.42530005797744
+  },
+  "under_2s": true
+}

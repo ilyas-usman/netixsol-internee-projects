@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T063239510886Z_manual-1",
+  "session_id": "manual-1",
+  "timestamp": "20260830T063239510886Z",
+  "transcript": "2026-09-03 subah 11 baje kar dein",
+  "response": "Ji, 2026-09-03 ko 11:00 baje move karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 12.771200155839324,
+    "total_ms": 12.771200155839324,
+    "api_total_ms": 61.61099998280406
+  },
+  "under_2s": true
+}

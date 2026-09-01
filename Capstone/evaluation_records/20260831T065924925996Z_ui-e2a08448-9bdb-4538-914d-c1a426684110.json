@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T065924925996Z_ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "session_id": "ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "timestamp": "20260831T065924925996Z",
+  "transcript": "haan",
+  "response": "Ji, appointment confirm ho gayi hai (ID: bcaf1eed46). 2026-09-14 ko 11:00 baje Usama Khan aapse DHA Phase 6, Karachi ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 7433.894000016153,
+    "total_ms": 7433.894000016153,
+    "api_total_ms": 7461.069700075313
+  },
+  "under_2s": false
+}

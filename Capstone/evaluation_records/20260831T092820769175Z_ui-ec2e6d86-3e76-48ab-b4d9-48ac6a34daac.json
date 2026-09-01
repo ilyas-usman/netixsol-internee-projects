@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T092820769175Z_ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "session_id": "ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "timestamp": "20260831T092820769175Z",
+  "transcript": "Budget 3 crore hai",
+  "response": "Ji bilkul, verified options ye hain: Al Hafeez Gardens, Lahore (House, 4 bed, 12 Marla, PKR 1 crore 75 lakh); Chak 8 JB Punj Garain, Faisalabad (House, 2 bed, 6 Marla, PKR 14 lakh); Delhi Colony, Karachi (Flat, 1 bed, 2.2 Marla, PKR 14 lakh); Gadap Town, Karachi (House, 3 bed, 2.6 Marla, PKR 15 lakh); Liaquatabad, Karachi (Flat, 1 bed, 1.6 Marla, PKR 15 lakh).",
+  "timings": {
+    "router_ms": 0.8676999714225531,
+    "retrieve_ms": 4423.217199975625,
+    "llm_ms": 0.21750014275312424,
+    "total_ms": 4424.3024000898,
+    "api_total_ms": 4481.541199842468
+  },
+  "under_2s": false
+}

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260901T065407034603Z_ui-857f0e0a-03f1-4a2c-9028-733f50d8d23e",
+  "session_id": "ui-857f0e0a-03f1-4a2c-9028-733f50d8d23e",
+  "timestamp": "20260901T065407034603Z",
+  "transcript": "ayesha",
+  "response": "Ji, 2026-09-28 ko 18:00 baje, Flat, Diplomatic Enclave, Islamabad ke liye Ayesha Raza ke sath appointment set kar sakte hain. Client: Usman. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 1558.6718001868576,
+    "total_ms": 1558.6718001868576,
+    "api_total_ms": 1639.489300083369
+  },
+  "under_2s": true
+}

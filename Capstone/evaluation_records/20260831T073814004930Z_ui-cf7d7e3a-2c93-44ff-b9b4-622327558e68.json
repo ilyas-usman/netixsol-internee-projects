@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T073814004930Z_ui-cf7d7e3a-2c93-44ff-b9b4-622327558e68",
+  "session_id": "ui-cf7d7e3a-2c93-44ff-b9b4-622327558e68",
+  "timestamp": "20260831T073814004930Z",
+  "transcript": "haan",
+  "response": "Ji, appointment confirm ho gayi hai (ID: c1b1d186f4). 2026-09-12 ko 18:00 baje Usama Khan aapse Flat, Samanabad, Lahore ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 9591.521699912846,
+    "total_ms": 9591.521699912846,
+    "api_total_ms": 9815.403300104663
+  },
+  "under_2s": false
+}

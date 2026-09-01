@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T104609533341Z_ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "session_id": "ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "timestamp": "20260831T104609533341Z",
+  "transcript": "ayesha",
+  "response": "Ji, 2026-09-29 ko 18:00 baje, Flat, Shaheed Millat Road, Karachi ke liye Ayesha Raza ke sath appointment set kar sakte hain. Client: Ali. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 1662.1859997976571,
+    "total_ms": 1662.1859997976571,
+    "api_total_ms": 1686.8886000011116
+  },
+  "under_2s": true
+}

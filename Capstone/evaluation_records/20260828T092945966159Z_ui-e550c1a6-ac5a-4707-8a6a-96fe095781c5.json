@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-e550c1a6-ac5a-4707-8a6a-96fe095781c5",
+  "timestamp": "20260828T092945966159Z",
+  "transcript": "That's the damn morning.",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1375.6597000174224,
+    "retrieve_ms": 0.04359986633062363,
+    "llm_ms": 0.04050019197165966,
+    "total_ms": 1375.7438000757247,
+    "voice_total_ms": 2096.3149999734014
+  },
+  "under_2s": false
+}

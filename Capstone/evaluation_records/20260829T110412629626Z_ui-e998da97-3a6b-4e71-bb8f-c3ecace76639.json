@@ -1,0 +1,15 @@
+{
+  "call_id": "20260829T110412629626Z_ui-e998da97-3a6b-4e71-bb8f-c3ecace76639",
+  "session_id": "ui-e998da97-3a6b-4e71-bb8f-c3ecace76639",
+  "timestamp": "20260829T110412629626Z",
+  "transcript": "RATHER then dha",
+  "response": "Ji bilkul, verified options ye hain: I-8, Islamabad (Flat, 5 bed, 5.6 Marla, PKR 33,000); Diplomatic Enclave, Islamabad (Flat, 5 bed, 5.3 Marla, PKR 2 lakh).",
+  "timings": {
+    "router_ms": 0.884300097823143,
+    "retrieve_ms": 68.6476998962462,
+    "llm_ms": 0.12139999307692051,
+    "total_ms": 69.65339998714626,
+    "api_total_ms": 108.43520006164908
+  },
+  "under_2s": true
+}

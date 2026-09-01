@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T110426944545Z_ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "session_id": "ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "timestamp": "20260830T110426944545Z",
+  "transcript": "sham 3 baje",
+  "response": "Ji, 2026-09-30 ko 15:00 baje, Flat, DHA Defence, Lahore ke liye Usama Khan ke sath appointment set kar sakte hain (calendar availability abhi verify nahi ho saki, lekin hum aapki booking note kar lete hain). Client: Usman, Phone: +923217639349. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 2962.136099813506,
+    "total_ms": 2962.136099813506,
+    "api_total_ms": 3039.1687999945134
+  },
+  "under_2s": false
+}

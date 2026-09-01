@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T111700443596Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111700443596Z",
+  "transcript": "name usman ali number 03348829555 day i think 14 september",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka poora naam? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 10.100699961185455,
+    "total_ms": 10.100699961185455,
+    "api_total_ms": 105.09150009602308
+  },
+  "under_2s": true
+}

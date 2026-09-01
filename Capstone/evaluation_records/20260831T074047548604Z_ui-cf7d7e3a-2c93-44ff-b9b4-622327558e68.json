@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T074047548604Z_ui-cf7d7e3a-2c93-44ff-b9b4-622327558e68",
+  "session_id": "ui-cf7d7e3a-2c93-44ff-b9b4-622327558e68",
+  "timestamp": "20260831T074047548604Z",
+  "transcript": "ayesha khan",
+  "response": "Ji, 2026-09-04 ko 15:00 baje, Flat, Samanabad, Lahore ke liye Usama Khan ke sath appointment set kar sakte hain. Client: Usman Ali. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 418.6617999803275,
+    "total_ms": 418.6617999803275,
+    "api_total_ms": 465.71279992349446
+  },
+  "under_2s": true
+}

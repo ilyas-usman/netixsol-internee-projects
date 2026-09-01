@@ -1,0 +1,16 @@
+{
+  "call_id": "20260831T070154399723Z_ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "session_id": "ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "timestamp": "20260831T070154399723Z",
+  "transcript": "Assalamu alaikum",
+  "response": "Wa alaikum assalam! Main theek hoon. Aapki property requirements mein kaise madad kar sakta hoon?",
+  "timings": {
+    "router_ms": 0.42969989590346813,
+    "retrieve_ms": 0.012899981811642647,
+    "llm_ms": 0.03620004281401634,
+    "total_ms": 0.4787999205291271,
+    "voice_total_ms": 8255.799499806017,
+    "voice_first_audio_ms": 3486.5542999468744
+  },
+  "under_2s": false
+}

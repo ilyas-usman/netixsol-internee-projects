@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-634ba327-000b-4951-adeb-76647b46c651",
+  "timestamp": "20260828T060205621191Z",
+  "transcript": "raher then dha",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Lahore (Upper Portion, 3 bed, 1 Kanal, PKR 55,000); DHA Defence, Lahore (Room, 4 Marla, PKR 15,000); DHA Defence, Lahore (House, 8 bed, 2 Kanal, PKR 190,000); DHA Defence, Lahore (Lower Portion, 4 bed, 1 Kanal, PKR 175,000); DHA Defence, Lahore (Lower Portion, 2 bed, 6 Marla, PKR 26,000).",
+  "timings": {
+    "router_ms": 0.07060007192194462,
+    "retrieve_ms": 251.76599994301796,
+    "llm_ms": 0.0483999028801918,
+    "total_ms": 251.8849999178201,
+    "api_total_ms": 264.55319998785853
+  },
+  "under_2s": true
+}

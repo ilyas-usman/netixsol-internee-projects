@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T063358410118Z_crm-check-1",
+  "session_id": "crm-check-1",
+  "timestamp": "20260830T063358410118Z",
+  "transcript": "follow up karna hai +923001234567 5 din baad payment plan discuss karna hai",
+  "response": "Ji, follow-up reminder set kar diya gaya hai — 2026-09-04 ko. (ID: 10da79248b)",
+  "timings": {
+    "crm_ms": 18.207699991762638,
+    "total_ms": 18.207699991762638,
+    "api_total_ms": 55.692499969154596
+  },
+  "under_2s": true
+}

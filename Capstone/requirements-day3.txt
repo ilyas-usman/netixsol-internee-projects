@@ -1,0 +1,18 @@
+# Day 2 dependencies
+pandas
+python-dotenv
+chromadb
+sentence-transformers
+groq
+
+# Day 3
+fastapi
+uvicorn[standard]
+websockets
+deepgram-sdk>=3.7.0,<4
+langgraph
+pydantic
+python-multipart
+
+# Optional ElevenLabs adapter
+# elevenlabs

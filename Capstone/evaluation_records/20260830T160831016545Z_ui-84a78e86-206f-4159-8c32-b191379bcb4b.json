@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T160831016545Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T160831016545Z",
+  "transcript": "naam ali number 03217639349 , 14 september ko sham 2 baje",
+  "response": "Konsa agent aapko pasand hoga? 1. Usama Khan (4.8★); 2. Ayesha Raza (4.6★). (Number ya naam bata dein, ya 'koi bhi' kahein.)",
+  "timings": {
+    "appointment_ms": 10.540199931710958,
+    "total_ms": 10.540199931710958,
+    "api_total_ms": 73.12260009348392
+  },
+  "under_2s": true
+}

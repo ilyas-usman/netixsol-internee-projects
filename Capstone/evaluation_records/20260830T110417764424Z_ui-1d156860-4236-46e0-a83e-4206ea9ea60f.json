@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T110417764424Z_ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "session_id": "ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "timestamp": "20260830T110417764424Z",
+  "transcript": "naam usman contact 03217639349 ma 30 september ko",
+  "response": "Ji bilkul, appointment book kar dete hain. Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 10.297199944034219,
+    "total_ms": 10.297199944034219,
+    "api_total_ms": 112.39100014790893
+  },
+  "under_2s": true
+}

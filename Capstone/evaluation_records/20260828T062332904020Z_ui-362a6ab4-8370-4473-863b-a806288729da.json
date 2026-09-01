@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-362a6ab4-8370-4473-863b-a806288729da",
+  "timestamp": "20260828T062332904020Z",
+  "transcript": "i want a flat to buy in lahore rather then dha",
+  "response": "Ji bilkul, verified options ye hain: Askari, Lahore (Flat, 3 bed, 10 Marla, PKR 15,200,000); Model Town, Lahore (Flat, 2 bed, 2 Marla, PKR 2,500,000); Model Town, Lahore (Flat, 3 bed, 4 Marla, PKR 2,500,000); Raiwind Road, Lahore (Flat, 3 bed, 7 Marla, PKR 7,000,000); Allama Iqbal Town, Lahore (Flat, 2 bed, 2 Marla, PKR 1,980,000).",
+  "timings": {
+    "router_ms": 0.07910002022981644,
+    "retrieve_ms": 262.91749998927116,
+    "llm_ms": 0.04769978113472462,
+    "total_ms": 263.0442997906357,
+    "api_total_ms": 274.56820011138916
+  },
+  "under_2s": true
+}

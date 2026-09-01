@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T092928705584Z_ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "session_id": "ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "timestamp": "20260831T092928705584Z",
+  "transcript": "appoinment reschedule krdo",
+  "response": "Ji, aapki appointment abhi 2026-09-26 17:00 par hai (House, DHA Defence, Islamabad ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 21.697700023651123,
+    "total_ms": 21.697700023651123,
+    "api_total_ms": 103.18570001982152
+  },
+  "under_2s": true
+}

@@ -1,0 +1,15 @@
+{
+  "session_id": "ui-fbb80393-113b-4480-8a8b-b1f978fcefc9",
+  "timestamp": "20260828T090246138309Z",
+  "transcript": "मैं लहर डीएचमें",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1210.5425000190735,
+    "retrieve_ms": 0.038800062611699104,
+    "llm_ms": 0.059999991208314896,
+    "total_ms": 1210.6413000728935,
+    "voice_total_ms": 7824.688599910587,
+    "voice_first_audio_ms": 2717.414999846369
+  },
+  "under_2s": false
+}

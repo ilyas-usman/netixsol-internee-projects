@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T062844751170Z_manual-1",
+  "session_id": "manual-1",
+  "timestamp": "20260830T062844751170Z",
+  "transcript": "mera naam Ali Raza hai, number 03001234567",
+  "response": "Ji bilkul, appointment book kar dete hain. Kis din aana chahenge (e.g. kal, ya 15 September)? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 6.329699885100126,
+    "total_ms": 6.329699885100126,
+    "api_total_ms": 70.22099988535047
+  },
+  "under_2s": true
+}

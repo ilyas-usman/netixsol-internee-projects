@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3683e65c-bfb1-40fa-959a-71428758fa9b",
+  "timestamp": "20260828T042257223007Z",
+  "transcript": "i want a house in faisalabad under 70 lac",
+  "response": "Afsos, abhi hamare database mein Faisalabad DHA mein 70 lakh se kam ki koi house available nahi hai. Agar aap chahein to main aapko ek agent se connect kar deta hoon.",
+  "timings": {
+    "router_ms": 0.13970001600682735,
+    "retrieve_ms": 353.1853000167757,
+    "llm_ms": 1898.5558999702334,
+    "total_ms": 2251.880900003016,
+    "api_total_ms": 2276.5844999812543
+  },
+  "under_2s": false
+}

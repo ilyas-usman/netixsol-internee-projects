@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d838eee8-f4fe-48dd-bf8f-5bb3bcc9456a",
+  "timestamp": "20260827T113918912220Z",
+  "transcript": "han krdo agent say connect",
+  "response": "Ji bilkul, main aapki property requirements mein madad kar sakta hoon.",
+  "timings": {
+    "router_ms": 1520.7515000365674,
+    "retrieve_ms": 0.004499917849898338,
+    "llm_ms": 0.03579980693757534,
+    "total_ms": 1520.791799761355,
+    "api_total_ms": 1534.6628001425415
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "demo-day3",
+  "timestamp": "20260827T104401449002Z",
+  "transcript": "Budget 3 crore hai.",
+  "response": "Ji bilkul, aapke 3 crore budget mein humare paas kai options hain – jaise Lower Portion Allama Iqbal Town (5 bed, 2 bath, 7.5 Marla, PKR 100,000), Lower Portion DHA Defence (4 bed, 6 bath, 1 Kanal, PKR 175,000), House DHA Defence (8 bed, 6 bath, 2 Kanal, PKR 190,000), House Johar Town (4 bed, 6 bath, 1 Kanal, PKR 270,000) aur House Gulberg (6 bed, 7 bath, 2 Kanal, PKR 400,000). Ager aapko koi specific location ya size chahiye ho to batayein, main aapko aur details share kar dunga.",
+  "timings": {
+    "router_ms": 0.55089988745749,
+    "retrieve_ms": 3883.6714001372457,
+    "llm_ms": 2539.1214000992477,
+    "total_ms": 6423.343700123951,
+    "api_total_ms": 6470.737600000575
+  },
+  "under_2s": false
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T064838986031Z",
+  "transcript": "mujhy lahore mein flats dekhao",
+  "response": "Ji bilkul, verified options ye hain: Samanabad, Lahore (Flat, 2 bed, 3 Marla, PKR 15,500); Punjab Govt Employees Society, Lahore (Flat, 2 bed, 5 Marla, PKR 22,000); Askari, Lahore (Flat, 3 bed, 10 Marla, PKR 42,000); DHA Defence, Lahore (Flat, 8 Marla, PKR 31,000); Bahria Town, Lahore (Flat, 1 bed, 4 Marla, PKR 26,000).",
+  "timings": {
+    "router_ms": 0.08439994417130947,
+    "retrieve_ms": 792.307100025937,
+    "llm_ms": 0.0700999516993761,
+    "total_ms": 792.4615999218076,
+    "api_total_ms": 813.847100129351
+  },
+  "under_2s": true
+}

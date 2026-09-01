@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T104813369614Z_ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "session_id": "ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "timestamp": "20260830T104813369614Z",
+  "transcript": "poora naam:m usman ilyas",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka poora naam?",
+  "timings": {
+    "appointment_ms": 8.059699786826968,
+    "total_ms": 8.059699786826968,
+    "api_total_ms": 127.91349994949996
+  },
+  "under_2s": true
+}

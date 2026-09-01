@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-29e14fd9-8509-46bc-8a65-69c8bb827fbc",
+  "timestamp": "20260828T051443230877Z",
+  "transcript": "is there any school near option in lahore or islamabad",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 4 bed, 6 Marla, PKR 15,500,000); Ghauri Town, Islamabad (House, 4 bed, 5.6 Marla, PKR 10,500,000); B-17, Islamabad (House, 3 bed, 5 Marla, PKR 15,000,000); Park Road, Islamabad (House, 4 bed, 5 Marla, PKR 10,500,000); Soan Garden, Islamabad (House, 5 bed, 5 Marla, PKR 12,000,000).",
+  "timings": {
+    "router_ms": 0.06309989839792252,
+    "retrieve_ms": 507.12990015745163,
+    "llm_ms": 0.03969995304942131,
+    "total_ms": 507.232700008899,
+    "api_total_ms": 519.9003999587148
+  },
+  "under_2s": true
+}

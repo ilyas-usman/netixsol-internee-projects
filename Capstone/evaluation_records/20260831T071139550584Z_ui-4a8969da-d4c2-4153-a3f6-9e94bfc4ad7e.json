@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T071139550584Z_ui-4a8969da-d4c2-4153-a3f6-9e94bfc4ad7e",
+  "session_id": "ui-4a8969da-d4c2-4153-a3f6-9e94bfc4ad7e",
+  "timestamp": "20260831T071139550584Z",
+  "transcript": "naam ali ha aur ma 5 september ko sham 4 baje",
+  "response": "Konsa agent aapko pasand hoga? 1. Usama Khan (4.8★); 2. Ayesha Raza (4.6★). (Number ya naam bata dein, ya 'koi bhi' kahein.)",
+  "timings": {
+    "appointment_ms": 498.2803000602871,
+    "total_ms": 498.2803000602871,
+    "api_total_ms": 2921.4713000692427
+  },
+  "under_2s": true
+}

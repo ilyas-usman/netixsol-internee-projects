@@ -1,0 +1,13 @@
+{
+  "call_id": "20260901T065418084380Z_ui-857f0e0a-03f1-4a2c-9028-733f50d8d23e",
+  "session_id": "ui-857f0e0a-03f1-4a2c-9028-733f50d8d23e",
+  "timestamp": "20260901T065418084380Z",
+  "transcript": "haan",
+  "response": "Ji, appointment confirm ho gayi hai (ID: a583677c6b). 2026-09-28 ko 18:00 baje Ayesha Raza aapse Flat, Diplomatic Enclave, Islamabad ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 5177.674300037324,
+    "total_ms": 5177.674300037324,
+    "api_total_ms": 5206.217699917033
+  },
+  "under_2s": false
+}

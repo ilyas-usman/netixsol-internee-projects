@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-fbb80393-113b-4480-8a8b-b1f978fcefc9",
+  "timestamp": "20260828T090424709921Z",
+  "transcript": "i want to buy a flat in islamabad under 2M nearby school",
+  "response": "Ji bilkul, verified options ye hain: B-17, Islamabad (Flat, 2 bed, 2.5 Marla, PKR 1,900,000); Ghauri Town, Islamabad (Flat, 1 bed, 2.4 Marla, PKR 2,000,000); B-17, Islamabad (Flat, 2 Marla, PKR 1,700,000).",
+  "timings": {
+    "router_ms": 0.24429988116025925,
+    "retrieve_ms": 113.86070004664361,
+    "llm_ms": 0.14450005255639553,
+    "total_ms": 114.24949998036027,
+    "api_total_ms": 139.96249996125698
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-362a6ab4-8370-4473-863b-a806288729da",
+  "timestamp": "20260828T062349789729Z",
+  "transcript": "in faisalabad under 70 lac",
+  "response": "Ji bilkul, verified options ye hain: Canal Road, Faisalabad (Flat, 1 bed, 2 Marla, PKR 2,000,000); Madina Town, Faisalabad (Flat, 2 bed, 1.9 Marla, PKR 1,500,000); Kohinoor City, Faisalabad (Flat, 1.4 Marla, PKR 3,500,000); Kohinoor City, Faisalabad (Flat, 1.4 Marla, PKR 3,000,000); Canal Road, Faisalabad (Flat, 0.9 Marla, PKR 1,800,000).",
+  "timings": {
+    "router_ms": 0.09689992293715477,
+    "retrieve_ms": 51.929199835285544,
+    "llm_ms": 0.04069996066391468,
+    "total_ms": 52.066799718886614,
+    "api_total_ms": 63.836000161245465
+  },
+  "under_2s": true
+}

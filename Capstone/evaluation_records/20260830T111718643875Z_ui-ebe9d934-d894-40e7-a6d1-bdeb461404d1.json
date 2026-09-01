@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T111718643875Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111718643875Z",
+  "transcript": "naam usman",
+  "response": "Ji, 2026-09-14 ko 17:00 baje, Islamabad ke liye Usama Khan ke sath appointment set kar sakte hain (calendar availability abhi verify nahi ho saki, lekin hum aapki booking note kar lete hain). Client: Usman, Phone: +923348829555. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 3262.155900010839,
+    "total_ms": 3262.155900010839,
+    "api_total_ms": 3338.2109000813216
+  },
+  "under_2s": false
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "objection-test",
+  "timestamp": "20260827T104519770137Z",
+  "transcript": "Ye property bohat mehngi hai.",
+  "response": "Ji, samajh sakta hoon. Maine kam price ke verified options dekhe hain: House in Gulberg, PKR 400,000.",
+  "timings": {
+    "router_ms": 0.07200008258223534,
+    "retrieve_ms": 267.1695000026375,
+    "llm_ms": 0.07999991066753864,
+    "total_ms": 267.3214999958873,
+    "api_total_ms": 289.38729991205037
+  },
+  "under_2s": true
+}

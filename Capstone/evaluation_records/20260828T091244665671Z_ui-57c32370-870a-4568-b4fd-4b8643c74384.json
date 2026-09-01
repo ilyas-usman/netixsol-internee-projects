@@ -1,0 +1,15 @@
+{
+  "session_id": "ui-57c32370-870a-4568-b4fd-4b8643c74384",
+  "timestamp": "20260828T091244665671Z",
+  "transcript": "Mujhekarachime",
+  "response": "Ji bilkul, verified options ye hain: Shaheed Millat Road, Karachi (Flat, 2 bed, 6.2 Marla, PKR 13,000,000); Clifton, Karachi (Flat, 3 bed, 8.9 Marla, PKR 35,000,000); Jamshed Town, Karachi (Upper Portion, 3 bed, 11 Marla, PKR 35,500,000); Fazaia Housing Scheme, Karachi (House, 3 bed, 11 Marla, PKR 9,205,000); Northern Bypass, Karachi (House, 3 bed, 5 Marla, PKR 6,642,000).",
+  "timings": {
+    "router_ms": 0.0871000811457634,
+    "retrieve_ms": 1085.2449999656528,
+    "llm_ms": 0.07800012826919556,
+    "total_ms": 1085.4101001750678,
+    "voice_total_ms": 26718.673799885437,
+    "voice_first_audio_ms": 2530.56179988198
+  },
+  "under_2s": false
+}

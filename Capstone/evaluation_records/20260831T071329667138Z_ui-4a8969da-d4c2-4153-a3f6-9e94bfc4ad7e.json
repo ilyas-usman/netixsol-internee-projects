@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T071329667138Z_ui-4a8969da-d4c2-4153-a3f6-9e94bfc4ad7e",
+  "session_id": "ui-4a8969da-d4c2-4153-a3f6-9e94bfc4ad7e",
+  "timestamp": "20260831T071329667138Z",
+  "transcript": "haan",
+  "response": "Ji, us din office band hota hai. Koi aur din bata dein.",
+  "timings": {
+    "appointment_ms": 686.5985998883843,
+    "total_ms": 686.5985998883843,
+    "api_total_ms": 5844.507199944928
+  },
+  "under_2s": true
+}

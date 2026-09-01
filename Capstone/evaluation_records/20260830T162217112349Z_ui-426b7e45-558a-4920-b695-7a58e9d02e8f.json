@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162217112349Z_ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "session_id": "ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "timestamp": "20260830T162217112349Z",
+  "transcript": "meri appointment book krdo",
+  "response": "Ji bilkul, appointment book kar dete hain. Sabse pehle: kaunsi property ke liye visit chahiye? Aapka poora naam? Aapka contact number? Kis din aana chahenge (e.g. kal, ya 15 September)? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 1738.3477999828756,
+    "total_ms": 1738.3477999828756,
+    "api_total_ms": 4313.2422000635415
+  },
+  "under_2s": true
+}

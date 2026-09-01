@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T073719960771Z_ui-cf7d7e3a-2c93-44ff-b9b4-622327558e68",
+  "session_id": "ui-cf7d7e3a-2c93-44ff-b9b4-622327558e68",
+  "timestamp": "20260831T073719960771Z",
+  "transcript": "i want flat in lahore for rent under 50 lac",
+  "response": "Ji bilkul, verified options ye hain: Samanabad, Lahore (Flat, 2 bed, 3 Marla, PKR 15,500); Punjab Govt Employees Society, Lahore (Flat, 2 bed, 5 Marla, PKR 22,000); Askari, Lahore (Flat, 3 bed, 10 Marla, PKR 42,000); DHA Defence, Lahore (Flat, 8 Marla, PKR 31,000); Bahria Town, Lahore (Flat, 1 bed, 4 Marla, PKR 26,000).",
+  "timings": {
+    "router_ms": 0.6234999746084213,
+    "retrieve_ms": 407.66189992427826,
+    "llm_ms": 0.09480002336204052,
+    "total_ms": 408.3801999222487,
+    "api_total_ms": 470.8616998977959
+  },
+  "under_2s": true
+}

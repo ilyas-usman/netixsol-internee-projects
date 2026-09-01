@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162308795219Z_ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "session_id": "ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "timestamp": "20260830T162308795219Z",
+  "transcript": "naam usman ali number 03217639349 property flat in lahore aur ma 12 september",
+  "response": "Ji bilkul, appointment book kar dete hain. Sabse pehle: kaunsi property ke liye visit chahiye? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 9.590200148522854,
+    "total_ms": 9.590200148522854,
+    "api_total_ms": 66.49770005606115
+  },
+  "under_2s": true
+}

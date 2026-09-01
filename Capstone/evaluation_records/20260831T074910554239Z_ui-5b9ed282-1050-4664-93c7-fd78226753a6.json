@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T074910554239Z_ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "session_id": "ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "timestamp": "20260831T074910554239Z",
+  "transcript": "allah hafiz",
+  "response": "Allah Hafiz sir! RealEstate Hub se baat karne ka shukriya. Aapka din accha guzre!",
+  "timings": {
+    "router_ms": 0.05230004899203777,
+    "retrieve_ms": 0.06469991058111191,
+    "llm_ms": 0,
+    "total_ms": 0.11699995957314968,
+    "api_total_ms": 57.276499923318624
+  },
+  "under_2s": true
+}

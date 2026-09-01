@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T111554764132Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111554764132Z",
+  "transcript": "under 1.5M",
+  "response": "Ji bilkul, verified options ye hain: Tarnol, Islamabad (House, 3 bed, 4 Marla, PKR 14 lakh); B-17, Islamabad (Flat, 1 bed, 1.7 Marla, PKR 15 lakh); Gulberg, Islamabad (Flat, 3 bed, 6.7 Marla, PKR 15 lakh); B-17, Islamabad (Flat, 1 bed, 3.1 Marla, PKR 10 lakh 35 thousand); B-17, Islamabad (Flat, 2 bed, 4.3 Marla, PKR 14 lakh 55 thousand).",
+  "timings": {
+    "router_ms": 1.075299922376871,
+    "retrieve_ms": 1152.722500031814,
+    "llm_ms": 0.1246000174432993,
+    "total_ms": 1153.9223999716341,
+    "api_total_ms": 1239.2649999819696
+  },
+  "under_2s": true
+}

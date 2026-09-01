@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-7d96eca6-5fc1-4b58-af58-549bf9e9e050",
+  "timestamp": "20260828T061826355177Z",
+  "transcript": "i want a flat in dha lahore",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Lahore (Flat, 2 bed, 4 Marla, PKR 9,000,000); DHA Defence, Lahore (Flat, 3 bed, 9 Marla, PKR 19,000,000); DHA Defence, Lahore (Flat, 1 bed, 3.9 Marla, PKR 14,500,000); DHA Defence, Lahore (Flat, 3 bed, 9.8 Marla, PKR 38,000,000); DHA Defence, Lahore (Flat, 3 bed, 10 Marla, PKR 34,500,000).",
+  "timings": {
+    "router_ms": 0.11390005238354206,
+    "retrieve_ms": 258.05220007896423,
+    "llm_ms": 0.05079992115497589,
+    "total_ms": 258.21690005250275,
+    "api_total_ms": 270.061899907887
+  },
+  "under_2s": true
+}

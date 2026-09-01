@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070443896512Z",
+  "transcript": "any flat in faisalabad under 10M nearby school",
+  "response": "Ji, Faisalabad ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.14479993842542171,
+    "retrieve_ms": 19.17660003527999,
+    "llm_ms": 0.0804997980594635,
+    "total_ms": 19.401899771764874,
+    "api_total_ms": 44.154300121590495
+  },
+  "under_2s": true
+}

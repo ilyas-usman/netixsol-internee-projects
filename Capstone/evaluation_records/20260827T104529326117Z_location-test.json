@@ -1,0 +1,14 @@
+{
+  "session_id": "location-test",
+  "timestamp": "20260827T104529326117Z",
+  "transcript": "Location mujhe suitable nahi lag rahi.",
+  "response": "Ji, samajh sakta hoon. Aap kis area ya location ko prefer karte hain? Main us preference ke mutabiq verified options dekh leta hoon.",
+  "timings": {
+    "router_ms": 0.08999998681247234,
+    "retrieve_ms": 104.95509998872876,
+    "llm_ms": 0.03160000778734684,
+    "total_ms": 105.07669998332858,
+    "api_total_ms": 128.55960009619594
+  },
+  "under_2s": true
+}

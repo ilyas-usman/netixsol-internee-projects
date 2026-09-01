@@ -1,0 +1,21 @@
+Week 7 Day 3 implemented on top of Week 7 Day 2.
+
+Added:
+- app_day3.py
+- day3_agent.py
+- day3_router.py
+- conversation_memory.py
+- day3_objections.py
+- voice_pipeline.py
+- stt_providers.py
+- tts_providers.py
+- evaluation_harness.py
+- test_day3.py
+- day3-README.md
+- requirements-day3.txt
+- .env.example
+- start_day3.ps1
+
+Secrets:
+- The original .env was intentionally excluded from the deliverable.
+- Put your existing GROQ_API_KEY into the new .env.

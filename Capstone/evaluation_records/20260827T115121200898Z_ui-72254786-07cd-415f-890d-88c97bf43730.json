@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-72254786-07cd-415f-890d-88c97bf43730",
+  "timestamp": "20260827T115121200898Z",
+  "transcript": "faisalabad m koi 40 lac m option",
+  "response": "Ji bilkul, Faisalabad mein aapke 40 lac budget ke andar ye options hain: Nemat Colony No 2 – 2.5 Marla house PKR 3 million; Shalimar Park – 2.5 Marla house PKR 3.5 million; Haji Abad – 3 Marla house PKR 3.25 million; aur Chak 279/RB Kalan – 2 bed, 2 bath, 3 Marla house PKR 3.5 million. Agar aapko koi specific location ya size pasand aaye to batayein, main aapko agent se connect karwa deta hoon.",
+  "timings": {
+    "router_ms": 0.06759981624782085,
+    "retrieve_ms": 210.72359988465905,
+    "llm_ms": 16133.032399928197,
+    "total_ms": 16343.823599629104,
+    "api_total_ms": 16358.135199872777
+  },
+  "under_2s": false
+}

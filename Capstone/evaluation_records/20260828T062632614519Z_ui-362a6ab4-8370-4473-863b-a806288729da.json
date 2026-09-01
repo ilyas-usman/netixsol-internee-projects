@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-362a6ab4-8370-4473-863b-a806288729da",
+  "timestamp": "20260828T062632614519Z",
+  "transcript": "I am looking to buy a house in islamabad  in F-11 with a hospital closeby",
+  "response": "Ji, Islamabad ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.06690016016364098,
+    "retrieve_ms": 74.9482000246644,
+    "llm_ms": 0.03260001540184021,
+    "total_ms": 75.04770020022988,
+    "api_total_ms": 87.13879995048046
+  },
+  "under_2s": true
+}

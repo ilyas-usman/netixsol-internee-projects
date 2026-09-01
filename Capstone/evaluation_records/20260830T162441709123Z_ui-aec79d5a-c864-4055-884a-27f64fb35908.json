@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162441709123Z_ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "session_id": "ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "timestamp": "20260830T162441709123Z",
+  "transcript": "naam ali number 984793287482 11 sep",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka contact number? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 6.087600020691752,
+    "total_ms": 6.087600020691752,
+    "api_total_ms": 58.73130005784333
+  },
+  "under_2s": true
+}

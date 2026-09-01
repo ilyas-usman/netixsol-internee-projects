@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-68ae1033-a044-4543-8afb-d791ba68164c",
+  "timestamp": "20260827T121128131583Z",
+  "transcript": "faisalabad m dha m ghr h?",
+  "response": "Acha, mujhe abhi tak Faisalabad ke DHA mein koi property ka record nahi mila. Agar aap chahein, main aapko humare agent se connect kar deta hoon taake aapko latest options mil saken.",
+  "timings": {
+    "router_ms": 0.07080007344484329,
+    "retrieve_ms": 201.18079986423254,
+    "llm_ms": 848.0888998601586,
+    "total_ms": 1049.340499797836,
+    "api_total_ms": 1062.1018998790532
+  },
+  "under_2s": true
+}

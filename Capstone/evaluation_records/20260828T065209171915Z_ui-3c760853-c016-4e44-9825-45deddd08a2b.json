@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T065209171915Z",
+  "transcript": "mjhe koi lahore m ghr dekhaoo under 50 lac",
+  "response": "Ji bilkul, verified options ye hain: Model Town, Lahore (Flat, 2 bed, 2 Marla, PKR 2,500,000); Model Town, Lahore (Flat, 3 bed, 4 Marla, PKR 2,500,000); Allama Iqbal Town, Lahore (Flat, 2 bed, 2 Marla, PKR 1,980,000); Raiwind Road, Lahore (Flat, 2 bed, 5.4 Marla, PKR 2,500,000); Eden, Lahore (Flat, 2 bed, 3 Marla, PKR 1,750,000).",
+  "timings": {
+    "router_ms": 0.147499842569232,
+    "retrieve_ms": 309.83639997430146,
+    "llm_ms": 0.07159984670579433,
+    "total_ms": 310.0554996635765,
+    "api_total_ms": 332.39699993282557
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070219696968Z",
+  "transcript": "dha lahore under 10m",
+  "response": "Ji bilkul, verified options ye hain: DHA 11 Rahbar, Lahore (House, 1 bed, 5 Marla, PKR 8,500,000); DHA Defence, Lahore (House, 4 bed, 5 Marla, PKR 9,000,000); DHA 11 Rahbar, Lahore (House, 3 bed, 5 Marla, PKR 9,500,000); DHA 11 Rahbar, Lahore (House, 3 bed, 5 Marla, PKR 10,000,000); DHA Defence, Lahore (House, 3 bed, 5 Marla, PKR 9,500,000).",
+  "timings": {
+    "router_ms": 0.15760003589093685,
+    "retrieve_ms": 946.157000027597,
+    "llm_ms": 0.0700000673532486,
+    "total_ms": 946.3846001308411,
+    "api_total_ms": 968.9084999263287
+  },
+  "under_2s": true
+}

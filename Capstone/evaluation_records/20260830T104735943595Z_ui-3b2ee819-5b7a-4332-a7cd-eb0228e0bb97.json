@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T104735943595Z_ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "session_id": "ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "timestamp": "20260830T104735943595Z",
+  "transcript": "naam : usman ilyas sham 4 baje",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka poora naam?",
+  "timings": {
+    "appointment_ms": 14.811699977144599,
+    "total_ms": 14.811699977144599,
+    "api_total_ms": 132.47479987330735
+  },
+  "under_2s": true
+}

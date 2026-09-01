@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T041344438716Z_ui-1cc7d02a-07df-4830-998a-c7a875dc20d4",
+  "session_id": "ui-1cc7d02a-07df-4830-998a-c7a875dc20d4",
+  "timestamp": "20260831T041344438716Z",
+  "transcript": "haan",
+  "response": "Ji, 2026-09-11 15:00 ki appointment cancel kar di gayi hai. Employee ko bhi inform kar diya gaya hai.",
+  "timings": {
+    "appointment_ms": 6743.71730000712,
+    "total_ms": 6743.71730000712,
+    "api_total_ms": 6790.479999966919
+  },
+  "under_2s": false
+}

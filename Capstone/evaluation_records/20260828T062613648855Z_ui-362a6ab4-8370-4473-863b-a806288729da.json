@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-362a6ab4-8370-4473-863b-a806288729da",
+  "timestamp": "20260828T062613648855Z",
+  "transcript": "I am looking to rent a house in islamabad with a hospital closeby",
+  "response": "Ji, Islamabad ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.07209996692836285,
+    "retrieve_ms": 40.87730008177459,
+    "llm_ms": 0.03820005804300308,
+    "total_ms": 40.98760010674596,
+    "api_total_ms": 54.00109989568591
+  },
+  "under_2s": true
+}

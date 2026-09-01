@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T064417479735Z_manual-2",
+  "session_id": "manual-2",
+  "timestamp": "20260830T064417479735Z",
+  "transcript": "mera naam Sana Malik hai, number 03211112233",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 978.3983000088483,
+    "retrieve_ms": 0.03969995304942131,
+    "llm_ms": 0.07539987564086914,
+    "total_ms": 978.5133998375386,
+    "api_total_ms": 1046.0431999526918
+  },
+  "under_2s": true
+}

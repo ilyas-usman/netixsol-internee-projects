@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T062945834301Z_manual-1",
+  "session_id": "manual-1",
+  "timestamp": "20260830T062945834301Z",
+  "transcript": "haan confirm",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 3c6ac42fdf). 2026-09-01 ko 17:00 baje Usama Khan aapse House DHA Phase 5 Lahore ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 5278.93180004321,
+    "total_ms": 5278.93180004321,
+    "api_total_ms": 5323.217399884015
+  },
+  "under_2s": false
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-51d48437-78a4-4618-808c-b614627f3e43",
+  "timestamp": "20260828T015121226360Z",
+  "transcript": "dha in fsd",
+  "response": "Ji bilkul, DHA Defence, Karachi mein aapke liye kuch options hain: 6 bed, 1 Kanal house PKR 90 million (Agent Shaikh Shakir Ahmed), 3 bed flat 6.4 Marla PKR 18 million (Agent Ali Raza Muhammad), aur 3 bed, 12 Marla house PKR 60 million (Agent Asif Khan).",
+  "timings": {
+    "router_ms": 0.11809985153377056,
+    "retrieve_ms": 3153.579300036654,
+    "llm_ms": 2556.347400182858,
+    "total_ms": 5710.044800071046,
+    "api_total_ms": 5732.8890999779105
+  },
+  "under_2s": false
+}

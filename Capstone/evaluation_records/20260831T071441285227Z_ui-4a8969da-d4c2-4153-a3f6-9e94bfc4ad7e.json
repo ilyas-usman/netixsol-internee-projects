@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T071441285227Z_ui-4a8969da-d4c2-4153-a3f6-9e94bfc4ad7e",
+  "session_id": "ui-4a8969da-d4c2-4153-a3f6-9e94bfc4ad7e",
+  "timestamp": "20260831T071441285227Z",
+  "transcript": "cancel krdo",
+  "response": "Ji, aapki appointment 2026-09-08 17:00 par (House, Nemat Colony No 2, Faisalabad) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 6.448899861425161,
+    "total_ms": 6.448899861425161,
+    "api_total_ms": 54.29359991103411
+  },
+  "under_2s": true
+}

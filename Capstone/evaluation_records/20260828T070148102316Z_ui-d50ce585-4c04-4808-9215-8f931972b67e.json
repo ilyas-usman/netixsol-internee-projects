@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070148102316Z",
+  "transcript": "i want a house in islamabad under 50k",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 8 bed, 1 Kanal, PKR 39,500,000); Bani Gala, Islamabad (House, 10 bed, 2 Kanal, PKR 75,000,000); DHA Defence, Islamabad (House, 4 bed, 6 Marla, PKR 15,500,000); Ghauri Town, Islamabad (House, 4 bed, 5.6 Marla, PKR 10,500,000); G-13, Islamabad (House, 4 bed, 1 Kanal, PKR 59,000,000).",
+  "timings": {
+    "router_ms": 0.12450013309717178,
+    "retrieve_ms": 773.4394997823983,
+    "llm_ms": 0.09269989095628262,
+    "total_ms": 773.6566998064518,
+    "api_total_ms": 798.8730000797659
+  },
+  "under_2s": true
+}

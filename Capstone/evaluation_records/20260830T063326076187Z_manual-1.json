@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T063326076187Z_manual-1",
+  "session_id": "manual-1",
+  "timestamp": "20260830T063326076187Z",
+  "transcript": "mujhe apni appointment cancel karni hai",
+  "response": "Ji, aapki appointment 2026-09-03 11:00 par (House DHA Phase 5 Lahore) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 14.93210019543767,
+    "total_ms": 14.93210019543767,
+    "api_total_ms": 59.375999961048365
+  },
+  "under_2s": true
+}

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162519967840Z_ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "session_id": "ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "timestamp": "20260830T162519967840Z",
+  "transcript": "usama khan",
+  "response": "Ji, 2026-09-11 ko 15:00 baje, Flat, Model Town, Lahore ke liye Usama Khan ke sath appointment set kar sakte hain (calendar availability abhi verify nahi ho saki, lekin hum aapki booking note kar lete hain). Client: Ali, Phone: +923217639349. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 2683.790300041437,
+    "total_ms": 2683.790300041437,
+    "api_total_ms": 2749.092600075528
+  },
+  "under_2s": false
+}

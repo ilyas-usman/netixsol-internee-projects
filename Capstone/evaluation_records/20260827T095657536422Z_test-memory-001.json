@@ -1,0 +1,14 @@
+{
+  "session_id": "test-memory-001",
+  "timestamp": "20260827T095657536422Z",
+  "transcript": "DHA mein kya options hain?",
+  "response": "Ji bilkul, DHA ke regarding mere paas abhi koi verified listing nahi hai. Agar aap chahein, main aapko hamare agent se connect kar sakta hoon jo aapko latest options batayenge.",
+  "timings": {
+    "router_ms": 1626.1247999500483,
+    "retrieve_ms": 271.31620002910495,
+    "llm_ms": 1071.7458000872284,
+    "total_ms": 2969.1868000663817,
+    "api_total_ms": 2994.4421998225152
+  },
+  "under_2s": false
+}

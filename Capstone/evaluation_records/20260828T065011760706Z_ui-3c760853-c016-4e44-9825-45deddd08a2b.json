@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T065011760706Z",
+  "transcript": "islamabad",
+  "response": "Ji, Islamabad ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.07820012979209423,
+    "retrieve_ms": 569.7808000259101,
+    "llm_ms": 0.06600003689527512,
+    "total_ms": 569.9250001925975,
+    "api_total_ms": 592.5359001848847
+  },
+  "under_2s": true
+}

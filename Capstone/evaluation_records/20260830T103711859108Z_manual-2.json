@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T103711859108Z_manual-2",
+  "session_id": "manual-2",
+  "timestamp": "20260830T103711859108Z",
+  "transcript": "haan confirm",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 5884cbf039). 2026-09-05 ko 16:00 baje Ayesha Raza aapse property ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 5749.604200012982,
+    "total_ms": 5749.604200012982,
+    "api_total_ms": 5798.26350021176
+  },
+  "under_2s": false
+}

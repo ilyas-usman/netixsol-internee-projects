@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T065247193917Z",
+  "transcript": "in krarachi flat to buy under 5M",
+  "response": "Ji bilkul, verified options ye hain: Model Town, Lahore (Flat, 2 bed, 2 Marla, PKR 2,500,000); Model Town, Lahore (Flat, 3 bed, 4 Marla, PKR 2,500,000); Allama Iqbal Town, Lahore (Flat, 2 bed, 2 Marla, PKR 1,980,000); Raiwind Road, Lahore (Flat, 2 bed, 5.4 Marla, PKR 2,500,000); Eden, Lahore (Flat, 2 bed, 3 Marla, PKR 1,750,000).",
+  "timings": {
+    "router_ms": 0.12159999459981918,
+    "retrieve_ms": 47.88740002550185,
+    "llm_ms": 0.0825000461190939,
+    "total_ms": 48.09150006622076,
+    "api_total_ms": 71.86549995094538
+  },
+  "under_2s": true
+}

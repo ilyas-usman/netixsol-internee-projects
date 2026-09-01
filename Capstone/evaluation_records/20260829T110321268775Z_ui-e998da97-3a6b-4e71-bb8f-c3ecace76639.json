@@ -1,0 +1,15 @@
+{
+  "call_id": "20260829T110321268775Z_ui-e998da97-3a6b-4e71-bb8f-c3ecace76639",
+  "session_id": "ui-e998da97-3a6b-4e71-bb8f-c3ecace76639",
+  "timestamp": "20260829T110321268775Z",
+  "transcript": "Location: DHA Defence, Islamabad Details: House, 5 bed, 5.0 bath, 1 Kanal,yha say school kitna durr h?",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 1 lakh); DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 1 lakh 20 thousand); DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 1 lakh); DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 1 lakh 10 thousand); DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 85,000).",
+  "timings": {
+    "router_ms": 0.5557998083531857,
+    "retrieve_ms": 911.8529998231679,
+    "llm_ms": 0.09240000508725643,
+    "total_ms": 912.5011996366084,
+    "api_total_ms": 949.1037998814136
+  },
+  "under_2s": true
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T161048094423Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T161048094423Z",
+  "transcript": "i want flat for rent in karachi under 50k",
+  "response": "Ji bilkul, verified options ye hain: Shaheed Millat Road, Karachi (Flat, 2 bed, 3.6 Marla, PKR 28,000); Gulistan-e-Jauhar, Karachi (Flat, 5 bed, 7.3 Marla, PKR 35,000); Clifton, Karachi (Flat, 4 bed, 11.1 Marla, PKR 85,000); Clifton, Karachi (Flat, 4 bed, 12.4 Marla, PKR 1 lakh 50 thousand); DHA Defence, Karachi (Flat, 2 bed, 4.4 Marla, PKR 32,000).",
+  "timings": {
+    "router_ms": 0.6782999262213707,
+    "retrieve_ms": 1085.8696999493986,
+    "llm_ms": 0.08539995178580284,
+    "total_ms": 1086.6333998274058,
+    "api_total_ms": 1147.2552998457104
+  },
+  "under_2s": true
+}

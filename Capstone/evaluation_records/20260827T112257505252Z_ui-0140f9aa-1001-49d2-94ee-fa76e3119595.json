@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-0140f9aa-1001-49d2-94ee-fa76e3119595",
+  "timestamp": "20260827T112257505252Z",
+  "transcript": "DHA mein kya options hain?",
+  "response": "Ji bilkul, DHA Defence Lahore mein aapke budget ke andar Lower Portion (4 bed, 6 bath, 1 Kanal, PKR 175,000) aur House (8 bed, 6 bath, 2 Kanal, PKR 190,000) available hain; aur Karachi mein House (5 bed, 6 bath, 2 Kanal, PKR 100,000), House (3 bed, 3 bath, 4 Marla, PKR 100,000) aur Upper Portion (3 bed, 0 bath, 1 Kanal, PKR 120,000) hain. Aapko koi specific size ya agent detail chahiye ho to batayein, main aapko connect karwa dunga.",
+  "timings": {
+    "router_ms": 0.1471999567002058,
+    "retrieve_ms": 942.3755998723209,
+    "llm_ms": 3159.1548998840153,
+    "total_ms": 4101.677699713036,
+    "api_total_ms": 4123.694899957627
+  },
+  "under_2s": false
+}

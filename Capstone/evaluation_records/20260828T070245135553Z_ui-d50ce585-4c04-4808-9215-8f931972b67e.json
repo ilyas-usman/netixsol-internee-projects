@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070245135553Z",
+  "transcript": "for rent",
+  "response": "Ji bilkul, verified options ye hain: Shaheed Millat Road, Karachi (Flat, 2 bed, 3.6 Marla, PKR 28,000); Gulistan-e-Jauhar, Karachi (Flat, 5 bed, 7.3 Marla, PKR 35,000); Clifton, Karachi (Flat, 4 bed, 11.1 Marla, PKR 85,000); Clifton, Karachi (Flat, 4 bed, 12.4 Marla, PKR 150,000); DHA Defence, Karachi (Flat, 2 bed, 4.4 Marla, PKR 32,000).",
+  "timings": {
+    "router_ms": 0.09050010703504086,
+    "retrieve_ms": 47.17620019800961,
+    "llm_ms": 0.2313000150024891,
+    "total_ms": 47.49800032004714,
+    "api_total_ms": 68.65359982475638
+  },
+  "under_2s": true
+}

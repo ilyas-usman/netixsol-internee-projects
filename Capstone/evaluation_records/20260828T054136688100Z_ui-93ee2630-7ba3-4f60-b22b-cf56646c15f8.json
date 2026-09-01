@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-93ee2630-7ba3-4f60-b22b-cf56646c15f8",
+  "timestamp": "20260828T054136688100Z",
+  "transcript": "in dha lahore?",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Lahore (House, 3 bed, 3 Marla, PKR 5,500,000); DHA Defence, Lahore (House, 5 bed, 1 Kanal, PKR 190,000); DHA Defence, Lahore (House, 3 bed, 5 Marla, PKR 140,000); DHA Defence, Lahore (House, 6 bed, 1 Kanal, PKR 4,500,000); DHA Defence, Lahore (House, 3 bed, 10 Marla, PKR 200,000).",
+  "timings": {
+    "router_ms": 0.09309989400207996,
+    "retrieve_ms": 186.23830005526543,
+    "llm_ms": 0.04469999112188816,
+    "total_ms": 186.3760999403894,
+    "api_total_ms": 197.97450001351535
+  },
+  "under_2s": true
+}

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T074806789551Z_ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "session_id": "ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "timestamp": "20260831T074806789551Z",
+  "transcript": "haan",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 19f7dc2177). 2026-09-01 ko 14:00 baje Ayesha Raza aapse Blue Area, Islamabad ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 5982.421500142664,
+    "total_ms": 5982.421500142664,
+    "api_total_ms": 6037.935899803415
+  },
+  "under_2s": false
+}

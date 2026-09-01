@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T063827638603Z_manual-2",
+  "session_id": "manual-2",
+  "timestamp": "20260830T063827638603Z",
+  "transcript": "2026-09-05 shaam 4 baje",
+  "response": "Ji, 2026-09-05 ko 16:00 baje, property ke liye Usama Khan ke sath appointment set kar sakte hain (calendar availability abhi verify nahi ho saki, lekin hum aapki booking note kar lete hain). Client: Sana Malik, Phone: +923211112233. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 2047.971700085327,
+    "total_ms": 2047.971700085327,
+    "api_total_ms": 2088.768099900335
+  },
+  "under_2s": false
+}

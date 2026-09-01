@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T160731333520Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T160731333520Z",
+  "transcript": "Book my appointment",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1260.931700002402,
+    "retrieve_ms": 0.04229997284710407,
+    "llm_ms": 0.09429990313947201,
+    "total_ms": 1261.0682998783886,
+    "api_total_ms": 1321.4420001022518
+  },
+  "under_2s": true
+}

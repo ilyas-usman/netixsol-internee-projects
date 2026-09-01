@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-6289815e-5aee-4a0c-9a08-fb75d9cd93bb",
+  "timestamp": "20260829T065822652962Z",
+  "transcript": "i want shop in islamabad under 2M for rent",
+  "response": "Ji, Islamabad ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.21689990535378456,
+    "retrieve_ms": 7.263400126248598,
+    "llm_ms": 0.08179992437362671,
+    "total_ms": 7.562099955976009,
+    "api_total_ms": 56.01929989643395
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-ee4f8055-82c6-47b0-b153-c723398617e0",
+  "timestamp": "20260829T071241401775Z",
+  "transcript": "any shop in lahore to buy under 1.5M",
+  "response": "Ji bilkul, verified options ye hain: Office DHA Phase 5, Lahore (250 sqft, PKR 83 lakh 48 thousand); Shop DHA Phase 5, Lahore (2500 sqft, PKR 6 crore 3 lakh); Office Bahria Town, Lahore (600 sqft, PKR 2 crore 20 lakh); Warehouse Bahria Town, Lahore (900 sqft, PKR 70 lakh 87 thousand); Plaza Floor Bahria Town, Lahore (600 sqft, PKR 1 crore 59 lakh).",
+  "timings": {
+    "router_ms": 0.11830008588731289,
+    "retrieve_ms": 5.2912000101059675,
+    "llm_ms": 0.07520010694861412,
+    "total_ms": 5.4847002029418945,
+    "api_total_ms": 36.421299912035465
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d9da9855-7713-43e8-bbf6-aac0cafdd082",
+  "timestamp": "20260829T011256902195Z",
+  "transcript": "what about area?utilities?",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1134.524199878797,
+    "retrieve_ms": 0.04449998959898949,
+    "llm_ms": 0.06910017691552639,
+    "total_ms": 1134.6378000453115,
+    "api_total_ms": 1160.5811000335962
+  },
+  "under_2s": true
+}

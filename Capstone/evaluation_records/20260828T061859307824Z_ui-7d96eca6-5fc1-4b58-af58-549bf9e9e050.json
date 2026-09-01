@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-7d96eca6-5fc1-4b58-af58-549bf9e9e050",
+  "timestamp": "20260828T061859307824Z",
+  "transcript": "i am saying dha kay ilawa",
+  "response": "Ji bilkul, verified options ye hain: Askari, Lahore (Flat, 3 bed, 10 Marla, PKR 15,200,000); Model Town, Lahore (Flat, 2 bed, 2 Marla, PKR 2,500,000); Model Town, Lahore (Flat, 3 bed, 4 Marla, PKR 2,500,000); Raiwind Road, Lahore (Flat, 3 bed, 7 Marla, PKR 7,000,000); Allama Iqbal Town, Lahore (Flat, 2 bed, 2 Marla, PKR 1,980,000).",
+  "timings": {
+    "router_ms": 0.05650008097290993,
+    "retrieve_ms": 27.136299991980195,
+    "llm_ms": 0.039400067180395126,
+    "total_ms": 27.2322001401335,
+    "api_total_ms": 38.88859995640814
+  },
+  "under_2s": true
+}

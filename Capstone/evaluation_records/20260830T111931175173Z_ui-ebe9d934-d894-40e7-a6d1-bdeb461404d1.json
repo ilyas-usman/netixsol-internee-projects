@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T111931175173Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111931175173Z",
+  "transcript": "i want house in dha lahore under 20M",
+  "response": "Ji, 2026-09-12 ko 12:00 baje move karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 21.31089987233281,
+    "total_ms": 21.31089987233281,
+    "api_total_ms": 90.51279979757965
+  },
+  "under_2s": true
+}

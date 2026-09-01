@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162537764180Z_ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "session_id": "ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "timestamp": "20260830T162537764180Z",
+  "transcript": "reschedule krdo",
+  "response": "Ji, aapki appointment abhi 2026-09-11 15:00 par hai (Flat, Model Town, Lahore ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 17.612399999052286,
+    "total_ms": 17.612399999052286,
+    "api_total_ms": 94.10419990308583
+  },
+  "under_2s": true
+}

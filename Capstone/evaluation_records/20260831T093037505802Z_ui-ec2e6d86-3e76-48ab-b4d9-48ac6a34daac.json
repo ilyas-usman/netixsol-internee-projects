@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T093037505802Z_ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "session_id": "ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "timestamp": "20260831T093037505802Z",
+  "transcript": "hann",
+  "response": "Ji, aapki appointment 2026-09-25 16:00 par (House, DHA Defence, Islamabad) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 2.64439987950027,
+    "total_ms": 2.64439987950027,
+    "api_total_ms": 113.88860014267266
+  },
+  "under_2s": true
+}

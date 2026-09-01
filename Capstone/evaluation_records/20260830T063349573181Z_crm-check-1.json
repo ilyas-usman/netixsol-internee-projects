@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T063349573181Z_crm-check-1",
+  "session_id": "crm-check-1",
+  "timestamp": "20260830T063349573181Z",
+  "transcript": "mera profile dikhao +923001234567",
+  "response": "Client: Ali Raza (+923001234567)\nPreferences: city: Lahore, location: DHA Phase 5, property_type: House\nTotal appointments: 1 (latest: 2026-09-03 11:00 — cancelled)\nPending follow-ups: 2 (agla: 2026-09-02 — Follow up with Ali Raza after their House DHA Phase 5 Lahore viewing with Usama Khan.)",
+  "timings": {
+    "crm_ms": 7.537199882790446,
+    "total_ms": 7.537199882790446,
+    "api_total_ms": 52.96709993854165
+  },
+  "under_2s": true
+}

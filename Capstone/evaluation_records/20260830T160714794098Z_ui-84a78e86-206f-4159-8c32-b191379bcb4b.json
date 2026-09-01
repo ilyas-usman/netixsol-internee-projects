@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T160714794098Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T160714794098Z",
+  "transcript": "NEARBY school",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Karachi (House, 5 bed, 1 Kanal, PKR 2 lakh 30 thousand); DHA Defence, Karachi (House, 11 bed, 2.3 Kanal, PKR 4 lakh); DHA Defence, Karachi (House, 4 bed, 1 Kanal, PKR 2 lakh).",
+  "timings": {
+    "router_ms": 0.9747999720275402,
+    "retrieve_ms": 90.52499989047647,
+    "llm_ms": 0.12870016507804394,
+    "total_ms": 91.62850002758205,
+    "api_total_ms": 3626.345399999991
+  },
+  "under_2s": true
+}

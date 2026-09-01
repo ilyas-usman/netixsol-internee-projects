@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T071311829354Z_ui-4a8969da-d4c2-4153-a3f6-9e94bfc4ad7e",
+  "session_id": "ui-4a8969da-d4c2-4153-a3f6-9e94bfc4ad7e",
+  "timestamp": "20260831T071311829354Z",
+  "transcript": "reschedule krdo",
+  "response": "Ji, aapki appointment abhi 2026-09-05 16:00 par hai (House, Nemat Colony No 2, Faisalabad ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 105.36960000172257,
+    "total_ms": 105.36960000172257,
+    "api_total_ms": 226.85850015841424
+  },
+  "under_2s": true
+}

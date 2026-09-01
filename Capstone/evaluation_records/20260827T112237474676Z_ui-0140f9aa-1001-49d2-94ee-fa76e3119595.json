@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-0140f9aa-1001-49d2-94ee-fa76e3119595",
+  "timestamp": "20260827T112237474676Z",
+  "transcript": "Budget 3 crore hai.",
+  "response": "Ji bilkul, aapke 3 crore budget ke andar Lahore mein ye properties available hain: Lower Portion Allama Iqbal Town – 5 bed, 2 bath, 7.5 Marla, PKR 100,000; Lower Portion DHA Defence – 4 bed, 6 bath, 1 Kanal, PKR 175,000; House DHA Defence – 8 bed, 6 bath, 2 Kanal, PKR 190,000; House Johar Town – 4 bed, 6 bath, 1 Kanal, PKR 270,000; aur House Gulberg – 6 bed, 7 bath, 2 Kanal, PKR 400,000 (Agent: Imran Akbar). Agar aapko koi specific location ya size chahiye ho toh batayein, main aapko agent se connect karwa dunga.",
+  "timings": {
+    "router_ms": 0.5781999789178371,
+    "retrieve_ms": 3234.6313998568803,
+    "llm_ms": 5803.100100019947,
+    "total_ms": 9038.309699855745,
+    "api_total_ms": 9087.736600078642
+  },
+  "under_2s": false
+}

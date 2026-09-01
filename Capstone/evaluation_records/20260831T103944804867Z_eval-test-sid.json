@@ -1,0 +1,21 @@
+{
+  "call_id": "20260831T103944804867Z_eval-test-sid",
+  "session_id": "eval-test-sid",
+  "timestamp": "20260831T103944804867Z",
+  "transcript": "Test prompt",
+  "response": "Test response",
+  "timings": {
+    "total_ms": 500
+  },
+  "under_2s": true,
+  "human_evaluation": {
+    "scores": {
+      "naturalness": 5,
+      "persuasiveness": 4,
+      "fluency": 5,
+      "latency": 5,
+      "conversation_flow": 4
+    },
+    "notes": "Great call"
+  }
+}

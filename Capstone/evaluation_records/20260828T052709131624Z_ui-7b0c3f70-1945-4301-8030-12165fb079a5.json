@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-7b0c3f70-1945-4301-8030-12165fb079a5",
+  "timestamp": "20260828T052709131624Z",
+  "transcript": "mjhe rent pr ak shop chahiye",
+  "response": "Ji bilkul, verified options ye hain: Shop Blue Area, Islamabad (1200 sqft, PKR 27,628,800); Office DHA Phase 5, Lahore (250 sqft, PKR 8,347,500); Plaza Floor Bahria Town, Islamabad (1200 sqft, PKR 24,112,800); Shop Bahria Town, Islamabad (2500 sqft, PKR 43,955,000); Shop DHA Phase 5, Lahore (2500 sqft, PKR 60,270,000).",
+  "timings": {
+    "router_ms": 0.060900114476680756,
+    "retrieve_ms": 1.40299997292459,
+    "llm_ms": 0.0591999851167202,
+    "total_ms": 1.523100072517991,
+    "api_total_ms": 13.88089987449348
+  },
+  "under_2s": true
+}

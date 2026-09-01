@@ -1,0 +1,14 @@
+{
+  "session_id": "test-memory-003",
+  "timestamp": "20260827T102118096310Z",
+  "transcript": "Us se sasti koi option?",
+  "response": "Ji bilkul, DHA Defence Karachi mein sab se sasti options PKR 100,000 per hain – 2 Kanal (5 bed, 6 bath) house aur 4 Marla (3 bed, 3 bath) house, dono ka agent Najeeb Ashfaq hai. Agar aapko aur details chahiye ya koi aur location explore karni ho to main aapko agent se connect kar sakta hoon.",
+  "timings": {
+    "router_ms": 1670.0986998621374,
+    "retrieve_ms": 383.2753000315279,
+    "llm_ms": 1927.7576999738812,
+    "total_ms": 3981.1316998675466,
+    "api_total_ms": 4007.954000029713
+  },
+  "under_2s": false
+}

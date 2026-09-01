@@ -1,0 +1,15 @@
+{
+  "call_id": "20260829T161228983409Z_ui-f0c87f4a-98cc-4131-b0fc-f08d1fcc42d6",
+  "session_id": "ui-f0c87f4a-98cc-4131-b0fc-f08d1fcc42d6",
+  "timestamp": "20260829T161228983409Z",
+  "transcript": "i want a shop to buy in faisalabad",
+  "response": "Ji bilkul, verified options ye hain: Shop Madina Town, Faisalabad (700 sqft, PKR 98 lakh).",
+  "timings": {
+    "router_ms": 0.8072999771684408,
+    "retrieve_ms": 3.034799825400114,
+    "llm_ms": 0.05889986641705036,
+    "total_ms": 3.9009996689856052,
+    "api_total_ms": 31.838699942454696
+  },
+  "under_2s": true
+}

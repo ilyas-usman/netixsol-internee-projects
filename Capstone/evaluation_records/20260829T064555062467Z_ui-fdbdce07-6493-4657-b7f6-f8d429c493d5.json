@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-fdbdce07-6493-4657-b7f6-f8d429c493d5",
+  "timestamp": "20260829T064555062467Z",
+  "transcript": "for buy",
+  "response": "Ji bilkul, verified options ye hain: Al Hafeez Gardens, Lahore (House, 4 bed, 12 Marla, PKR 1 crore 75 lakh); Wapda Town, Lahore (House, 3 bed, 5 Marla, PKR 1 crore 20 lakh); Wapda Town, Lahore (House, 4 bed, 10 Marla, PKR 1 crore 75 lakh); Wapda Town, Lahore (House, 4 bed, 10 Marla, PKR 1 crore 70 lakh); Wapda Town, Lahore (House, 5 bed, 10 Marla, PKR 1 crore 95 lakh).",
+  "timings": {
+    "router_ms": 0.3891000524163246,
+    "retrieve_ms": 1092.7954998333007,
+    "llm_ms": 0.08519995026290417,
+    "total_ms": 1093.26979983598,
+    "api_total_ms": 1121.7007001396269
+  },
+  "under_2s": true
+}

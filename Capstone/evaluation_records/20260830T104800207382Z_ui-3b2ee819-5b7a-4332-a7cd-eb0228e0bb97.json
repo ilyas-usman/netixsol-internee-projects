@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T104800207382Z_ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "session_id": "ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "timestamp": "20260830T104800207382Z",
+  "transcript": "krdo book",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka poora naam?",
+  "timings": {
+    "appointment_ms": 9.161900030449033,
+    "total_ms": 9.161900030449033,
+    "api_total_ms": 81.24840003438294
+  },
+  "under_2s": true
+}

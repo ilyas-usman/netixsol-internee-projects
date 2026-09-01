@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T111710083417Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111710083417Z",
+  "transcript": "sham 5 baje",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka poora naam?",
+  "timings": {
+    "appointment_ms": 11.54139987193048,
+    "total_ms": 11.54139987193048,
+    "api_total_ms": 98.19489996880293
+  },
+  "under_2s": true
+}

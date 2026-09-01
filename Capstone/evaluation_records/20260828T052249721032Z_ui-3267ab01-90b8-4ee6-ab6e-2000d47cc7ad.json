@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3267ab01-90b8-4ee6-ab6e-2000d47cc7ad",
+  "timestamp": "20260828T052249721032Z",
+  "transcript": "ye sale hurha ha ya rent pr mille ga?",
+  "response": "Ji bilkul, verified options ye hain: Allama Iqbal Town, Lahore (Lower Portion, 5 bed, 7.5 Marla, PKR 100,000); DHA Defence, Lahore (Lower Portion, 4 bed, 1 Kanal, PKR 175,000); DHA Defence, Lahore (House, 8 bed, 2 Kanal, PKR 190,000); Johar Town, Lahore (House, 4 bed, 1 Kanal, PKR 270,000); Gulberg, Lahore (House, 6 bed, 2 Kanal, PKR 400,000).",
+  "timings": {
+    "router_ms": 0.09609991684556007,
+    "retrieve_ms": 51.847799913957715,
+    "llm_ms": 0.042899977415800095,
+    "total_ms": 51.986799808219075,
+    "api_total_ms": 63.41910012997687
+  },
+  "under_2s": true
+}

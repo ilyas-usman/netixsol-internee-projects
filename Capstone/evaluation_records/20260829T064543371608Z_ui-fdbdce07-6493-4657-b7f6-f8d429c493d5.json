@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-fdbdce07-6493-4657-b7f6-f8d429c493d5",
+  "timestamp": "20260829T064543371608Z",
+  "transcript": "i want a shop in lahore for rent",
+  "response": "Ji bilkul, verified options ye hain: Shop Gulberg, Lahore (250 sqft, PKR 56 lakh 25 thousand); Shop Johar Town, Lahore (400 sqft, PKR 1 crore 57 lakh); Shop Model Town, Lahore (600 sqft, PKR 1 crore 88 lakh); Shop Model Town, Lahore (600 sqft, PKR 2 crore 38 lakh); Shop Model Town, Lahore (900 sqft, PKR 2 crore 42 lakh).",
+  "timings": {
+    "router_ms": 0.43169991113245487,
+    "retrieve_ms": 13.692100066691637,
+    "llm_ms": 0.11410005390644073,
+    "total_ms": 14.237900031730533,
+    "api_total_ms": 49.037500051781535
+  },
+  "under_2s": true
+}

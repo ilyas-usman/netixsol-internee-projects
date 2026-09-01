@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T110352617688Z_ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "session_id": "ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "timestamp": "20260830T110352617688Z",
+  "transcript": "meri appointment book krdo",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka poora naam? Aapka contact number? Kis din aana chahenge (e.g. kal, ya 15 September)? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 22.86710008047521,
+    "total_ms": 22.86710008047521,
+    "api_total_ms": 80.4738998413086
+  },
+  "under_2s": true
+}

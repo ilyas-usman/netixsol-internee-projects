@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162338417763Z_ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "session_id": "ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "timestamp": "20260830T162338417763Z",
+  "transcript": "property type flat",
+  "response": "Ji bilkul, appointment book kar dete hain. Sabse pehle: kaunsi property ke liye visit chahiye? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 6.190800108015537,
+    "total_ms": 6.190800108015537,
+    "api_total_ms": 61.6714998614043
+  },
+  "under_2s": true
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "20260829T101357888325Z_live-test-seq",
+  "session_id": "live-test-seq",
+  "timestamp": "20260829T101357888325Z",
+  "transcript": "?? ???? ???? ??? ??? ???? ?????? ?? ?? ???? ?? ??? ???",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 540.7451000064611,
+    "retrieve_ms": 0.031899893656373024,
+    "llm_ms": 0.054999953135848045,
+    "total_ms": 540.8319998532534,
+    "api_total_ms": 569.1714000422508
+  },
+  "under_2s": true
+}

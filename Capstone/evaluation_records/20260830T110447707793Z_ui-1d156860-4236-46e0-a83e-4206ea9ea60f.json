@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T110447707793Z_ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "session_id": "ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "timestamp": "20260830T110447707793Z",
+  "transcript": "yes",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 0f82d2d438). 2026-09-30 ko 15:00 baje Usama Khan aapse Flat, DHA Defence, Lahore ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 6641.5230999700725,
+    "total_ms": 6641.5230999700725,
+    "api_total_ms": 6765.26360004209
+  },
+  "under_2s": false
+}

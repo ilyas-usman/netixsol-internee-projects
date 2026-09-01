@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T162615375348Z_ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "session_id": "ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "timestamp": "20260830T162615375348Z",
+  "transcript": "appointmnet cancel krdp",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1166.9213001150638,
+    "retrieve_ms": 0.033400021493434906,
+    "llm_ms": 0.07120007649064064,
+    "total_ms": 1167.0259002130479,
+    "api_total_ms": 1230.762000195682
+  },
+  "under_2s": true
+}

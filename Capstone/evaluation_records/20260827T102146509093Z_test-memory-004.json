@@ -1,0 +1,14 @@
+{
+  "session_id": "test-memory-004",
+  "timestamp": "20260827T102146509093Z",
+  "transcript": "Budget 3 crore hai.",
+  "response": "",
+  "timings": {
+    "router_ms": 1384.624999947846,
+    "retrieve_ms": 0.009899958968162537,
+    "llm_ms": 1117.8999000694603,
+    "total_ms": 2502.5347999762744,
+    "api_total_ms": 2541.7786000762135
+  },
+  "under_2s": false
+}

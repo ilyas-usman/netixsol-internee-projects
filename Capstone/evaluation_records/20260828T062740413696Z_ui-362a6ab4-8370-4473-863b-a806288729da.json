@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-362a6ab4-8370-4473-863b-a806288729da",
+  "timestamp": "20260828T062740413696Z",
+  "transcript": "I am looking to buy a house in lahore with a maximum budget of 3M in DHA",
+  "response": "Ji, Lahore DHA ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.14379993081092834,
+    "retrieve_ms": 49.737200140953064,
+    "llm_ms": 0.034400029107928276,
+    "total_ms": 49.91540010087192,
+    "api_total_ms": 62.24129977636039
+  },
+  "under_2s": true
+}

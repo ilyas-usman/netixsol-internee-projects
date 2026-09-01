@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d838eee8-f4fe-48dd-bf8f-5bb3bcc9456a",
+  "timestamp": "20260827T113956529776Z",
+  "transcript": "faisalabad dha m koi 50 lac m ghr?",
+  "response": "Ji, maaf kijiye, abhi hamare verified database mein DHA, Faisalabad mein 50 lac ke andar koi house listed nahi hai. Agar aap chahein, main aapko hamare agent se connect kar deta hoon.",
+  "timings": {
+    "router_ms": 0.06349990144371986,
+    "retrieve_ms": 14.459799975156784,
+    "llm_ms": 1604.972600005567,
+    "total_ms": 1619.4958998821676,
+    "api_total_ms": 1635.3759998455644
+  },
+  "under_2s": true
+}

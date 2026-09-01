@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-64e62051-687c-422d-a807-5e4ae97d836a",
+  "timestamp": "20260827T123459877877Z",
+  "transcript": "any option in faisalabad",
+  "response": "Ji bilkul, Faisalabad mein aap ke liye kuch options hain: Nemat Colony No 2 mein 2.5 Marla ka house PKR 3,000,000, Shalimar Park mein 2.5 Marla ka house PKR 3,500,000, aur Rehman Town mein 3 bedroom, 2 bath, 7.5 Marla ka house PKR 9,500,000. Agar aap ko koi specific size ya budget chahiye ho to batayein, main aap ko agent se connect karwa dunga.",
+  "timings": {
+    "router_ms": 0.3964998759329319,
+    "retrieve_ms": 194.43510007113218,
+    "llm_ms": 2151.405100012198,
+    "total_ms": 2346.236699959263,
+    "api_total_ms": 2375.4592000041157
+  },
+  "under_2s": false
+}

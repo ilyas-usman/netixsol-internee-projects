@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T111539951155Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111539951155Z",
+  "transcript": "i want a shop in islamabad neaby school",
+  "response": "Ji bilkul, verified options ye hain: Shop Bahria Town, Islamabad (2500 sqft, PKR 4 crore 40 lakh); Shop F-7 Markaz, Islamabad (1800 sqft, PKR 7 crore 30 lakh); Shop I-8 Markaz, Islamabad (600 sqft, PKR 1 crore 51 lakh); Shop F-7 Markaz, Islamabad (1200 sqft, PKR 5 crore 14 lakh); Shop G-9 Markaz, Islamabad (2500 sqft, PKR 10 crore 49 lakh).",
+  "timings": {
+    "router_ms": 6.4483999740332365,
+    "retrieve_ms": 5.743799963966012,
+    "llm_ms": 0.0925001222640276,
+    "total_ms": 12.284700060263276,
+    "api_total_ms": 142.86720007658005
+  },
+  "under_2s": true
+}

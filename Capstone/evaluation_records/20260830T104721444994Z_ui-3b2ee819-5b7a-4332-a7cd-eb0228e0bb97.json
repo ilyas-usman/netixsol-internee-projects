@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T104721444994Z_ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "session_id": "ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "timestamp": "20260830T104721444994Z",
+  "transcript": "my name is usman and mera number 0334-8829555 aur ma 14 september ko",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka poora naam? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 10.030899895355105,
+    "total_ms": 10.030899895355105,
+    "api_total_ms": 100.83660017699003
+  },
+  "under_2s": true
+}

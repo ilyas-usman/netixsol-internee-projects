@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T064931397675Z",
+  "transcript": "karachi mein flats ki info do",
+  "response": "Ji, Karachi ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.08179992437362671,
+    "retrieve_ms": 92.29190018959343,
+    "llm_ms": 0.05969987250864506,
+    "total_ms": 92.4333999864757,
+    "api_total_ms": 116.01849994622171
+  },
+  "under_2s": true
+}

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T074826544016Z_ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "session_id": "ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "timestamp": "20260831T074826544016Z",
+  "transcript": "reschedule krdo",
+  "response": "Ji, aapki appointment abhi 2026-09-01 14:00 par hai (Blue Area, Islamabad ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 21.32609998807311,
+    "total_ms": 21.32609998807311,
+    "api_total_ms": 70.26399997994304
+  },
+  "under_2s": true
+}

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260901T063444631271Z_ui-ba21b8f2-7d97-4434-bdd7-3a06f240a08b",
+  "session_id": "ui-ba21b8f2-7d97-4434-bdd7-3a06f240a08b",
+  "timestamp": "20260901T063444631271Z",
+  "transcript": "ayesha",
+  "response": "Ji, 2026-09-11 ko 17:00 baje, House, Nemat Colony No 2, Faisalabad ke liye Ayesha Raza ke sath appointment set kar sakte hain. Client: Usman Ilyas. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 561.6794000379741,
+    "total_ms": 561.6794000379741,
+    "api_total_ms": 588.2294999901205
+  },
+  "under_2s": true
+}

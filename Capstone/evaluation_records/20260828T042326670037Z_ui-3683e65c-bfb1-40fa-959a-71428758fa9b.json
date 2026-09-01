@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3683e65c-bfb1-40fa-959a-71428758fa9b",
+  "timestamp": "20260828T042326670037Z",
+  "transcript": "increase budget to 1.5 lac",
+  "response": "Ji, abhi hamare database mein 1.5 lac ke andar Faisalabad DHA mein koi house mil raha nahi. Kya aap chahenge ke main aapko ek agent se connect kar doon?",
+  "timings": {
+    "router_ms": 0.14350004494190216,
+    "retrieve_ms": 28.494799975305796,
+    "llm_ms": 1589.503699913621,
+    "total_ms": 1618.1419999338686,
+    "api_total_ms": 1641.21719985269
+  },
+  "under_2s": true
+}

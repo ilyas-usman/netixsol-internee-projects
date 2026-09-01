@@ -1,0 +1,15 @@
+{
+  "session_id": "ui-168cd8b6-0a0d-45b0-ad9c-9cb4ed90e8dd",
+  "timestamp": "20260828T093420011782Z",
+  "transcript": "Islamic",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1272.4429999943823,
+    "retrieve_ms": 0.03829994238913059,
+    "llm_ms": 0.04870002157986164,
+    "total_ms": 1272.5299999583513,
+    "voice_total_ms": 6644.499100046232,
+    "voice_first_audio_ms": 4739.570999983698
+  },
+  "under_2s": false
+}

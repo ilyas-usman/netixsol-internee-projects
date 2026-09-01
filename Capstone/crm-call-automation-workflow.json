@@ -1,0 +1,452 @@
+{
+  "name": "CRM Call Automation — Call to Intent to Property Match to Appointment to Calendar to Email to CRM Update",
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Incoming Call Event",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "crm-call-automation",
+        "responseMode": "onReceived",
+        "options": {}
+      }
+    },
+    {
+      "id": "2",
+      "name": "Normalize Call Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        460,
+        300
+      ],
+      "parameters": {
+        "mode": "manual",
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a1",
+              "name": "session_id",
+              "type": "string",
+              "value": "={{ $json.body.message?.call?.id || $json.body.session_id || $json.body.call_id || 'n8n-' + $now.toMillis() }}"
+            },
+            {
+              "id": "a2",
+              "name": "phone",
+              "type": "string",
+              "value": "={{ $json.body.message?.customer?.number || $json.body.phone || '' }}"
+            },
+            {
+              "id": "a3",
+              "name": "channel",
+              "type": "string",
+              "value": "={{ $json.body.message?.call ? 'voice' : ($json.body.channel || 'chat') }}"
+            },
+            {
+              "id": "a4",
+              "name": "transcript",
+              "type": "string",
+              "value": "={{ $json.body.message?.transcript || $json.body.transcript || $json.body.message || '' }}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "3",
+      "name": "AI Intent + Property Match",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        700,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://YOUR_PUBLIC_DOMAIN/api/chat",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ session_id: $json.session_id, message: $json.transcript }) }}",
+        "options": {
+          "timeout": 20000
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
+    },
+    {
+      "id": "4",
+      "name": "Merge Call + Response Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        940,
+        300
+      ],
+      "parameters": {
+        "mode": "manual",
+        "assignments": {
+          "assignments": [
+            {
+              "id": "b1",
+              "name": "session_id",
+              "type": "string",
+              "value": "={{ $('Normalize Call Data').item.json.session_id }}"
+            },
+            {
+              "id": "b2",
+              "name": "phone",
+              "type": "string",
+              "value": "={{ $('Normalize Call Data').item.json.phone }}"
+            },
+            {
+              "id": "b3",
+              "name": "channel",
+              "type": "string",
+              "value": "={{ $('Normalize Call Data').item.json.channel }}"
+            },
+            {
+              "id": "b4",
+              "name": "route",
+              "type": "string",
+              "value": "={{ $json.route }}"
+            },
+            {
+              "id": "b5",
+              "name": "response",
+              "type": "string",
+              "value": "={{ $json.response }}"
+            },
+            {
+              "id": "b6",
+              "name": "slots",
+              "type": "object",
+              "value": "={{ $json.memory?.slots || {} }}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "5",
+      "name": "Is Appointment Related?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        1180,
+        300
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "combinator": "and",
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.route }}",
+              "rightValue": "appointment",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "6",
+      "name": "Check If Booking Finalized",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1420,
+        180
+      ],
+      "parameters": {
+        "jsCode": "const text = String($input.item.json.response || '');\nconst match = text.match(/ID:\\s*([a-z0-9]{6,12})/i);\nconst confirmed = /confirm ho gayi/i.test(text) || Boolean(match);\nreturn [{ json: { ...$input.item.json, booking_confirmed: confirmed, appointment_id: match ? match[1] : null } }];\n"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Booking Confirmed?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        1660,
+        180
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "combinator": "and",
+          "conditions": [
+            {
+              "id": "d1",
+              "leftValue": "={{ $json.booking_confirmed }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equal"
+              }
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "8",
+      "name": "Fetch Appointment (Calendar+Email confirmation)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1900,
+        60
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $json.appointment_id ? \"https://YOUR_PUBLIC_DOMAIN/api/appointments/by-id/\" + $json.appointment_id : \"https://YOUR_PUBLIC_DOMAIN/api/appointments/by-id/unknown\" }}",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
+    },
+    {
+      "id": "9",
+      "name": "CRM Update: Upsert Client",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2140,
+        60
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://YOUR_PUBLIC_DOMAIN/api/crm/clients/upsert",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ phone: $('Merge Call + Response Data').item.json.phone, name: $json.client_name, preferences: $('Merge Call + Response Data').item.json.slots }) }}",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000
+    },
+    {
+      "id": "10",
+      "name": "CRM Update: Create Follow-up Reminder",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2380,
+        60
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://YOUR_PUBLIC_DOMAIN/api/crm/reminders",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ client_phone: $('Merge Call + Response Data').item.json.phone, session_id: $('Merge Call + Response Data').item.json.session_id, appointment_id: $('Check If Booking Finalized').item.json.appointment_id, due_date: $today.plus({days:1}).toISODate(), note: 'n8n: verify booking + manager review' }) }}",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "11",
+      "name": "Pipeline Complete",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        2620,
+        60
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "12",
+      "name": "Booking Not Yet Finalized (mid-conversation)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1900,
+        300
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "13",
+      "name": "Property Search / General Turn Handled",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1420,
+        460
+      ],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Incoming Call Event": {
+      "main": [
+        [
+          {
+            "node": "Normalize Call Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize Call Data": {
+      "main": [
+        [
+          {
+            "node": "AI Intent + Property Match",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Intent + Property Match": {
+      "main": [
+        [
+          {
+            "node": "Merge Call + Response Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge Call + Response Data": {
+      "main": [
+        [
+          {
+            "node": "Is Appointment Related?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Is Appointment Related?": {
+      "main": [
+        [
+          {
+            "node": "Check If Booking Finalized",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Property Search / General Turn Handled",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check If Booking Finalized": {
+      "main": [
+        [
+          {
+            "node": "Booking Confirmed?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Booking Confirmed?": {
+      "main": [
+        [
+          {
+            "node": "Fetch Appointment (Calendar+Email confirmation)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Booking Not Yet Finalized (mid-conversation)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Appointment (Calendar+Email confirmation)": {
+      "main": [
+        [
+          {
+            "node": "CRM Update: Upsert Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "CRM Update: Upsert Client": {
+      "main": [
+        [
+          {
+            "node": "CRM Update: Create Follow-up Reminder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "CRM Update: Create Follow-up Reminder": {
+      "main": [
+        [
+          {
+            "node": "Pipeline Complete",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": "REPLACE_WITH_ERROR_WORKFLOW_ID"
+  },
+  "pinData": {},
+  "versionId": "1"
+}

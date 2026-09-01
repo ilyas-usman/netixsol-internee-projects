@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T070114675171Z_ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "session_id": "ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "timestamp": "20260831T070114675171Z",
+  "transcript": "cancel krdo appointment",
+  "response": "Ji, aapki appointment 2026-09-02 15:00 par (DHA Phase 6, Karachi) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 6.981400074437261,
+    "total_ms": 6.981400074437261,
+    "api_total_ms": 35.29509995132685
+  },
+  "under_2s": true
+}

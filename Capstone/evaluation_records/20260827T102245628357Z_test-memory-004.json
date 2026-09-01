@@ -1,0 +1,14 @@
+{
+  "session_id": "test-memory-004",
+  "timestamp": "20260827T102245628357Z",
+  "transcript": "DHA mein options dikhao.",
+  "response": "Ji bilkul, aapke 2 crore ke budget mein DHA Defence ke andar ye options hain: Lahore mein Lower Portion 1 Kanal (175 k) aur 2 Kanal House (190 k); Karachi mein 2 Kanal House 5 bed (100 k), 4 Marla House 3 bed (100 k) aur Upper Portion 1 Kanal (120 k). Agar koi specific property ya agent se baat karni ho to batayein, main connect kar dunga.",
+  "timings": {
+    "router_ms": 1432.2355999611318,
+    "retrieve_ms": 2074.7070000506938,
+    "llm_ms": 3218.6175000388175,
+    "total_ms": 6725.560100050643,
+    "api_total_ms": 6757.29320012033
+  },
+  "under_2s": false
+}

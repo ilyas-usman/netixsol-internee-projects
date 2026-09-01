@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T160848463794Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T160848463794Z",
+  "transcript": "ayesha raza",
+  "response": "Ji, 2026-09-14 ko 14:00 baje, House Karachi ke liye Ayesha Raza ke sath appointment set kar sakte hain (calendar availability abhi verify nahi ho saki, lekin hum aapki booking note kar lete hain). Client: Ali, Phone: +923217639349. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 2420.638300012797,
+    "total_ms": 2420.638300012797,
+    "api_total_ms": 2479.2681999970227
+  },
+  "under_2s": false
+}

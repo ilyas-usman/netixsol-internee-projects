@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-b1d3a41e-6b17-4e78-9bdc-54a119429492",
+  "timestamp": "20260829T010550872317Z",
+  "transcript": "i want a falt to buy near dha islamabad under 4M nearby hospital",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 2 bed, 5 Marla, PKR 40 lakh); DHA Defence, Islamabad (Flat, 1 bed, 2.8 Marla, PKR 29 lakh 50 thousand); DHA Defence, Islamabad (Flat, 2 bed, 3.6 Marla, PKR 38 lakh); DHA Defence, Islamabad (Flat, 2 bed, 3.6 Marla, PKR 38 lakh); DHA Defence, Islamabad (House, 2 bed, 5 Marla, PKR 34 lakh).",
+  "timings": {
+    "router_ms": 0.31979987397789955,
+    "retrieve_ms": 907.1517998818308,
+    "llm_ms": 0.11290004476904869,
+    "total_ms": 907.5844998005778,
+    "api_total_ms": 930.0086000002921
+  },
+  "under_2s": true
+}

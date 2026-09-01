@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-68ae1033-a044-4543-8afb-d791ba68164c",
+  "timestamp": "20260827T121143356868Z",
+  "transcript": "lahore m fda city may?",
+  "response": "Acha, mujhe Lahore ke FDA City ke liye koi property record abhi available nahi hai. Agar aap chahein, main aapko humare agent se connect kar deta hoon taake aapko latest options mil saken.",
+  "timings": {
+    "router_ms": 0.05579995922744274,
+    "retrieve_ms": 799.9350000172853,
+    "llm_ms": 936.3500999752432,
+    "total_ms": 1736.340899951756,
+    "api_total_ms": 1755.6563999969512
+  },
+  "under_2s": true
+}

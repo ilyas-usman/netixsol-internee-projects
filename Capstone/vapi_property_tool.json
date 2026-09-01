@@ -1,0 +1,24 @@
+{
+  "type": "function",
+  "function": {
+    "name": "property_search",
+    "description": "Search verified Pakistani residential and commercial property listings. Always call this for property options, prices, locations, bedrooms, budget comparisons, and commercial searches.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The user's complete property request in their original language. Include budget, city, location, property type, bedrooms, and comparison request if stated."
+        },
+        "session_id": {
+          "type": "string",
+          "description": "Optional session identifier. If omitted, the server keeps memory for this Vapi call."
+        }
+      },
+      "required": ["query"]
+    }
+  },
+  "server": {
+    "url": "https://YOUR_PUBLIC_DOMAIN/api/vapi/property-search"
+  }
+}

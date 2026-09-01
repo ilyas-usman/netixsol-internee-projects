@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T041327993111Z_ui-1cc7d02a-07df-4830-998a-c7a875dc20d4",
+  "session_id": "ui-1cc7d02a-07df-4830-998a-c7a875dc20d4",
+  "timestamp": "20260831T041327993111Z",
+  "transcript": "cancel krdo",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 770.3187998849899,
+    "retrieve_ms": 0.04020007327198982,
+    "llm_ms": 0.09240000508725643,
+    "total_ms": 770.4513999633491,
+    "api_total_ms": 855.4589999839664
+  },
+  "under_2s": true
+}

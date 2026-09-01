@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T111828073725Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111828073725Z",
+  "transcript": "yes",
+  "response": "Ji, hamare office hours 10:00 se 19:00 tak hain. Koi waqt isi range mein bata dein.",
+  "timings": {
+    "appointment_ms": 11.590200010687113,
+    "total_ms": 11.590200010687113,
+    "api_total_ms": 98.23179990053177
+  },
+  "under_2s": true
+}

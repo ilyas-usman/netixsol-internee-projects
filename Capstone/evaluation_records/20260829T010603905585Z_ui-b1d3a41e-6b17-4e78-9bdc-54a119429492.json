@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-b1d3a41e-6b17-4e78-9bdc-54a119429492",
+  "timestamp": "20260829T010603905585Z",
+  "transcript": "house?same budget",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 2 bed, 5 Marla, PKR 40 lakh); DHA Defence, Islamabad (House, 2 bed, 5 Marla, PKR 34 lakh); DHA Defence, Islamabad (House, 3 bed, 5 Marla, PKR 40 lakh); DHA Defence, Islamabad (House, 2 bed, 5 Marla, PKR 35 lakh); DHA Defence, Islamabad (House, 5 Marla, PKR 36 lakh).",
+  "timings": {
+    "router_ms": 0.27459999546408653,
+    "retrieve_ms": 66.38790015131235,
+    "llm_ms": 0.07429998368024826,
+    "total_ms": 66.73680013045669,
+    "api_total_ms": 93.35449989885092
+  },
+  "under_2s": true
+}

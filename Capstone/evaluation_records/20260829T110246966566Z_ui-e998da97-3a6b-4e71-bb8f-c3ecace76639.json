@@ -1,0 +1,15 @@
+{
+  "call_id": "20260829T110246966566Z_ui-e998da97-3a6b-4e71-bb8f-c3ecace76639",
+  "session_id": "ui-e998da97-3a6b-4e71-bb8f-c3ecace76639",
+  "timestamp": "20260829T110246966566Z",
+  "transcript": "what about utilities and school distnace how much far?",
+  "response": "Ji, samajh sakta hoon location bilkul convenient honi chahiye. Pichli shown listings main market aur access roads ke kareeb hain. Aap kis specific area ko prefer karte hain?",
+  "timings": {
+    "router_ms": 0.9027000050991774,
+    "retrieve_ms": 0.20650005899369717,
+    "llm_ms": 0.0871000811457634,
+    "total_ms": 1.196300145238638,
+    "api_total_ms": 37.49609994702041
+  },
+  "under_2s": true
+}

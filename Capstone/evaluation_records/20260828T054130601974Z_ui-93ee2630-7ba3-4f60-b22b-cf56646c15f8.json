@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-93ee2630-7ba3-4f60-b22b-cf56646c15f8",
+  "timestamp": "20260828T054130601974Z",
+  "transcript": "and if i want to buy a house under 70 lac in dha faisalabad",
+  "response": "Ji, Faisalabad DHA ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.10820012539625168,
+    "retrieve_ms": 13.337000040337443,
+    "llm_ms": 0.035899924114346504,
+    "total_ms": 13.481100089848042,
+    "api_total_ms": 26.615899987518787
+  },
+  "under_2s": true
+}

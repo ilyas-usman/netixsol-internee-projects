@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T065854321714Z_ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "session_id": "ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "timestamp": "20260831T065854321714Z",
+  "transcript": "naam ali,14 september ko subha 11 bje",
+  "response": "Ji bilkul, appointment book kar dete hain. Aapka poora naam? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 5.359499948099256,
+    "total_ms": 5.359499948099256,
+    "api_total_ms": 35.41200002655387
+  },
+  "under_2s": true
+}

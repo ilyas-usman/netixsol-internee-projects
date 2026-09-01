@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T110539399574Z_ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "session_id": "ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "timestamp": "20260830T110539399574Z",
+  "transcript": "appointment cancel krdo meri",
+  "response": "Ji, aapki appointment 2026-09-30 15:00 par (Flat, DHA Defence, Lahore) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 14.028300065547228,
+    "total_ms": 14.028300065547228,
+    "api_total_ms": 110.42749998159707
+  },
+  "under_2s": true
+}

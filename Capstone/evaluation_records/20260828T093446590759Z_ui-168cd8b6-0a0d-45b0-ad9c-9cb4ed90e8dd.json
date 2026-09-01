@@ -1,0 +1,15 @@
+{
+  "session_id": "ui-168cd8b6-0a0d-45b0-ad9c-9cb4ed90e8dd",
+  "timestamp": "20260828T093446590759Z",
+  "transcript": "The chief has lobotomy.",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 0.07930002175271511,
+    "retrieve_ms": 0.04329998046159744,
+    "llm_ms": 0.07159984670579433,
+    "total_ms": 0.1941998489201069,
+    "voice_total_ms": 4725.6950000301,
+    "voice_first_audio_ms": 2433.8722999673337
+  },
+  "under_2s": false
+}

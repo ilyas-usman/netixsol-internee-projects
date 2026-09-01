@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-7b0c3f70-1945-4301-8030-12165fb079a5",
+  "timestamp": "20260828T052738415194Z",
+  "transcript": "inmay say rent pr konsi mile ge aur buy kosni kr skte ha?",
+  "response": "Ji bilkul, verified options ye hain: Al Hafeez Gardens, Lahore (House, 4 bed, 12 Marla, PKR 17,500,000); Shaheed Millat Road, Karachi (Flat, 2 bed, 6.2 Marla, PKR 13,000,000); Clifton, Karachi (Flat, 3 bed, 8.9 Marla, PKR 35,000,000); Jamshed Town, Karachi (Upper Portion, 3 bed, 11 Marla, PKR 35,500,000); Fazaia Housing Scheme, Karachi (House, 3 bed, 11 Marla, PKR 9,205,000).",
+  "timings": {
+    "router_ms": 0.06340001709759235,
+    "retrieve_ms": 149.58079997450113,
+    "llm_ms": 0.10649999603629112,
+    "total_ms": 149.75069998763502,
+    "api_total_ms": 162.2073999606073
+  },
+  "under_2s": true
+}

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162626775830Z_ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "session_id": "ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "timestamp": "20260830T162626775830Z",
+  "transcript": "appointment cancel krdo",
+  "response": "Ji, aapki appointment 2026-09-02 12:00 par (Flat, Model Town, Lahore) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 14.822599943727255,
+    "total_ms": 14.822599943727255,
+    "api_total_ms": 73.59079993329942
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070259166481Z",
+  "transcript": "for rent in faisalabad",
+  "response": "Ji bilkul, verified options ye hain: Samanabad, Faisalabad (Flat, 4 Marla, PKR 20,000); Samanabad, Faisalabad (Flat, 3 bed, 4 Marla, PKR 20,000); Wapda City, Faisalabad (Flat, 3.5 Marla, PKR 35,000); Umer Garden, Faisalabad (Flat, 1 bed, 1.2 Marla, PKR 7,000); Umer Garden, Faisalabad (Flat, 1 bed, 1 Marla, PKR 25,000).",
+  "timings": {
+    "router_ms": 0.11190003715455532,
+    "retrieve_ms": 257.07429996691644,
+    "llm_ms": 0.06800005212426186,
+    "total_ms": 257.25420005619526,
+    "api_total_ms": 279.98590003699064
+  },
+  "under_2s": true
+}

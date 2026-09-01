@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T092906336192Z_ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "session_id": "ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "timestamp": "20260831T092906336192Z",
+  "transcript": "ayesha",
+  "response": "Ji, 2026-09-26 ko 17:00 baje, House, DHA Defence, Islamabad ke liye Ayesha Raza ke sath appointment set kar sakte hain. Client: Usman Ilyas. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 3009.7290999256074,
+    "total_ms": 3009.7290999256074,
+    "api_total_ms": 3055.6161000858992
+  },
+  "under_2s": false
+}

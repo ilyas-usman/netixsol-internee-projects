@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T104547774453Z_ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "session_id": "ui-3b2ee819-5b7a-4332-a7cd-eb0228e0bb97",
+  "timestamp": "20260830T104547774453Z",
+  "transcript": "kya kr rhe hu",
+  "response": "Main yahan aapki madad ke liye hoon. Aapki property requirements ya budget ke baare mein batayein.",
+  "timings": {
+    "router_ms": 1.4733998104929924,
+    "retrieve_ms": 0.03809994086623192,
+    "llm_ms": 0.11479994282126427,
+    "total_ms": 1.6262996941804886,
+    "api_total_ms": 67.9254001006484
+  },
+  "under_2s": true
+}

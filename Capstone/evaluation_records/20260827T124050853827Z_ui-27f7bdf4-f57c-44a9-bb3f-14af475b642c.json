@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-27f7bdf4-f57c-44a9-bb3f-14af475b642c",
+  "timestamp": "20260827T124050853827Z",
+  "transcript": "show me the options?",
+  "response": "Ji bilkul, humare paas Gulberg, Lahore mein 2 Kanal (40 marla) ka house PKR 400,000, 6 bedroom, 7 bath, agent Imran Akbar; New Muslim Town, Lahore mein bhi 2 Kanal ka house PKR 600,000, agent Irfan Rehman Khan; aur Wapda Town, Cantt, aur Lahore Medical Housing Society mein upper portions ya houses available hain (prices verified nahi hain), agents Salman Khan, Nadeem Hussain, aur Naqash Baig respectively. Agar aapko koi specific detail chahiye ya agent se baat karni ho, batayein.",
+  "timings": {
+    "router_ms": 3.7545000668615103,
+    "retrieve_ms": 2036.1925000324845,
+    "llm_ms": 1940.9640999510884,
+    "total_ms": 3980.9111000504345,
+    "api_total_ms": 4055.9507999569178
+  },
+  "under_2s": false
+}

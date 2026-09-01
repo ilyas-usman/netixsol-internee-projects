@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T064742316968Z",
+  "transcript": "I a looking to rent a house in karachi with schools nearby with a budget of maximum 2 lac",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Karachi (House, 4 bed, 1 Kanal, PKR 200,000).",
+  "timings": {
+    "router_ms": 0.1596000511199236,
+    "retrieve_ms": 780.4721998982131,
+    "llm_ms": 0.0654000323265791,
+    "total_ms": 780.6971999816597,
+    "api_total_ms": 804.0014998987317
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T064554348362Z",
+  "transcript": "i want a flat in islamabad under 70 lac nearby schol",
+  "response": "Ji bilkul, verified options ye hain: E-11, Islamabad (Flat, 2 bed, 5.3 Marla, PKR 7,000,000); DHA Defence, Islamabad (Flat, 3 bed, 3.9 Marla, PKR 4,500,000); G-15, Islamabad (Flat, 1 bed, 2.8 Marla, PKR 4,050,000); I-12, Islamabad (Flat, 2 bed, 4 Marla, PKR 3,800,000); G-9, Islamabad (Flat, 1 bed, 2.2 Marla, PKR 6,500,000).",
+  "timings": {
+    "router_ms": 0.2039000391960144,
+    "retrieve_ms": 659.8213999532163,
+    "llm_ms": 0.07860013283789158,
+    "total_ms": 660.1039001252502,
+    "api_total_ms": 682.4602000415325
+  },
+  "under_2s": true
+}

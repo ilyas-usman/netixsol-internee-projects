@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162529382096Z_ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "session_id": "ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "timestamp": "20260830T162529382096Z",
+  "transcript": "haan",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 5bcaca7c42). 2026-09-11 ko 15:00 baje Usama Khan aapse Flat, Model Town, Lahore ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 5912.951899925247,
+    "total_ms": 5912.951899925247,
+    "api_total_ms": 5962.623999919742
+  },
+  "under_2s": false
+}

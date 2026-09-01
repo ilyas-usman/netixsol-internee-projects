@@ -1,0 +1,14 @@
+{
+  "session_id": "test-memory-001",
+  "timestamp": "20260827T095726562052Z",
+  "transcript": "Us se sasti koi option?",
+  "response": "Ji, DHA Defence Karachi mein ek house hai jo PKR 100,000 ka hai – 5 bedroom, 6 bathroom, 2 Kanal. Agar aap interested hain, main aapko agent Najeeb Ashfaq se connect kar sakta hoon.",
+  "timings": {
+    "router_ms": 991.4412000216544,
+    "retrieve_ms": 99.73060013726354,
+    "llm_ms": 2351.379100000486,
+    "total_ms": 3442.5509001594037,
+    "api_total_ms": 3473.168999888003
+  },
+  "under_2s": false
+}

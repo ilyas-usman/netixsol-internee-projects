@@ -1,0 +1,15 @@
+{
+  "call_id": "20260901T065335526745Z_ui-857f0e0a-03f1-4a2c-9028-733f50d8d23e",
+  "session_id": "ui-857f0e0a-03f1-4a2c-9028-733f50d8d23e",
+  "timestamp": "20260901T065335526745Z",
+  "transcript": "i want flat for rent in islamabad under 50k",
+  "response": "Ji bilkul, verified options ye hain: Diplomatic Enclave, Islamabad (Flat, 3 bed, 8 Marla, PKR 3 lakh); F-8, Islamabad (Flat, 1 bed, 3.9 Marla, PKR 1 lakh 40 thousand); Diplomatic Enclave, Islamabad (Flat, 3 bed, 7.3 Marla, PKR 1 lakh 50 thousand); B-17, Islamabad (Flat, 2 bed, 3.6 Marla, PKR 20,000); Abdullah Garden, Islamabad (Flat, 1 bed, 2.9 Marla, PKR 24,000).",
+  "timings": {
+    "router_ms": 0.6194000598043203,
+    "retrieve_ms": 274.3185998406261,
+    "llm_ms": 0.06600003689527512,
+    "total_ms": 275.0039999373257,
+    "api_total_ms": 324.9842000659555
+  },
+  "under_2s": true
+}

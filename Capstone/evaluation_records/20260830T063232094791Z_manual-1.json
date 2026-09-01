@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T063232094791Z_manual-1",
+  "session_id": "manual-1",
+  "timestamp": "20260830T063232094791Z",
+  "transcript": "mujhe apni appointment reschedule karni hai",
+  "response": "Ji, aapki appointment abhi 2026-09-01 17:00 par hai (House DHA Phase 5 Lahore ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 13.9746000058949,
+    "total_ms": 13.9746000058949,
+    "api_total_ms": 59.795500012114644
+  },
+  "under_2s": true
+}

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T064410867908Z_manual-2",
+  "session_id": "manual-2",
+  "timestamp": "20260830T064410867908Z",
+  "transcript": "appointment book karni hai",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 215113e3c0). 2026-09-05 ko 16:00 baje Usama Khan aapse property ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 8609.660900197923,
+    "total_ms": 8609.660900197923,
+    "api_total_ms": 8655.345299979672
+  },
+  "under_2s": false
+}

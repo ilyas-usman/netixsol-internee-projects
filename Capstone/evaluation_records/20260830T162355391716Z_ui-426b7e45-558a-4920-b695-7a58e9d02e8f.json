@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162355391716Z_ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "session_id": "ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "timestamp": "20260830T162355391716Z",
+  "transcript": "i wnat falt in lahore under 50 lac",
+  "response": "Ji bilkul, appointment book kar dete hain. Sabse pehle: kaunsi property ke liye visit chahiye? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 407.4318001512438,
+    "total_ms": 407.4318001512438,
+    "api_total_ms": 5013.952599838376
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-ee4f8055-82c6-47b0-b153-c723398617e0",
+  "timestamp": "20260829T071212211695Z",
+  "transcript": "in faisalabad",
+  "response": "Ji bilkul, verified options ye hain: Nemat Colony No 2, Faisalabad (House, 2.5 Marla, PKR 30 lakh); Shalimar Park, Faisalabad (House, 2.5 Marla, PKR 35 lakh); Madina Town, Faisalabad (House, 15.5 Marla, PKR 80 lakh); Jhang Road, Faisalabad (House, 5 Marla, PKR 75 lakh); Green Town, Faisalabad (House, 4 bed, 5.3 Marla, PKR 85 lakh).",
+  "timings": {
+    "router_ms": 0.2025999128818512,
+    "retrieve_ms": 11.818400118499994,
+    "llm_ms": 0.04720012657344341,
+    "total_ms": 12.068200157955289,
+    "api_total_ms": 41.46300000138581
+  },
+  "under_2s": true
+}

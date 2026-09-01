@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-ee4f8055-82c6-47b0-b153-c723398617e0",
+  "timestamp": "20260829T071139229997Z",
+  "transcript": "any house in fsd under 90 lac nearby hospital",
+  "response": "Ji bilkul, verified options ye hain: Wapda Town, Lahore (House, 4 bed, 10 Marla, PKR 68,000); Gulberg, Lahore (House, 4 bed, 12 Marla, PKR 75,000).",
+  "timings": {
+    "router_ms": 0.14340016059577465,
+    "retrieve_ms": 4643.775800010189,
+    "llm_ms": 0.1066999975591898,
+    "total_ms": 4644.025900168344,
+    "api_total_ms": 4689.203599933535
+  },
+  "under_2s": false
+}

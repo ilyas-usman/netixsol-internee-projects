@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070213066400Z",
+  "transcript": "I WANT IN DHA Faisalabad",
+  "response": "Ji, Faisalabad DHA ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.0917001161724329,
+    "retrieve_ms": 143.31690012477338,
+    "llm_ms": 0.06069988012313843,
+    "total_ms": 143.46930012106895,
+    "api_total_ms": 166.47349996492267
+  },
+  "under_2s": true
+}

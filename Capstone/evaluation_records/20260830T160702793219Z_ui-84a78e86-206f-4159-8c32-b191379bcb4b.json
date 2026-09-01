@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T160702793219Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T160702793219Z",
+  "transcript": "i want house in karachi under 23M",
+  "response": "Ji bilkul, verified options ye hain: Fazaia Housing Scheme, Karachi (House, 3 bed, 11 Marla, PKR 92 lakh 5 thousand); Northern Bypass, Karachi (House, 3 bed, 5 Marla, PKR 66 lakh 42 thousand); Fazaia Housing Scheme, Karachi (House, 3 bed, 5 Marla, PKR 66 lakh 42 thousand); Fazaia Housing Scheme, Karachi (House, 3 bed, 5 Marla, PKR 66 lakh 42 thousand); Fazaia Housing Scheme, Karachi (House, 3 bed, 5 Marla, PKR 66 lakh 42 thousand).",
+  "timings": {
+    "router_ms": 1.0221998672932386,
+    "retrieve_ms": 1184.9092999473214,
+    "llm_ms": 0.11079991236329079,
+    "total_ms": 1186.042299726978,
+    "api_total_ms": 1245.0836000498384
+  },
+  "under_2s": true
+}

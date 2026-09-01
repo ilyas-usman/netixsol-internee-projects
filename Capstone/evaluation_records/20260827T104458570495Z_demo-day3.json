@@ -1,0 +1,14 @@
+{
+  "session_id": "demo-day3",
+  "timestamp": "20260827T104458570495Z",
+  "transcript": "Us se sasti koi option?",
+  "response": "Ji bilkul, DHA Defence mein aapke budget ke andar sab se sasti options PKR 100 k ki hain – Karachi mein 5 bed / 6 bath 2 Kanal house aur 3 bed / 3 bath 4 Marla house, dono ka agent Najeeb Ashfaq hai. Islamabad mein bhi 5 bed / 5 bath 1 Kanal house PKR 100 k pe available hai (agent listed nahi).",
+  "timings": {
+    "router_ms": 0.08069979958236217,
+    "retrieve_ms": 407.3586999438703,
+    "llm_ms": 2101.7929001245648,
+    "total_ms": 2509.2322998680174,
+    "api_total_ms": 2532.7359999064356
+  },
+  "under_2s": false
+}

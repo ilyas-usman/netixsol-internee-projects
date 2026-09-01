@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T104718588350Z_ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "session_id": "ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "timestamp": "20260831T104718588350Z",
+  "transcript": "reschedule krdo",
+  "response": "Ji, aapki appointment abhi 2026-09-29 18:00 par hai (Flat, Shaheed Millat Road, Karachi ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 10.224099969491363,
+    "total_ms": 10.224099969491363,
+    "api_total_ms": 37.86220005713403
+  },
+  "under_2s": true
+}

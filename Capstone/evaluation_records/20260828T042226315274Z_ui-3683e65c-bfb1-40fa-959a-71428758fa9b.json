@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3683e65c-bfb1-40fa-959a-71428758fa9b",
+  "timestamp": "20260828T042226315274Z",
+  "transcript": "i want a commercial shop in dha lahore",
+  "response": "Ji bilkul, DHA Phase 5 mein ek shop available hai jo 2,500 sqft ka hai aur PKR 60,270,000 ki keemat par mil rahi hai. Yeh clinic ya F&B business ke liye suitable hai. Aapko koi aur detail chahiye ho toh batayein.",
+  "timings": {
+    "router_ms": 0.1433000434190035,
+    "retrieve_ms": 2.526199910789728,
+    "llm_ms": 1930.0078998785466,
+    "total_ms": 1932.6773998327553,
+    "api_total_ms": 1954.6970999799669
+  },
+  "under_2s": true
+}

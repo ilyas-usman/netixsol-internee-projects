@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T092828808906Z_ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "session_id": "ui-ec2e6d86-3e76-48ab-b4d9-48ac6a34daac",
+  "timestamp": "20260831T092828808906Z",
+  "transcript": "islamabad m dekhao",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 4 bed, 6 Marla, PKR 1 crore 55 lakh); Ghauri Town, Islamabad (House, 4 bed, 5.6 Marla, PKR 1 crore 5 lakh); E-11, Islamabad (Flat, 2 bed, 5.3 Marla, PKR 70 lakh); DHA Defence, Islamabad (Flat, 3 bed, 3.9 Marla, PKR 45 lakh); G-15, Islamabad (Flat, 1 bed, 2.8 Marla, PKR 40 lakh 50 thousand).",
+  "timings": {
+    "router_ms": 0.9864999447017908,
+    "retrieve_ms": 100.1852999906987,
+    "llm_ms": 0.0833999365568161,
+    "total_ms": 101.2551998719573,
+    "api_total_ms": 171.73689999617636
+  },
+  "under_2s": true
+}

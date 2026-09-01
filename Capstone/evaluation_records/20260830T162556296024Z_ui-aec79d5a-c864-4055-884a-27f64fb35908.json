@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162556296024Z_ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "session_id": "ui-aec79d5a-c864-4055-884a-27f64fb35908",
+  "timestamp": "20260830T162556296024Z",
+  "transcript": "haan",
+  "response": "Ji, appointment 2026-09-11 15:00 se 2026-09-02 12:00 par move kar di gayi hai. Employee ko inform kar diya gaya hai.",
+  "timings": {
+    "appointment_ms": 5510.82620001398,
+    "total_ms": 5510.82620001398,
+    "api_total_ms": 5567.189699970186
+  },
+  "under_2s": false
+}

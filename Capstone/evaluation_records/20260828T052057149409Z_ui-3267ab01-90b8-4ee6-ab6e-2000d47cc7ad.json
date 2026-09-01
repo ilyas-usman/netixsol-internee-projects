@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3267ab01-90b8-4ee6-ab6e-2000d47cc7ad",
+  "timestamp": "20260828T052057149409Z",
+  "transcript": "mjhe koi hospital kay kareeb ghr kay options do under 2.5M",
+  "response": "Ji, is request ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.08159992285072803,
+    "retrieve_ms": 803.69560001418,
+    "llm_ms": 0.030900118872523308,
+    "total_ms": 803.8081000559032,
+    "api_total_ms": 815.5179999303073
+  },
+  "under_2s": true
+}

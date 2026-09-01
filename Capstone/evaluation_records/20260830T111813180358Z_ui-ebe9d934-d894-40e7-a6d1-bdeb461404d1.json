@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T111813180358Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111813180358Z",
+  "transcript": "reschedule krdo",
+  "response": "Ji, aapki appointment abhi 2026-09-14 17:00 par hai (Islamabad ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 27.92400005273521,
+    "total_ms": 27.92400005273521,
+    "api_total_ms": 117.74970008991659
+  },
+  "under_2s": true
+}

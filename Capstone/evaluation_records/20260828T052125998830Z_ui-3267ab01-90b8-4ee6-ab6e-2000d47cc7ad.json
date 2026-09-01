@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3267ab01-90b8-4ee6-ab6e-2000d47cc7ad",
+  "timestamp": "20260828T052125998830Z",
+  "transcript": "koi school kay qareeb option under 1M",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Lahore (Lower Portion, 4 bed, 1 Kanal, PKR 145,000).",
+  "timings": {
+    "router_ms": 0.11669984087347984,
+    "retrieve_ms": 50.11780001223087,
+    "llm_ms": 0.03600004129111767,
+    "total_ms": 50.27049989439547,
+    "api_total_ms": 62.179400119930506
+  },
+  "under_2s": true
+}

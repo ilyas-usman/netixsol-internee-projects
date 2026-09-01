@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T105131348085Z_ui-5729a692-7a1a-419d-85b6-910ea451470a",
+  "session_id": "ui-5729a692-7a1a-419d-85b6-910ea451470a",
+  "timestamp": "20260831T105131348085Z",
+  "transcript": "haan",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 25b420aa8e). 2026-09-26 ko 16:00 baje Ayesha Raza aapse House, Nemat Colony No 2, Faisalabad ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 5183.292199857533,
+    "total_ms": 5183.292199857533,
+    "api_total_ms": 5208.171000005677
+  },
+  "under_2s": false
+}

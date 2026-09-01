@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T041246842262Z_ui-1cc7d02a-07df-4830-998a-c7a875dc20d4",
+  "session_id": "ui-1cc7d02a-07df-4830-998a-c7a875dc20d4",
+  "timestamp": "20260831T041246842262Z",
+  "transcript": "yes",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 7040591f79). 2026-09-11 ko 15:00 baje Ayesha Raza aapse DHA Phase 5, Lahore ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 6656.157499877736,
+    "total_ms": 6656.157499877736,
+    "api_total_ms": 6709.745100000873
+  },
+  "under_2s": false
+}

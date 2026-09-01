@@ -1,0 +1,12 @@
+# Week 7 Day 4 — additional dependencies on top of requirements-day3.txt.
+# Everything in appointment_agent.py / calendar_service.py / email_service.py
+# has a working fallback without these (local SQLite calendar, SMTP or
+# console email), so the app still runs without them. Install these to use
+# real Google Calendar + Gmail API.
+
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# SMTP uses Python's built-in smtplib/email — no extra package needed.

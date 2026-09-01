@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-72254786-07cd-415f-890d-88c97bf43730",
+  "timestamp": "20260827T115307221152Z",
+  "transcript": "islamabad m koi shop dekha do?",
+  "response": "Ji bilkul, Islamabad mein aapke 20 lac budget ke andar ek shop available hai – I‑8 Markaz mein, 600 sqft ki, price PKR 15,115,200, aur yeh warehouse ya salon ke liye suitable hai. Agar aapko koi aur location ya size dekhna ho to batayein, main aapko agent se connect karwa deta hoon.",
+  "timings": {
+    "router_ms": 0.07699988782405853,
+    "retrieve_ms": 2.928100060671568,
+    "llm_ms": 2463.32999994047,
+    "total_ms": 2466.3350998889655,
+    "api_total_ms": 2490.4710999689996
+  },
+  "under_2s": false
+}

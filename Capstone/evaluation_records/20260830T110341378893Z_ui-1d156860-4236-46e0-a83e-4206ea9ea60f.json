@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T110341378893Z_ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "session_id": "ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "timestamp": "20260830T110341378893Z",
+  "transcript": "nearby hospital only options",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Lahore (Flat, 8 Marla, PKR 31,000).",
+  "timings": {
+    "router_ms": 3.9021000266075134,
+    "retrieve_ms": 58.643999975174665,
+    "llm_ms": 0.1767999492585659,
+    "total_ms": 62.722899951040745,
+    "api_total_ms": 128.10109998099506
+  },
+  "under_2s": true
+}

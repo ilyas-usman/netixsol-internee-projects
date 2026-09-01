@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T103553609934Z_manual-2",
+  "session_id": "manual-2",
+  "timestamp": "20260830T103553609934Z",
+  "transcript": "appointment book karni hai",
+  "response": "Ji bilkul, appointment book kar dete hain. Sabse pehle: kaunsi property ke liye visit chahiye? Aapka poora naam? Aapka contact number? Kis din aana chahenge (e.g. kal, ya 15 September)? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 18.88780016452074,
+    "total_ms": 18.88780016452074,
+    "api_total_ms": 73.52840015664697
+  },
+  "under_2s": true
+}

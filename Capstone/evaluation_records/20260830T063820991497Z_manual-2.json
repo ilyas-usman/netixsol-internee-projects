@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T063820991497Z_manual-2",
+  "session_id": "manual-2",
+  "timestamp": "20260830T063820991497Z",
+  "transcript": "mera naam Sana Malik hai, number 03211112233",
+  "response": "Ji bilkul, appointment book kar dete hain. Sabse pehle: kaunsi property ke liye visit chahiye? Kis din aana chahenge (e.g. kal, ya 15 September)? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 5.409300094470382,
+    "total_ms": 5.409300094470382,
+    "api_total_ms": 47.50719992443919
+  },
+  "under_2s": true
+}

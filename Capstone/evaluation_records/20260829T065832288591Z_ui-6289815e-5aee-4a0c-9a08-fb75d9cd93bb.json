@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-6289815e-5aee-4a0c-9a08-fb75d9cd93bb",
+  "timestamp": "20260829T065832288591Z",
+  "transcript": "in lahore?",
+  "response": "Ji bilkul, verified options ye hain: Gulberg, Lahore (House, 6 bed, 2 Kanal, PKR 4 lakh); Wapda Town, Lahore (Upper Portion, 3 bed, 1 Kanal, PKR 45,000); Lahore Medical Housing Society, Lahore (House, 5 Marla, PKR 30,000); Cantt, Lahore (Upper Portion, 3 bed, 1 Kanal, PKR 40,000); New Muslim Town, Lahore (House, 2 Kanal, PKR 6 lakh).",
+  "timings": {
+    "router_ms": 0.1938999630510807,
+    "retrieve_ms": 1094.6094999089837,
+    "llm_ms": 0.12450013309717178,
+    "total_ms": 1094.927900005132,
+    "api_total_ms": 1129.610399948433
+  },
+  "under_2s": true
+}

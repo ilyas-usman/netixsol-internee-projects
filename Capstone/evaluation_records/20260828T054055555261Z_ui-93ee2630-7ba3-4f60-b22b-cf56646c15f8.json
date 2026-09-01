@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-93ee2630-7ba3-4f60-b22b-cf56646c15f8",
+  "timestamp": "20260828T054055555261Z",
+  "transcript": "i want to rent a property house in faisalabad",
+  "response": "Ji bilkul, verified options ye hain: Madina Town, Faisalabad (House, 12.4 Marla, PKR 100,000); Canal Road, Faisalabad (House, 4.5 Marla, price verify nahi hai); Eden Gardens, Faisalabad (House, 4 bed, 5 Marla, price verify nahi hai); Eden Gardens, Faisalabad (House, 4 bed, 5 Marla, price verify nahi hai); Latif Garden, Faisalabad (House, 2 bed, 5 Marla, price verify nahi hai).",
+  "timings": {
+    "router_ms": 0.09139999747276306,
+    "retrieve_ms": 152.00490015558898,
+    "llm_ms": 0.04819990135729313,
+    "total_ms": 152.14450005441904,
+    "api_total_ms": 165.18589993938804
+  },
+  "under_2s": true
+}

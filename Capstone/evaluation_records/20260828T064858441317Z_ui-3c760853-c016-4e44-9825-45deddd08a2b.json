@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T064858441317Z",
+  "transcript": "for sale flats",
+  "response": "Ji, Lahore ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.08050003089010715,
+    "retrieve_ms": 87.74890005588531,
+    "llm_ms": 0.06829993799328804,
+    "total_ms": 87.89770002476871,
+    "api_total_ms": 110.92939996160567
+  },
+  "under_2s": true
+}

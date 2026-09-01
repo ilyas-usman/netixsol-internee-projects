@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3c760853-c016-4e44-9825-45deddd08a2b",
+  "timestamp": "20260828T064627954997Z",
+  "transcript": "i wnat a house in f-11 islamabad under 2M show option only nearby hospital",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 3 bed, 12 Marla, PKR 120,000); DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 100,000); DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 120,000); DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 100,000); DHA Defence, Islamabad (House, 5 bed, 1 Kanal, PKR 110,000).",
+  "timings": {
+    "router_ms": 0.14929985627532005,
+    "retrieve_ms": 70.2746999450028,
+    "llm_ms": 0.08479994721710682,
+    "total_ms": 70.50879974849522,
+    "api_total_ms": 92.0945000834763
+  },
+  "under_2s": true
+}

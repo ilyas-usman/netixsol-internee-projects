@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T062756673020Z_manual-1",
+  "session_id": "manual-1",
+  "timestamp": "20260830T062756673020Z",
+  "transcript": "DHA Phase 5 Lahore mein ghar dikhao",
+  "response": "Ji, Lahore DHA Phase 5 ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 5.163799971342087,
+    "retrieve_ms": 1240.9045998938382,
+    "llm_ms": 0.06610015407204628,
+    "total_ms": 1246.1345000192523,
+    "api_total_ms": 1315.534699941054
+  },
+  "under_2s": true
+}

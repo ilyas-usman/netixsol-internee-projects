@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T104748944963Z_ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "session_id": "ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "timestamp": "20260831T104748944963Z",
+  "transcript": "cancel krdo appointment",
+  "response": "Ji, aapki appointment 2026-09-28 16:00 par (Flat, Shaheed Millat Road, Karachi) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 6.428999826312065,
+    "total_ms": 6.428999826312065,
+    "api_total_ms": 30.542399967089295
+  },
+  "under_2s": true
+}

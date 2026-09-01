@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RealEstate Hub | Vapi Voice Desk</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap');
+    :root{--ink:#18232b;--muted:#68747b;--paper:#f5f1e8;--card:#fffdf8;--teal:#126b68;--coral:#e56e4f;--line:#d8d6cb}
+    *{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:Manrope, sans-serif}
+    main{max-width:1040px;margin:auto;padding:34px 22px 48px}.top{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid var(--line);padding-bottom:22px}
+    .eyebrow{font:500 12px 'DM Mono',monospace;letter-spacing:1px;color:var(--teal);text-transform:uppercase}.top h1{font-size:clamp(30px,5vw,58px);line-height:.95;margin:10px 0 0;letter-spacing:-2px}.status{font:12px 'DM Mono',monospace;color:var(--muted)}
+    .layout{display:grid;grid-template-columns:1.35fr .65fr;gap:20px;margin-top:20px}.panel{background:var(--card);border:1px solid var(--line);padding:20px;border-radius:8px;box-shadow:0 10px 30px #23362b0b}.conversation{min-height:500px;display:flex;flex-direction:column}.messages{flex:1;overflow:auto;padding:4px 0 18px}.msg{max-width:82%;padding:13px 15px;margin:0 0 12px;border-radius:5px;line-height:1.5;font-size:14px}.assistant{background:#e4efea;border-left:3px solid var(--teal)}.user{background:#f3ded4;margin-left:auto;border-right:3px solid var(--coral)}
+    .composer{display:flex;gap:8px;border-top:1px solid var(--line);padding-top:15px}.composer input{min-width:0;flex:1;border:1px solid var(--line);background:white;padding:13px;border-radius:4px;font:14px Manrope}.btn{border:0;border-radius:4px;padding:0 15px;font:700 13px Manrope;cursor:pointer;color:white;background:var(--teal)}.btn:hover{filter:brightness(1.1)}.btn.coral{background:var(--coral)}.btn.light{background:#dfe8e3;color:var(--ink)}.mic-inline{min-width:48px;padding:0;font-size:20px}
+    .side h2{font-size:16px;margin:0 0 14px}.side section+section{border-top:1px solid var(--line);margin-top:22px;padding-top:20px}.mic{width:100%;height:86px;font-size:17px}.mic.live{background:var(--coral)}.controls{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}.readout{font:12px 'DM Mono',monospace;color:var(--muted);line-height:1.8;white-space:pre-wrap}.hint{font-size:13px;color:var(--muted);line-height:1.6}.pill{display:inline-block;color:var(--teal);background:#e4efea;padding:4px 7px;font:11px 'DM Mono',monospace;border-radius:3px}
+    @media(max-width:760px){main{padding:22px 14px}.top{align-items:start;gap:12px;flex-direction:column}.layout{grid-template-columns:1fr}.conversation{min-height:430px}.side{display:grid;grid-template-columns:1fr 1fr;gap:12px}.side section+section{border-top:0;margin-top:0;padding-top:0}.side section:last-child{grid-column:1/-1}}
+    .vapi-btn{display:none!important}
+    .listing{margin:0 0 12px;padding:13px 15px;background:#fff;border:1px solid var(--line);border-left:3px solid var(--coral);font-size:13px;line-height:1.7}.listing strong{color:var(--teal)}
+  </style>
+</head>
+<body>
+<main>
+  <header class="top"><div><div class="eyebrow">Week 7 / Day 3</div><h1>Voice Desk</h1></div><div id="connection" class="status">Vapi connecting...</div></header>
+  <div class="layout">
+    <section class="panel conversation"><div id="messages" class="messages"></div>
+      <form id="form" class="composer"><input id="text" autocomplete="off" placeholder="Type in English, Urdu, or UrduLish..."><button id="mic" class="btn coral mic-inline" type="button" title="Start microphone" aria-label="Start microphone">&#127908;</button><button class="btn" type="submit">Send</button></form>
+    </section>
+    <aside class="panel side">
+      <section><h2>Live voice</h2><div class="hint">Deepgram handles streaming STT and TTS. Use the microphone beside Send.</div><div class="controls"><button id="interrupt" class="btn light">Interrupt</button><button id="reset" class="btn light">Reset</button></div></section>
+      <section><h2>Turn metrics</h2><div id="metrics" class="readout">No turn yet.</div></section>
+      <section><h2>Try the flow</h2><div class="hint"><span class="pill">1</span> Budget 3 crore hai.<br><span class="pill">2</span> DHA mein kya options hain?<br><span class="pill">3</span> Us se sasti koi option?</div></section>
+      <section>
+        <h2>Task 5 — Human Evaluation</h2>
+        <div class="hint">Score live or recorded calls across the 5 evaluation criteria.</div>
+        <div style="margin-top:10px;">
+          <label style="font:500 12px 'DM Mono',monospace;display:block;margin-bottom:4px;">Select Call:</label>
+          <div style="display:flex;gap:6px;margin-bottom:10px;">
+            <select id="evalCallSelect" style="flex:1;padding:6px;font-size:12px;border:1px solid var(--line);border-radius:4px;"><option value="">-- Select Recorded Call --</option></select>
+            <button id="btnLoadHistory" class="btn light" type="button" style="padding:0 8px;font-size:11px;">Refresh</button>
+          </div>
+          <div id="evalPreview" style="font-size:12px;background:#f9f8f3;padding:8px;border:1px solid var(--line);border-radius:4px;margin-bottom:10px;display:none;"></div>
+          <div id="evalCriteria" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">
+            <div>
+              <label style="font-size:11px;font-weight:600;display:block;">Naturalness (1-5)</label>
+              <select id="score_naturalness" style="width:100%;padding:4px;font-size:12px;"><option value="5">5 - Excellent</option><option value="4">4 - Good</option><option value="3" selected>3 - Average</option><option value="2">2 - Fair</option><option value="1">1 - Poor</option></select>
+            </div>
+            <div>
+              <label style="font-size:11px;font-weight:600;display:block;">Persuasiveness (1-5)</label>
+              <select id="score_persuasiveness" style="width:100%;padding:4px;font-size:12px;"><option value="5">5 - Excellent</option><option value="4">4 - Good</option><option value="3" selected>3 - Average</option><option value="2">2 - Fair</option><option value="1">1 - Poor</option></select>
+            </div>
+            <div>
+              <label style="font-size:11px;font-weight:600;display:block;">Fluency (1-5)</label>
+              <select id="score_fluency" style="width:100%;padding:4px;font-size:12px;"><option value="5">5 - Excellent</option><option value="4">4 - Good</option><option value="3" selected>3 - Average</option><option value="2">2 - Fair</option><option value="1">1 - Poor</option></select>
+            </div>
+            <div>
+              <label style="font-size:11px;font-weight:600;display:block;">Latency (1-5)</label>
+              <select id="score_latency" style="width:100%;padding:4px;font-size:12px;"><option value="5">5 - &lt;1.5s</option><option value="4">4 - &lt;2.0s</option><option value="3" selected>3 - &lt;3.0s</option><option value="2">2 - &lt;4.0s</option><option value="1">1 - &gt;4.0s</option></select>
+            </div>
+            <div style="grid-column: 1 / -1;">
+              <label style="font-size:11px;font-weight:600;display:block;">Conversation Flow (1-5)</label>
+              <select id="score_conversation_flow" style="width:100%;padding:4px;font-size:12px;"><option value="5">5 - Excellent context retention</option><option value="4">4 - Good</option><option value="3" selected>3 - Average</option><option value="2">2 - Fair</option><option value="1">1 - Poor</option></select>
+            </div>
+          </div>
+          <input id="evalNotes" style="width:100%;padding:6px;font-size:12px;border:1px solid var(--line);border-radius:4px;margin-bottom:10px;" placeholder="Optional evaluator notes...">
+          <button id="btnSubmitEval" class="btn coral" type="button" style="width:100%;padding:8px;font-size:12px;">Submit Evaluation Score</button>
+          <div id="evalStatus" style="font-size:11px;margin-top:6px;color:var(--teal);"></div>
+        </div>
+      </section>
+    </aside>
+  </div>
+</main>
+<script src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"></script>
+<script>
+const $=id=>document.getElementById(id), session='ui-'+crypto.randomUUID();
+let ws, vapi, voiceMode='deepgram', assistantId='', firstMessage='', callActive=false, recording=false, audioContext, source, processor, stream, audioChunks=[], historyCalls=[];
+function add(text, who){if(!text)return;const el=document.createElement('div');el.className='msg '+who;el.textContent=text;$('messages').appendChild(el);$('messages').scrollTop=$('messages').scrollHeight}
+function addListings(listings){(listings||[]).forEach(item=>{const el=document.createElement('div');el.className='listing';el.innerHTML=`<strong>Location:</strong> ${item.location}<br><strong>Details:</strong> ${item.details}<br><strong>Price:</strong> ${item.price}<br><strong>Benefits:</strong><ul>${(item.benefits||[]).map(value=>`<li>${value}</li>`).join('')}</ul><strong>Nearby school:</strong> ${item.nearby_school}<br><strong>Nearby hospital:</strong> ${item.nearby_hospital}<br><strong>Alternative:</strong> ${item.alternative}`;$('messages').appendChild(el)});$('messages').scrollTop=$('messages').scrollHeight}
+function setStatus(text, color){$('connection').textContent=text;$('connection').style.color=color||'var(--muted)'}
+function connect(){const scheme=location.protocol==='https:'?'wss':'ws';ws=new WebSocket(`${scheme}://${location.host}/ws/voice/${session}`);ws.binaryType='arraybuffer';ws.onopen=()=>setStatus(voiceMode==='vapi'?'● Vapi ready':'● Deepgram ready','var(--teal)');ws.onclose=()=>{if(voiceMode!=='vapi')callActive=false;setStatus('○ Voice disconnected','var(--coral)')};ws.onerror=()=>{if(voiceMode!=='vapi')setStatus('Voice connection error','var(--coral)')};ws.onmessage=async event=>{if(typeof event.data==='string'){const message=JSON.parse(event.data);if(message.type==='transcript')add(message.text,'user');if(message.type==='response')add(message.text,'assistant');if(message.type==='metrics'){$('metrics').textContent=JSON.stringify(message.timings,null,2);loadEvalHistory();if(audioChunks.length)playAudio(audioChunks.splice(0))}if(message.type==='tts_error'||message.type==='error')add('Voice error: '+message.message,'assistant');if(message.type==='interrupted')setStatus('Voice interrupted','var(--muted)')}else audioChunks.push(event.data)}}
+async function configureVapi(){try{const config=await fetch('/api/config').then(response=>response.json());voiceMode=config.voice_mode||'deepgram';assistantId=config.vapi_assistant_id||'';firstMessage=config.vapi_first_message||'';if(voiceMode==='vapi'&&config.vapi_public_key&&assistantId&&!assistantId.startsWith('your_')&&window.vapiSDK){window.vapiSDK.run({apiKey:config.vapi_public_key,assistant:assistantId});vapi=window.vapiSDK.vapi;vapi.on('call-start',()=>{callActive=true;setStatus('● Vapi connected','var(--teal)')});vapi.on('call-end',()=>{callActive=false;setStatus('Vapi ready','var(--teal)')});vapi.on('message',message=>{if(message.type==='transcript'&&message.transcriptType==='final')add(message.transcript,message.role==='assistant'?'assistant':'user')});vapi.on('error',error=>{callActive=false;setStatus('Vapi error','var(--coral)');add('Voice error: '+(error.message||'Vapi request failed'),'assistant')})}}catch(error){setStatus('Voice configuration error','var(--coral)')}}configureVapi();connect();
+$('form').onsubmit=async e=>{e.preventDefault();const text=$('text').value.trim();if(!text)return;$('text').value='';if(callActive){add(text,'user');ws.send(JSON.stringify({type:'text',text}));return}add(text,'user');try{const response=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({session_id:session,message:text})});if(!response.ok)throw new Error(`Backend returned ${response.status}`);const result=await response.json();add(result.response,'assistant');addListings(result.listings);$('metrics').textContent=JSON.stringify(result.timings,null,2);loadEvalHistory();}catch(error){add('Chat error: '+error.message,'assistant')}};
+function downsample(input,fromRate,toRate){if(fromRate===toRate)return input;const ratio=fromRate/toRate,length=Math.round(input.length/ratio),output=new Float32Array(length);for(let i=0;i<length;i++)output[i]=input[Math.min(Math.floor(i*ratio),input.length-1)];return output}
+function pcmBuffer(input){const pcm=new Int16Array(input.length);for(let i=0;i<input.length;i++)pcm[i]=Math.max(-1,Math.min(1,input[i]))*32767;return pcm.buffer}
+async function startMic(){if(vapi&&voiceMode==='vapi'){await vapi.start(assistantId,{firstMessage});return}if(!ws||ws.readyState!==1){add('Voice connection is not ready. Refresh the page and try again.','assistant');return}stream=await navigator.mediaDevices.getUserMedia({audio:true});audioContext=new AudioContext();source=audioContext.createMediaStreamSource(stream);processor=audioContext.createScriptProcessor(4096,1,1);processor.onaudioprocess=e=>{if(recording&&ws.readyState===1)ws.send(pcmBuffer(downsample(e.inputBuffer.getChannelData(0),audioContext.sampleRate,16000)))};source.connect(processor);processor.connect(audioContext.destination);recording=true;callActive=true;audioChunks=[];$('mic').textContent='⏹';$('mic').classList.add('live');setStatus('● Listening...','var(--teal)');ws.send(JSON.stringify({type:'audio_start'}))}
+function stopMic(){if(vapi&&voiceMode==='vapi'){vapi.stop();return}recording=false;processor?.disconnect();source?.disconnect();stream?.getTracks().forEach(track=>track.stop());audioContext?.close();$('mic').textContent='🎙';$('mic').classList.remove('live');if(ws?.readyState===1)ws.send(JSON.stringify({type:'audio_stop'}));callActive=false;setStatus('● Deepgram ready','var(--teal)')}
+function playAudio(chunks){const player=new Audio(URL.createObjectURL(new Blob(chunks,{type:'audio/mpeg'})));player.play().catch(()=>{});}
+$('mic').onclick=()=>recording?stopMic():startMic().catch(error=>{recording=false;callActive=false;setStatus('Microphone unavailable','var(--coral)');add('Microphone error: '+error.message,'assistant')});
+$('interrupt').onclick=()=>{if(ws?.readyState===1)ws.send(JSON.stringify({type:'interrupt'}))};
+$('reset').onclick=async()=>{stopMic();await fetch('/api/memory/'+session,{method:'DELETE'});$('messages').innerHTML='';add('Session reset. Aap dobara shuru kar sakte hain.','assistant')};
+
+async function loadEvalHistory(){try{const res=await fetch('/api/evaluation/history');if(!res.ok)return;historyCalls=await res.json();const sel=$('evalCallSelect');sel.innerHTML='<option value="">-- Select Recorded Call --</option>';historyCalls.forEach(c=>{const opt=document.createElement('option');opt.value=c.call_id;opt.textContent=`${c.session_id.substring(0,10)}...: "${(c.transcript||'').substring(0,25)}..."`;sel.appendChild(opt)});}catch(e){}}
+$('btnLoadHistory').onclick=loadEvalHistory;
+$('evalCallSelect').onchange=()=>{const cid=$('evalCallSelect').value;const call=historyCalls.find(x=>x.call_id===cid);const prev=$('evalPreview');if(!call){prev.style.display='none';return;}prev.style.display='block';prev.innerHTML=`<strong>User:</strong> ${call.transcript||'N/A'}<br><strong>Bot:</strong> ${call.response||'N/A'}<br><strong>Total Latency:</strong> ${Math.round(call.timings?.total_ms||0)}ms`;if(call.human_evaluation){const s=call.human_evaluation.scores||{};$('score_naturalness').value=s.naturalness||3;$('score_persuasiveness').value=s.persuasiveness||3;$('score_fluency').value=s.fluency||3;$('score_latency').value=s.latency||3;$('score_conversation_flow').value=s.conversation_flow||3;$('evalNotes').value=call.human_evaluation.notes||'';}};
+$('btnSubmitEval').onclick=async()=>{const cid=$('evalCallSelect').value || session;const payload={call_id:cid,scores:{naturalness:parseInt($('score_naturalness').value),persuasiveness:parseInt($('score_persuasiveness').value),fluency:parseInt($('score_fluency').value),latency:parseInt($('score_latency').value),conversation_flow:parseInt($('score_conversation_flow').value)},notes:$('evalNotes').value.trim()};try{const res=await fetch('/api/evaluation/score',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});if(res.ok){$('evalStatus').textContent='✓ Score submitted successfully!';setTimeout(()=>{$('evalStatus').textContent='';},4000);loadEvalHistory();}else{$('evalStatus').textContent='Error submitting score.';}}catch(err){$('evalStatus').textContent='Submission error: '+err.message;}};
+loadEvalHistory();
+</script>
+</body></html>

@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T065956881298Z_ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "session_id": "ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "timestamp": "20260831T065956881298Z",
+  "transcript": "2 sepember ko sham 4 baje",
+  "response": "Ji, aapki appointment abhi 2026-09-14 11:00 par hai (DHA Phase 6, Karachi ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 9.312599897384644,
+    "total_ms": 9.312599897384644,
+    "api_total_ms": 71.19869999587536
+  },
+  "under_2s": true
+}

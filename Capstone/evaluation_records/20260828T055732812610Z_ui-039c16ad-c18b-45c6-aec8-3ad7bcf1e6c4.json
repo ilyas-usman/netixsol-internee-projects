@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-039c16ad-c18b-45c6-aec8-3ad7bcf1e6c4",
+  "timestamp": "20260828T055732812610Z",
+  "transcript": "a house to rent in faisalabad under 7 lac",
+  "response": "Ji bilkul, verified options ye hain: Madina Town, Faisalabad (House, 12.4 Marla, PKR 100,000); Canal Road, Faisalabad (House, 4.5 Marla, PKR 35,000); Eden Gardens, Faisalabad (House, 4 bed, 5 Marla, PKR 35,000); Eden Gardens, Faisalabad (House, 4 bed, 5 Marla, PKR 38,000); Latif Garden, Faisalabad (House, 2 bed, 5 Marla, PKR 17,500).",
+  "timings": {
+    "router_ms": 0.12720003724098206,
+    "retrieve_ms": 41.34589992463589,
+    "llm_ms": 0.04800013266503811,
+    "total_ms": 41.52110009454191,
+    "api_total_ms": 53.85400005616248
+  },
+  "under_2s": true
+}

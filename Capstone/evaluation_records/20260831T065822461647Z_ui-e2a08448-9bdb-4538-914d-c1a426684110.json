@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T065822461647Z_ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "session_id": "ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "timestamp": "20260831T065822461647Z",
+  "transcript": "i want shop in karachi",
+  "response": "Ji bilkul, verified options ye hain: Shop DHA Phase 6, Karachi (1800 sqft, PKR 5 crore 58 lakh); Shop Clifton, Karachi (250 sqft, PKR 70 lakh 48 thousand); Shop Saddar, Karachi (1200 sqft, PKR 2 crore 93 lakh); Shop Bahadurabad, Karachi (4000 sqft, PKR 11 crore 42 lakh); Shop Clifton, Karachi (4000 sqft, PKR 8 crore 18 lakh).",
+  "timings": {
+    "router_ms": 0.4298000130802393,
+    "retrieve_ms": 201.30269997753203,
+    "llm_ms": 0.07899990305304527,
+    "total_ms": 201.8114998936653,
+    "api_total_ms": 7222.874799976125
+  },
+  "under_2s": true
+}

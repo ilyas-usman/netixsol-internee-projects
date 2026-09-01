@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d838eee8-f4fe-48dd-bf8f-5bb3bcc9456a",
+  "timestamp": "20260827T113930617526Z",
+  "transcript": "islamabad m koi shop?",
+  "response": "Acha, mujhe Islamabad ke liye koi verified shop listing abhi tak nahi mili. Agar aap chahein, main aapko humare agent se connect kar deta hoon taake aapko behtar options mil saken.",
+  "timings": {
+    "router_ms": 0.0567000824958086,
+    "retrieve_ms": 179.42840000614524,
+    "llm_ms": 883.9495000429451,
+    "total_ms": 1063.4346001315862,
+    "api_total_ms": 1077.87279994227
+  },
+  "under_2s": true
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T074722451062Z_ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "session_id": "ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "timestamp": "20260831T074722451062Z",
+  "transcript": "i wnat shop in islamabad for rent under 60k",
+  "response": "Ji bilkul, verified options ye hain: Shop Blue Area, Islamabad (1200 sqft, PKR 2 crore 76 lakh).",
+  "timings": {
+    "router_ms": 5.253199953585863,
+    "retrieve_ms": 6.121499929577112,
+    "llm_ms": 0.06309989839792252,
+    "total_ms": 11.437799781560898,
+    "api_total_ms": 106.36739991605282
+  },
+  "under_2s": true
+}

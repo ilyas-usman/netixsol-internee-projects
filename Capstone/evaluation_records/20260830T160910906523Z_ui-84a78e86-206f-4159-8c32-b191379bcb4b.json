@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T160910906523Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T160910906523Z",
+  "transcript": "reschedule krdo",
+  "response": "Ji, aapki appointment abhi 2026-09-14 14:00 par hai (House Karachi ke liye). Naya din aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 15.898799989372492,
+    "total_ms": 15.898799989372492,
+    "api_total_ms": 86.62780001759529
+  },
+  "under_2s": true
+}

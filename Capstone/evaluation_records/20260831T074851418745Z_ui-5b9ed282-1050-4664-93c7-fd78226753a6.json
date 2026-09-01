@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T074851418745Z_ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "session_id": "ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "timestamp": "20260831T074851418745Z",
+  "transcript": "cancel krdo",
+  "response": "Ji, aapki appointment 2026-09-02 15:00 par (Blue Area, Islamabad) hai. Cancel karna confirm karein? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 14.376800041645765,
+    "total_ms": 14.376800041645765,
+    "api_total_ms": 74.4656000752002
+  },
+  "under_2s": true
+}

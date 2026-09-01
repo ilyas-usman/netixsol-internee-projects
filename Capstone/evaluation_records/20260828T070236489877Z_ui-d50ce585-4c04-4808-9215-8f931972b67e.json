@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070236489877Z",
+  "transcript": "i want a flat in karachi under 40M to buy",
+  "response": "Ji bilkul, verified options ye hain: Shaheed Millat Road, Karachi (Flat, 2 bed, 6.2 Marla, PKR 13,000,000); Clifton, Karachi (Flat, 3 bed, 8.9 Marla, PKR 35,000,000); DHA Defence, Karachi (Flat, 3 bed, 6.4 Marla, PKR 18,000,000); Civil Lines, Karachi (Flat, 2 bed, 6.2 Marla, PKR 25,000,000); Gulshan-e-Iqbal Town, Karachi (Flat, 3 bed, 5.6 Marla, PKR 13,200,000).",
+  "timings": {
+    "router_ms": 0.12470013462007046,
+    "retrieve_ms": 671.5855000074953,
+    "llm_ms": 0.07520010694861412,
+    "total_ms": 671.785400249064,
+    "api_total_ms": 693.1217000819743
+  },
+  "under_2s": true
+}

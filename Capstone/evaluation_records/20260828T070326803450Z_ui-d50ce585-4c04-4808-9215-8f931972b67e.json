@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070326803450Z",
+  "transcript": "i want a house in karachi any area under 30M but school and hospital nearby",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Karachi (House, 5 bed, 1 Kanal, PKR 230,000); DHA Defence, Karachi (House, 11 bed, 2.3 Kanal, PKR 400,000); DHA Defence, Karachi (House, 4 bed, 1 Kanal, PKR 200,000).",
+  "timings": {
+    "router_ms": 0.157299917191267,
+    "retrieve_ms": 53.95229998975992,
+    "llm_ms": 0.06999983452260494,
+    "total_ms": 54.179599741473794,
+    "api_total_ms": 76.96019997820258
+  },
+  "under_2s": true
+}

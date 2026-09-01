@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-72254786-07cd-415f-890d-88c97bf43730",
+  "timestamp": "20260827T115217053724Z",
+  "transcript": "2 crore m koi option dha may?",
+  "response": "Ji bilkul, lekin hamare verified database mein Faisalabad ke DHA area ke liye 2 crore ke andar koi listing nahi hai. Agar aap chahein to main aapko ek agent se connect karwa deta hoon jo latest options share kar sakta hai.",
+  "timings": {
+    "router_ms": 0.09940005838871002,
+    "retrieve_ms": 197.69620010629296,
+    "llm_ms": 966.6478999424726,
+    "total_ms": 1164.4435001071543,
+    "api_total_ms": 1179.0724000893533
+  },
+  "under_2s": true
+}

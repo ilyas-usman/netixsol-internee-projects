@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T111733544864Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111733544864Z",
+  "transcript": "yes",
+  "response": "Ji, appointment confirm ho gayi hai (ID: 00237d6ebf). 2026-09-14 ko 17:00 baje Usama Khan aapse Islamabad ke silsile mein milenge. Employee ko email bhi bhej di gayi hai.",
+  "timings": {
+    "appointment_ms": 6768.237499985844,
+    "total_ms": 6768.237499985844,
+    "api_total_ms": 6844.150300137699
+  },
+  "under_2s": false
+}

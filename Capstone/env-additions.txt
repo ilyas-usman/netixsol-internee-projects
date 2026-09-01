@@ -1,0 +1,47 @@
+
+# ============================================================
+# Week 7 Day 4 — Calendar, Email & Appointment Scheduling
+# All of these are OPTIONAL. Leave them blank and everything still
+# runs end-to-end using a local SQLite calendar + console-logged email.
+# See day4-README.md for full Google Cloud / Gmail setup steps.
+# ============================================================
+
+# --- Google Calendar (service account) ---
+GOOGLE_SERVICE_ACCOUNT_FILE=./google_service_account.json
+GOOGLE_CALENDAR_ID=primary
+GOOGLE_CALENDAR_TIMEZONE=Asia/Karachi
+CALENDAR_MODE=auto
+
+# --- Email: choose gmail_api, smtp, console, or auto (default) ---
+EMAIL_PROVIDER=auto
+
+# Gmail API (domain-wide-delegated service account) - Workspace accounts
+GMAIL_SERVICE_ACCOUNT_FILE=./google_service_account.json
+GMAIL_DELEGATED_USER=
+
+# Gmail API (OAuth token) - personal @gmail.com accounts
+GMAIL_OAUTH_CLIENT_SECRET_FILE=./gmail_oauth_client_secret.json
+GMAIL_OAUTH_TOKEN_FILE=./gmail_oauth_token.json
+
+# SMTP (works with a Gmail "App Password", or any SMTP provider)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=
+SMTP_PASSWORD=
+SMTP_USE_TLS=true
+SMTP_FROM_EMAIL=
+SMTP_FROM_NAME=RealEstate Hub Scheduling
+ADMIN_NOTIFICATION_EMAIL=
+
+# --- Business hours / scheduling rules ---
+COMPANY_NAME=RealEstate Hub
+BUSINESS_HOURS_START=10:00
+BUSINESS_HOURS_END=19:00
+BUSINESS_DAYS=0,1,2,3,4,5
+APPOINTMENT_DURATION_MINUTES=30
+MAX_BOOKING_HORIZON_DAYS=60
+
+# --- Storage ---
+DAY4_APPOINTMENT_DB=./appointments.db
+DAY4_EMPLOYEES_FILE=./employees.json
+DAY4_EMAIL_LOG_FILE=./appointment_emails.log

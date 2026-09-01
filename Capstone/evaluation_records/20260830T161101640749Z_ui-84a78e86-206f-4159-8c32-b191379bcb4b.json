@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T161101640749Z_ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "session_id": "ui-84a78e86-206f-4159-8c32-b191379bcb4b",
+  "timestamp": "20260830T161101640749Z",
+  "transcript": "nearby hospital",
+  "response": "Ji bilkul, verified options ye hain: Clifton, Karachi (Flat, 4 bed, 11.1 Marla, PKR 85,000); Clifton, Karachi (Flat, 4 bed, 12.4 Marla, PKR 1 lakh 50 thousand); DHA Defence, Karachi (Flat, 2 bed, 4.4 Marla, PKR 32,000).",
+  "timings": {
+    "router_ms": 0.6381000857800245,
+    "retrieve_ms": 46.25570005737245,
+    "llm_ms": 0.07850001566112041,
+    "total_ms": 46.972300158813596,
+    "api_total_ms": 124.67000004835427
+  },
+  "under_2s": true
+}

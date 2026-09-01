@@ -1,0 +1,15 @@
+{
+  "session_id": "ui-fbb80393-113b-4480-8a8b-b1f978fcefc9",
+  "timestamp": "20260828T090222108131Z",
+  "transcript": "Estomnichum",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1050.4475000780076,
+    "retrieve_ms": 0.038400059565901756,
+    "llm_ms": 0.06569991819560528,
+    "total_ms": 1050.551600055769,
+    "voice_total_ms": 6304.916100110859,
+    "voice_first_audio_ms": 2436.4243000745773
+  },
+  "under_2s": false
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-7d96eca6-5fc1-4b58-af58-549bf9e9e050",
+  "timestamp": "20260828T061914024461Z",
+  "transcript": "dha kay ilawa koi shop",
+  "response": "Ji bilkul, verified options ye hain: Shop DHA Phase 5, Lahore (2500 sqft, PKR 60,270,000); Shop Gulberg, Lahore (600 sqft, PKR 19,726,200); Shop Johar Town, Lahore (2500 sqft, PKR 37,637,500); Shop Bahria Town, Lahore (600 sqft, PKR 11,932,800); Shop Bahria Town, Lahore (2500 sqft, PKR 97,672,500).",
+  "timings": {
+    "router_ms": 0.07369997911155224,
+    "retrieve_ms": 1.5233999583870173,
+    "llm_ms": 0.04830001853406429,
+    "total_ms": 1.6453999560326338,
+    "api_total_ms": 14.281400013715029
+  },
+  "under_2s": true
+}

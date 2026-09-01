@@ -1,0 +1,14 @@
+{
+  "session_id": "objection-001",
+  "timestamp": "20260827T102315149447Z",
+  "transcript": "Ye property bohat mehngi hai.",
+  "response": "Ji bilkul, agar aap thoda affordable option dekh rahe hain to Gulberg, Lahore mein 2 Kanal ka house sirf PKR 400,000 mein available hai. Iska agent Imran Akbar se raabta kar sakte hain.",
+  "timings": {
+    "router_ms": 1641.0123000387102,
+    "retrieve_ms": 200.76160016469657,
+    "llm_ms": 1748.4955000691116,
+    "total_ms": 3590.2694002725184,
+    "api_total_ms": 3621.48640002124
+  },
+  "under_2s": false
+}

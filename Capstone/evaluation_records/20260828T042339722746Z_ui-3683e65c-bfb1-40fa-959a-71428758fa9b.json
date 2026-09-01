@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-3683e65c-bfb1-40fa-959a-71428758fa9b",
+  "timestamp": "20260828T042339722746Z",
+  "transcript": "faisalabad m dha tu ha hee nai",
+  "response": "Ji, maaf kijiye, hamare database mein Faisalabad DHA ke baare mein koi maloomat nahi hai. Agar aap chahein to main aapko ek agent se connect kar deta hoon.",
+  "timings": {
+    "router_ms": 0.08030002936720848,
+    "retrieve_ms": 19.755200017243624,
+    "llm_ms": 1486.9540000800043,
+    "total_ms": 1506.7895001266152,
+    "api_total_ms": 1532.7262000646442
+  },
+  "under_2s": true
+}

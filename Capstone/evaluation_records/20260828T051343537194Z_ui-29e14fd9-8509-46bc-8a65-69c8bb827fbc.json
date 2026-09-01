@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-29e14fd9-8509-46bc-8a65-69c8bb827fbc",
+  "timestamp": "20260828T051343537194Z",
+  "transcript": "i have a budget of 20M, I am looking for a house in faisalabad, could you recomend me some properties near schools",
+  "response": "Ji bilkul, verified options ye hain: Nemat Colony No 2, Faisalabad (House, 2.5 Marla, PKR 3,000,000); Shalimar Park, Faisalabad (House, 2.5 Marla, PKR 3,500,000); Madina Town, Faisalabad (House, 15.5 Marla, PKR 8,000,000); Rehman Town, Faisalabad (House, 3 bed, 7.5 Marla, PKR 9,500,000); Jhang Road, Faisalabad (House, 5 Marla, PKR 7,500,000).",
+  "timings": {
+    "router_ms": 0.10890001431107521,
+    "retrieve_ms": 8.0464999191463,
+    "llm_ms": 0.0629001297056675,
+    "total_ms": 8.218300063163042,
+    "api_total_ms": 23.936199955642223
+  },
+  "under_2s": true
+}

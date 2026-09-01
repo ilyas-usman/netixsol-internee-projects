@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T074757527169Z_ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "session_id": "ui-5b9ed282-1050-4664-93c7-fd78226753a6",
+  "timestamp": "20260831T074757527169Z",
+  "transcript": "ayesha",
+  "response": "Ji, 2026-09-01 ko 14:00 baje, Blue Area, Islamabad ke liye Ayesha Raza ke sath appointment set kar sakte hain. Client: Usman. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 2443.229000084102,
+    "total_ms": 2443.229000084102,
+    "api_total_ms": 2490.354900015518
+  },
+  "under_2s": false
+}

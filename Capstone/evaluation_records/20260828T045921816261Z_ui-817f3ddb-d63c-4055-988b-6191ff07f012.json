@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-817f3ddb-d63c-4055-988b-6191ff07f012",
+  "timestamp": "20260828T045921816261Z",
+  "transcript": "dha kay ilawa fasialabad m koi shop?",
+  "response": "Ji, Faisalabad DHA ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.23290002718567848,
+    "retrieve_ms": 2.484399825334549,
+    "llm_ms": 0.09440002031624317,
+    "total_ms": 2.8116998728364706,
+    "api_total_ms": 42.00459993444383
+  },
+  "under_2s": true
+}

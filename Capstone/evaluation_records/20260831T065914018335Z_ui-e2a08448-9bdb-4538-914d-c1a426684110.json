@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T065914018335Z_ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "session_id": "ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "timestamp": "20260831T065914018335Z",
+  "transcript": "usama",
+  "response": "Ji, 2026-09-14 ko 11:00 baje, DHA Phase 6, Karachi ke liye Usama Khan ke sath appointment set kar sakte hain. Client: Usman. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 2875.9904999751598,
+    "total_ms": 2875.9904999751598,
+    "api_total_ms": 2901.662199990824
+  },
+  "under_2s": false
+}

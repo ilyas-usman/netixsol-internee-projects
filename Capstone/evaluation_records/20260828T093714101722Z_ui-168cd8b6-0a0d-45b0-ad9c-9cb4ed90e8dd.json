@@ -1,0 +1,15 @@
+{
+  "session_id": "ui-168cd8b6-0a0d-45b0-ad9c-9cb4ed90e8dd",
+  "timestamp": "20260828T093714101722Z",
+  "transcript": "I want a flat in Petzarabad under",
+  "response": "Ji bilkul, verified options ye hain: Shaheed Millat Road, Karachi (Flat, 2 bed, 6.2 Marla, PKR 13,000,000); Clifton, Karachi (Flat, 3 bed, 8.9 Marla, PKR 35,000,000); DHA Defence, Karachi (Flat, 3 bed, 6.4 Marla, PKR 18,000,000); Civil Lines, Karachi (Flat, 2 bed, 6.2 Marla, PKR 25,000,000); Gulshan-e-Iqbal Town, Karachi (Flat, 3 bed, 5.6 Marla, PKR 13,200,000).",
+  "timings": {
+    "router_ms": 0.08059991523623466,
+    "retrieve_ms": 2329.105000011623,
+    "llm_ms": 0.11360016651451588,
+    "total_ms": 2329.2992000933737,
+    "voice_total_ms": 26261.12059992738,
+    "voice_first_audio_ms": 4757.09979981184
+  },
+  "under_2s": false
+}

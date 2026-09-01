@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-0140f9aa-1001-49d2-94ee-fa76e3119595",
+  "timestamp": "20260827T112305550060Z",
+  "transcript": "Us se sasti koi option?",
+  "response": "Ji bilkul, humare paas abhi jo sab se sasti listings hain woh bhi PKR 100,000 ki hain (Karachi DHA Defence mein 5 bed/6 bath 2 Kanal ya 3 bed/3 bath 4 Marla). Us se kam price ki koi property abhi available nahi hai. Agar aap chahein to main aapko agent se connect karwa doon.",
+  "timings": {
+    "router_ms": 0.16499985940754414,
+    "retrieve_ms": 35.77199997380376,
+    "llm_ms": 1643.2415000163019,
+    "total_ms": 1679.1784998495132,
+    "api_total_ms": 1706.2819001730531
+  },
+  "under_2s": true
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "20260831T041142169510Z_ui-1cc7d02a-07df-4830-998a-c7a875dc20d4",
+  "session_id": "ui-1cc7d02a-07df-4830-998a-c7a875dc20d4",
+  "timestamp": "20260831T041142169510Z",
+  "transcript": "i want shop in lahore nearby school",
+  "response": "Ji bilkul, verified options ye hain: Shop DHA Phase 5, Lahore (2500 sqft, PKR 6 crore 3 lakh); Shop Gulberg, Lahore (600 sqft, PKR 1 crore 97 lakh); Shop Johar Town, Lahore (2500 sqft, PKR 3 crore 76 lakh); Shop Bahria Town, Lahore (600 sqft, PKR 1 crore 19 lakh); Shop Bahria Town, Lahore (2500 sqft, PKR 9 crore 77 lakh).",
+  "timings": {
+    "router_ms": 0.6391000933945179,
+    "retrieve_ms": 5.559700075536966,
+    "llm_ms": 0.07190019823610783,
+    "total_ms": 6.270700367167592,
+    "api_total_ms": 54.86769997514784
+  },
+  "under_2s": true
+}

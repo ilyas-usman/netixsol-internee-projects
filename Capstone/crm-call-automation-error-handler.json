@@ -1,0 +1,135 @@
+{
+  "name": "CRM Call Automation — Error Handler",
+  "nodes": [
+    {
+      "id": "1",
+      "name": "On Any Workflow Error",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        240,
+        300
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "2",
+      "name": "Format Failure Alert",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        480,
+        300
+      ],
+      "parameters": {
+        "mode": "manual",
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e1",
+              "name": "failed_workflow",
+              "type": "string",
+              "value": "={{ $json.workflow?.name }}"
+            },
+            {
+              "id": "e2",
+              "name": "failed_node",
+              "type": "string",
+              "value": "={{ $json.execution?.lastNodeExecuted }}"
+            },
+            {
+              "id": "e3",
+              "name": "error_message",
+              "type": "string",
+              "value": "={{ $json.execution?.error?.message || 'Unknown error' }}"
+            },
+            {
+              "id": "e4",
+              "name": "execution_url",
+              "type": "string",
+              "value": "={{ $json.execution?.url }}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "3",
+      "name": "Log Failure as Urgent CRM Reminder",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        720,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://YOUR_PUBLIC_DOMAIN/api/crm/reminders",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ client_phone: 'SYSTEM', due_date: $today.toISODate(), note: 'AUTOMATION FAILURE in ' + $json.failed_workflow + ' at node \\'' + $json.failed_node + '\\': ' + $json.error_message }) }}",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 2000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "4",
+      "name": "Notify Staff (configure Email/Slack)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        960,
+        300
+      ],
+      "parameters": {},
+      "notes": "Replace this NoOp with a Gmail/Slack/Microsoft Teams node using the fields from 'Format Failure Alert' — kept as NoOp here so the workflow imports cleanly without requiring your notification credentials first."
+    }
+  ],
+  "connections": {
+    "On Any Workflow Error": {
+      "main": [
+        [
+          {
+            "node": "Format Failure Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Failure Alert": {
+      "main": [
+        [
+          {
+            "node": "Log Failure as Urgent CRM Reminder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log Failure as Urgent CRM Reminder": {
+      "main": [
+        [
+          {
+            "node": "Notify Staff (configure Email/Slack)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "versionId": "1"
+}

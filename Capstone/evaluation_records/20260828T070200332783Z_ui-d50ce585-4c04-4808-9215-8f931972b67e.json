@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d50ce585-4c04-4808-9215-8f931972b67e",
+  "timestamp": "20260828T070200332783Z",
+  "transcript": "under 20M",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 4 bed, 6 Marla, PKR 15,500,000); Ghauri Town, Islamabad (House, 4 bed, 5.6 Marla, PKR 10,500,000); B-17, Islamabad (House, 3 bed, 5 Marla, PKR 15,000,000); Park Road, Islamabad (House, 4 bed, 5 Marla, PKR 10,500,000); Soan Garden, Islamabad (House, 5 bed, 5 Marla, PKR 12,000,000).",
+  "timings": {
+    "router_ms": 0.11339993216097355,
+    "retrieve_ms": 35.70530004799366,
+    "llm_ms": 0.07280008867383003,
+    "total_ms": 35.891500068828464,
+    "api_total_ms": 59.05740009620786
+  },
+  "under_2s": true
+}

@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  realestate-ai-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: realestate_ai_agent
+    restart: always
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+      - LOG_LEVEL=INFO
+      - CALENDAR_MODE=auto
+      - EMAIL_PROVIDER=auto
+      - ENABLE_PROMPT_INJECTION_DEFENSE=true
+    volumes:
+      - ./appointments.db:/app/appointments.db
+      - ./crm_store.db:/app/crm_store.db
+      - ./day5_traces.db:/app/day5_traces.db
+      - ./day6_monitoring.db:/app/day6_monitoring.db
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

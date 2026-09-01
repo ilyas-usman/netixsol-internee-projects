@@ -1,0 +1,14 @@
+{
+  "session_id": "objection-003",
+  "timestamp": "20260827T102348021770Z",
+  "transcript": "Location mujhe suitable nahi lag rahi.",
+  "response": "Ji bilkul, agar Gulberg aapko suitable nahi lag rahi, to humare paas Wapda Town ya Cantt, Lahore mein bhi achi properties maujood hain. Aapko kaunsi area zyada pasand aayegi? Agar aap chahein to main aapko Salman Khan ya Nadeem Hussain se connect karwa sakta hoon.",
+  "timings": {
+    "router_ms": 1232.6799998991191,
+    "retrieve_ms": 153.44009990803897,
+    "llm_ms": 1483.7249999400228,
+    "total_ms": 2869.845099747181,
+    "api_total_ms": 2922.161899972707
+  },
+  "under_2s": false
+}

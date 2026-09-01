@@ -1,0 +1,14 @@
+{
+  "session_id": "test-memory-004",
+  "timestamp": "20260827T102207521661Z",
+  "transcript": "Nahi, 2 crore hi hai.",
+  "response": "",
+  "timings": {
+    "router_ms": 1423.2165000867099,
+    "retrieve_ms": 0.041899969801306725,
+    "llm_ms": 1126.8435998354107,
+    "total_ms": 2550.101999891922,
+    "api_total_ms": 2577.555399853736
+  },
+  "under_2s": false
+}

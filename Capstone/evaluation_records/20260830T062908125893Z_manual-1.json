@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T062908125893Z_manual-1",
+  "session_id": "manual-1",
+  "timestamp": "20260830T062908125893Z",
+  "transcript": "parso shaam 5 baje",
+  "response": "Ji, 2026-09-01 ko 17:00 baje, House DHA Phase 5 Lahore ke liye Usama Khan ke sath appointment set kar sakte hain. Client: Ali Raza, Phone: +923001234567. Confirm karein — aap is waqt free hain? (haan/nahi)",
+  "timings": {
+    "appointment_ms": 10.608499869704247,
+    "total_ms": 10.608499869704247,
+    "api_total_ms": 65.48340013250709
+  },
+  "under_2s": true
+}

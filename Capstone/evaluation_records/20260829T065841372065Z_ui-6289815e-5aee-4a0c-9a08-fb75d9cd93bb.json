@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-6289815e-5aee-4a0c-9a08-fb75d9cd93bb",
+  "timestamp": "20260829T065841372065Z",
+  "transcript": "in islamabad for buy",
+  "response": "Ji bilkul, verified options ye hain: DHA Defence, Islamabad (House, 8 bed, 1 Kanal, PKR 3 crore 95 lakh); Bani Gala, Islamabad (House, 10 bed, 2 Kanal, PKR 7 crore 50 lakh); DHA Defence, Islamabad (House, 4 bed, 6 Marla, PKR 1 crore 55 lakh); Ghauri Town, Islamabad (House, 4 bed, 5.6 Marla, PKR 1 crore 5 lakh); E-11, Islamabad (Flat, 2 bed, 5.3 Marla, PKR 70 lakh).",
+  "timings": {
+    "router_ms": 0.24170009419322014,
+    "retrieve_ms": 32.24910004064441,
+    "llm_ms": 0.09470013901591301,
+    "total_ms": 32.58550027385354,
+    "api_total_ms": 69.53249988146126
+  },
+  "under_2s": true
+}

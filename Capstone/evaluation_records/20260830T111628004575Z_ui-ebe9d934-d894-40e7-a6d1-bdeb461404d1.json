@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T111628004575Z_ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "session_id": "ui-ebe9d934-d894-40e7-a6d1-bdeb461404d1",
+  "timestamp": "20260830T111628004575Z",
+  "transcript": "appountment book krdo",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1165.798099944368,
+    "retrieve_ms": 0.0412999652326107,
+    "llm_ms": 0.09380001574754715,
+    "total_ms": 1165.9331999253482,
+    "api_total_ms": 1236.6466999519616
+  },
+  "under_2s": true
+}

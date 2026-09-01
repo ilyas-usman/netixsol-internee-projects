@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T104600387963Z_ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "session_id": "ui-531ce424-d53c-4253-91b7-b2261dda9c29",
+  "timestamp": "20260831T104600387963Z",
+  "transcript": "naam ali 29 september ko sham 6 baj",
+  "response": "Ji bilkul, appointment book kar dete hain. Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 4.288400057703257,
+    "total_ms": 4.288400057703257,
+    "api_total_ms": 37.57850010879338
+  },
+  "under_2s": true
+}

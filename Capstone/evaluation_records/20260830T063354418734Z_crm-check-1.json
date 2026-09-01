@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T063354418734Z_crm-check-1",
+  "session_id": "crm-check-1",
+  "timestamp": "20260830T063354418734Z",
+  "transcript": "meri reminders dikhao +923001234567",
+  "response": "Pending follow-ups:\n2026-09-02: Follow up with Ali Raza after their House DHA Phase 5 Lahore viewing with Usama Khan. (ID: eb857b3292)\n2026-09-02: Check back in with Ali Raza after their cancelled House DHA Phase 5 Lahore viewing. (ID: 77989a064b)",
+  "timings": {
+    "crm_ms": 2.3638999555259943,
+    "total_ms": 2.3638999555259943,
+    "api_total_ms": 43.09729998931289
+  },
+  "under_2s": true
+}

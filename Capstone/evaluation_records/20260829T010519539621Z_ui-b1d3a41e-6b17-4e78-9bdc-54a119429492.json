@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-b1d3a41e-6b17-4e78-9bdc-54a119429492",
+  "timestamp": "20260829T010519539621Z",
+  "transcript": "assalam o alaikum",
+  "response": "Wa alaikum assalam! Main theek hoon. Aapki property requirements mein kaise madad kar sakta hoon?",
+  "timings": {
+    "router_ms": 1.7226000782102346,
+    "retrieve_ms": 0.04730001091957092,
+    "llm_ms": 0.047900015488266945,
+    "total_ms": 1.8178001046180725,
+    "api_total_ms": 41.631999891251326
+  },
+  "under_2s": true
+}

@@ -1,0 +1,15 @@
+{
+  "call_id": "20260830T110528480852Z_ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "session_id": "ui-1d156860-4236-46e0-a83e-4206ea9ea60f",
+  "timestamp": "20260830T110528480852Z",
+  "transcript": "ye appontment reshdeule krna ha mjhe",
+  "response": "Ji bilkul. Aap apna budget, city, location, ya property type bata dein.",
+  "timings": {
+    "router_ms": 1319.0522999502718,
+    "retrieve_ms": 0.04329998046159744,
+    "llm_ms": 0.12589991092681885,
+    "total_ms": 1319.2214998416603,
+    "api_total_ms": 1431.236800039187
+  },
+  "under_2s": true
+}

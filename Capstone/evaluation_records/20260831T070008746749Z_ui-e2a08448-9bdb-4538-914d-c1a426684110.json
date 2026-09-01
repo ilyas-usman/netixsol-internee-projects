@@ -1,0 +1,13 @@
+{
+  "call_id": "20260831T070008746749Z_ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "session_id": "ui-e2a08448-9bdb-4538-914d-c1a426684110",
+  "timestamp": "20260831T070008746749Z",
+  "transcript": "haan",
+  "response": "Ji, 2026-09-02 16:00 par Usama Khan available nahi hain. Koi aur waqt bata dein.",
+  "timings": {
+    "appointment_ms": 824.6999001130462,
+    "total_ms": 824.6999001130462,
+    "api_total_ms": 852.7469001710415
+  },
+  "under_2s": true
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d838eee8-f4fe-48dd-bf8f-5bb3bcc9456a",
+  "timestamp": "20260827T114035497874Z",
+  "transcript": "lahore dha m koi option?",
+  "response": "Ji bilkul, Lahore ke DHA Defence mein hamare paas kuch options hain: ek 2 Kanal ka house PKR 190,000, ek 1 Kanal lower portion PKR 175,000, aur 5 bedroom 1 Kanal houses PKR 325,000 aur PKR 275,000—sab aapke 5 million budget se kaafi kam hain. Agar aapko inmein se koi detail chahiye ya aur options explore karna hain, to main aapko hamare agent se connect kar deta hoon.",
+  "timings": {
+    "router_ms": 0.04509999416768551,
+    "retrieve_ms": 103.74410008080304,
+    "llm_ms": 1718.5685001313686,
+    "total_ms": 1822.3577002063394,
+    "api_total_ms": 1837.4622999690473
+  },
+  "under_2s": true
+}

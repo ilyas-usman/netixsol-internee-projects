@@ -1,0 +1,13 @@
+{
+  "call_id": "20260830T162324532704Z_ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "session_id": "ui-426b7e45-558a-4920-b695-7a58e9d02e8f",
+  "timestamp": "20260830T162324532704Z",
+  "transcript": "house rent",
+  "response": "Ji bilkul, appointment book kar dete hain. Sabse pehle: kaunsi property ke liye visit chahiye? Kis waqt (e.g. shaam 5 baje)?",
+  "timings": {
+    "appointment_ms": 6.395699921995401,
+    "total_ms": 6.395699921995401,
+    "api_total_ms": 54.80409995652735
+  },
+  "under_2s": true
+}

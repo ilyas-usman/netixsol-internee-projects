@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-d838eee8-f4fe-48dd-bf8f-5bb3bcc9456a",
+  "timestamp": "20260827T113847037587Z",
+  "transcript": "my budget is 50 lac and show options in faisalabad",
+  "response": "Ji bilkul, aapke 50 lac budget mein Faisalabad ke ye houses fit hote hain: Nemat Colony No 2 – PKR 3,000,000, 2.5 Marla; Shalimar Park – PKR 3,500,000, 2.5 Marla; Haji Abad – PKR 3,250,000, 3 Marla; Madina Town – PKR 100,000, 12.4 Marla (Agent: Sheikh Tanveer Ahmad); Millat Town – PKR 4,400,000, 4.8 Marla. Aap inme se koi property dekhna chahein to batayein, main aapko agent se connect kar deta hoon.",
+  "timings": {
+    "router_ms": 0.10229996405541897,
+    "retrieve_ms": 181.17940006777644,
+    "llm_ms": 1943.6768000014126,
+    "total_ms": 2124.9585000332445,
+    "api_total_ms": 2147.582500008866
+  },
+  "under_2s": false
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "ui-362a6ab4-8370-4473-863b-a806288729da",
+  "timestamp": "20260828T062523397513Z",
+  "transcript": "I am looking to rent a house in islamabad under 2 lac in F-11 with a hospital closeby",
+  "response": "Ji, Islamabad ke liye hamare verified database mein koi matching listing nahi mili. Aap city, budget, ya property type adjust karna chahein to bata dein.",
+  "timings": {
+    "router_ms": 0.16039982438087463,
+    "retrieve_ms": 237.13570018298924,
+    "llm_ms": 0.03869994543492794,
+    "total_ms": 237.33479995280504,
+    "api_total_ms": 253.9884999860078
+  },
+  "under_2s": true
+}
